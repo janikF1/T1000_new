@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\title{Überlegungen T1000}
+\begin{document}
+\noindent
+\section{Information}
+title: Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit im releasten Produkt "LC-VISION"\\
+Betreuer: Dr.-Ing Guilherme Mallmann \\
+Bearbeitungszeit: \\
+Ausbildende Firma: Blum-Novotest GmbH 88287 Grünkraut\\
+Matrikelnummer, Kurs: 4268671, TIT21\\
+\section{Parametertabellenkonfigurator}
+\subsection{Paratab Abkürzungen}
+Grafische Benutzeroberfläche $\Rightarrow$ GUI\\
+Parametertabelle $\Rightarrow$ Paratab\\
+Regulärer Ausdruck $\Rightarrow$ Regex
+\subsection{Problemstellung}
+Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Hierfür soll selbstständig ein „Parametertabellenkonfigurator“ entwickelt werden.
+\subsection{Vorgehen}
+-Anforderungsanalyse mit dem Kunden (Service $\rightarrow$ also internes Projekt)\\
+-Gui-Prototyp erstellen (Mockuup-Tool)\\
+-Definition der Softwarestruktur (in mehreren Iterationen)\\
+-Programmierung Gui\\
+-Programmierung Logik\\
+\subsection{Anforderungen Minimum Viable Product}
+-Einlesen der Paratab\\
+ $\Rightarrow$Logik erstellen\\
+-Anzeigen der Paratab:\\
+ $\Rightarrow$ Gui-Element und Weiterverarbeitung der eingelesenen Paratab\\
+- Möglichkeiten um Beschreibungen zu speichern \\
+ $\Rightarrow$ Gui-Element und Logik um Eingaben zu speichern\\
+-Beschreibungen anzeigen\\
+ $\Rightarrow$ Gui-Element und Logik um Beschreibungen zu speichern\\
+-Paratab speichern\\
+$\Rightarrow$ Gui-Element und Logik 
+\\
+
+
+\subsection{Technologien}
+Für das Erstellen der Prototypen wird das Mock-Up Tool "Balsamiq Mockup 3" verwendet.\\
+Das Tool ermöglicht es schnell und einfach Entwürfe einer Graphischen Benutzeroberfläche(GUI) zu erstellen. Dadurch muss nicht aufwendig eine GUI programmiert werden um Designvorschläge vorzustellen und zu besprechen. \\
+Das Tool ist aber nicht nur auf Designs beschränkt, sondern ermöglicht auch das Verknüpfen von tatsächlichen Abläufen.\\
+Dadurch können Abläufe schon vor der Implementierung in der Software analysiert und optimiert werden, da Änderungen problemlos veranschaulicht werden können.
+\\ \\
+Das Programmieren der Software erfolgt in der Entwicklungsumgebung "QT Creator". \\
+Der "Qt Creator" dient als Grundlage um die Programmiersprache "Qt" verwenden zu können. "Qt" basiert auf C++ wurde aber um viele Funktionen ergänzt, die für das erstellen einer GUI hilfreich sind.Dazu gehören Klassen, die den Aufbau von GUI-Elementen wie Buttons und Textfeldern bereitstellen, sowie Mechanismen wie der "signal-slot Mechanismus", die die "Kommunikation" zwischen Objekten und der Software unterstützen.\\
+ Somit lassen sich das Festigen von Grundlagen der C++-Programmierung, sowie das Erlernen der GUI-Programmierung mit Hilfe von "Qt" verknüpfen.\\
+
+\subsection{Durchführung}
+\subsubsection{Paratab-Anzeige}
+\paragraph{GUI-Elemente}
+- gewählte Steuerung\\- gewähltes Produkt\\- gewählte Paratab\\- Fenster für das anzeigen der Paratab\\- 
+\end{document}
