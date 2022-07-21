@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Einleitung}{2}{}%
+\contentsline {section}{\numberline {2}Parametertabellen-Konfigurator}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Problemstellung}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Anforderungsanalyse}{2}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Abgrenzung Minimum Viable Product}{2}{}%
+\contentsline {subsection}{\numberline {2.3}verwendete Technologien}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Vorgehen}{2}{}%
+\contentsline {subsection}{\numberline {2.5}Entwurf Benutzeroberfläche}{2}{}%
+\contentsline {subsection}{\numberline {2.6}Programmierung}{2}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Software-Struktur}{2}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Herausforderungen und Lösungen}{2}{}%
+\contentsline {subsection}{\numberline {2.7}Tests}{2}{}%
+\contentsline {subsection}{\numberline {2.8}geplante Erweiterungen}{2}{}%
+\contentsline {subsection}{\numberline {2.9}Reflektion}{2}{}%
+\contentsline {section}{\numberline {3}LC-Vision}{2}{}%

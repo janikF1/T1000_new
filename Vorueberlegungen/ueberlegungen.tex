@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+3\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \title{Überlegungen T1000}
 \begin{document}
@@ -9,11 +9,15 @@ Betreuer: Dr.-Ing Guilherme Mallmann \\
 Bearbeitungszeit: \\
 Ausbildende Firma: Blum-Novotest GmbH 88287 Grünkraut\\
 Matrikelnummer, Kurs: 4268671, TIT21\\
+\section{Arbeitsumfeld}
+Blum-Novotest GmbH\\
+Mess- und Prüftechnik für anspruchsvolle Industrien, wie Automobil, Luftfahrt, Medizin \\
+Standort Grünkraut: Messtechnik 
 \section{Parametertabellenkonfigurator}
 \subsection{Paratab Abkürzungen}
-Grafische Benutzeroberfläche $\Rightarrow$ GUI\\
-Parametertabelle $\Rightarrow$ Paratab\\
-Regulärer Ausdruck $\Rightarrow$ Regex
+Grafische Benutzeroberfläche $\rightarrow$ GUI\\
+Parametertabelle $\rightarrow$ Paratab\\
+Regulärer Ausdruck $\rightarrow$ Regex
 \subsection{Problemstellung}
 Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Hierfür soll selbstständig ein „Parametertabellenkonfigurator“ entwickelt werden.
 \subsection{Vorgehen}
@@ -48,6 +52,9 @@ Der "Qt Creator" dient als Grundlage um die Programmiersprache "Qt" verwenden zu
 
 \subsection{Durchführung}
 \subsubsection{Paratab-Anzeige}
-\paragraph{GUI-Elemente}
-- gewählte Steuerung\\- gewähltes Produkt\\- gewählte Paratab\\- Fenster für das anzeigen der Paratab\\- 
+\paragraph{GUI-Elemente}\\
+- gewählte Steuerung\\- gewähltes Produkt\\- gewählte Paratab\\- Fenster für das anzeigen der Paratab\\- Paratab speichern\\- andere Paratab wählen\\- ausgewählter Parameter\\- nächsten Parameter anzeigen\\- Beschreibung in extra Fenster anzeigen\\- Beschreibung speichern\\- Feld um Beschreibung anzuschauen
+\paragraph{nötige Logik}
+\\- Einlesen der Paratab\\
+-
 \end{document}
