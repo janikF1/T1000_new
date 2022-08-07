@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.19)  21 JUL 2022 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.19)  22 JUL 2022 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,23 +146,43 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{C:/Users/j.frick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(T1000_Janik_Frick_4268671.aux) ) 
+{C:/Users/j.frick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...eren. Hierfür soll selbstständig ein „
+                                                  Parametertabellenkonfigura...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (10.41725pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 Bei beste-hen-den Pro-gram-men f^^?ur nu-merische Steuerun-gen 
+m^^?ussen derzeit w^^?ahrend
+ []
+
+[2] [3] (T1000_Janik_Frick_4268671.aux) ) 
 Here is how much of TeX's memory you used:
- 1730 strings out of 478338
- 26133 string characters out of 2835756
- 322472 words of memory out of 3000000
- 20197 multiletter control sequences out of 15000+600000
+ 1733 strings out of 478338
+ 26171 string characters out of 2835756
+ 324472 words of memory out of 3000000
+ 20200 multiletter control sequences out of 15000+600000
  472476 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,5n,62p,244b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/j.frick/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/j.frick/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/j.frick/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (2 pages, 57743 bytes).
+ 54i,5n,62p,659b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/j.frick/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/j.frick/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/j.fric
+k/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on T1000_Janik_Frick_4268671.pdf (3 pages, 64004 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
