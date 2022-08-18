@@ -15,19 +15,27 @@
 \tableofcontents
 \newpage
 \section{Einleitung}
-Die Blum-Novotest GmbH(Blum) ist mit ihren Produkten aus dem Bereich der Mess- und Prüftechnik in anspruchsvollen Industrien vertreten, dazu gehören unter anderem die Automobilindustrie und die Gesundheitsindustrie. \\
-Die hohen Ansprüche an Qualität und Funktionalität der Produkte der Endkunden heben die Ansprüche der Produzenten an die Produkte von Blum ebenfalls auf ein hohes Niveau, denn die Produkte von Blum werden eingesetzt, um die Qualitätsstandards zu kontrollieren und zu halten. \\
-
-\section{Parametertabellenkonfigurator}
-In sogenannten Parametertabellen(Paratabs) befinden sich die Zyklen und Informationen, mit denen die Messwerkzeuge konfiguriert und gesteuert werden. 
+Die Blum-Novotest GmbH ist im Bereich der Mess- und Prüftechnik tätig. Die Produkte kommen in vielen anspruchsvollen Industrien zum Einsatz, zum Beispiel in der Automobilbranche und der Medizinbranche. An die Produktion werden in diesen Bereichen hohe Ansprüche im Bereich der Präzision gestellt. Um diese Versprechungen und Anforderungen seitens der Kunden einzuhalten und zu erfüllen nutzen international viele Unternehmen die Produkte von Blum, mit Hilfe derer die Präzision der Fertigung geprüft werden kann. Aus den Präzisionsansprüchen an die Kunden-Werkstücke resultieren folglich auch hohe Ansprüche an die Geräte und Software, die in der Qualitätssicherung verwendet werden. \\
+Mit fortlaufender Benutzungsdauer der Produkte von Blum nimmt häufig auch der Funktionsumfang zu, da bei Blum neben neuen Produkten auch bestehende Produkte um weitere Funktionen zu ergänzen. Auf Grund von vielen verschiedenen Einsatzmöglichkeiten eines einzelnen Produktes wird zunehmend auch die Konfiguration aufwendiger und komplexer. In diesem Kontext wird im ersten Teil die Erstellung eines "Parametertabellenkonfigurators" behandelt.\\
+Im zweiten Teil wird die Mitarbeit an der Weiterentwicklung eines bestehenden Produkts, dem "LC-Vision" thematisiert.\newpage 
+\section{Parametertabellenkonfigurator} 
 \subsection{Problemstellung}
-Bei bestehenden Programmen für numerische Steuerungen müssen derzeit während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig.Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein „Parametertabellenkonfigurator“ entwickelt werden.
-\subsection{Anforderungsanalyse}
-\subsubsection{Abgrenzung Minimum Viable Product}
-\subsection{verwendete Technologien}
-Positio anpassen
-\subsection{Vorgehen}
+Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig.Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein "Parametertabellenkonfigurator“ entwickelt werden.\newpage
+\subsection{Anforderungen}
+Die Anforderungen an den "Parametertabellenkonfigurator" werden von der Service-International Abteilung gestellt, die auch während der Umsetzung der Ansprechpartner ist, um die Funktionalität und Designs zu besprechen. 
+\\Die Anforderungen werden zunächst auf ein "Minimum Viable Peoduct" (MVP) reduziert, um den Entwicklungsprozess nicht durch Unsicherheiten über Kleinigkeiten zu verzögern. \\
+%TODO Anforderungen einfügen
 \subsection{Entwurf Benutzeroberfläche}
+Nach dem alle Anforderungen besprochen war, konnte mit den Überlegungen für die Benutzeroberfläche begonnen werden. \\
+Um die Überlegungen schnell in einen sichtbaren Entwurf zu übertragen, wird das Programm "Balsamiq Mockups 3" verwendet. Mit diesem Tool können alle gängigen Designs nachgebaut werden und auch mit Funktionalität, zum Beispiel das anklicken von Buttons oder das auswählen von Optionen in Drop-down Menüs können somit schnell und einfach visualisiert werden. Das ist hilfreich, um Designvorschläge und Ideen besprechen zu können, ohne das man die Änderungen aufwendig programmieren muss.
+\\Zusätzlich bietet der erstellte Entwurf eine gute Unterstützung für die Implementierung des Designs, da man sich den Aufbau der Software in Bezug auf Menüs und Buttons nicht merken muss, sondern diesen immer konkret vorliegen hat.
+\\Für den "Parametertabellenkonfigurator" fiel die Wahl auf ein Design, dass aus mehreren Fenstern aufgebaut ist, um die Bedienbarkeit möglichst einfach zu halten, denn die Anzahl an Auswahlmöglichkeiten würde innerhalb eines Fensters die Übersichtlichkeit deutlich reduzieren.
+\\ Wäre alles in einem Fenster, müsste durch "ausgrauen" oder ausblenden der Optionen dargestellt werden, welche momentan verfügbar sind. Das ist zwar möglich, ersteres führt aber bei manchen Anwendern zu Verwirrung, oder Unsicherheiten, was den Konfigurationsprozess der Produkte von Blum negativ beeinflussen könnte, zweites ist optisch nicht ansprechend, da immer wieder unerwartete, freie Flächen entstehen und eventuell Layouts verschoben werden. \\
+Diese Problematik kann durch das aufteilen in mehrere Fenster behoben werden, da nur die im Fenster angezeigten Optionen auch verfügbar sind. 
+\\Da von Anfang mindestens ein zweites Fenster geplant war, um die Beschreibungen der einzelnen Parameter in einer vergrößerten Ansicht anzeigen zu können, fügte sich auch das Fenster für die Auswahl der benötigten Parametertabelle problemlos in das Design ein. 
+Das Hauptfenster ist in zwei Bereiche unterteilt. Der obere ist für die Parametertabelle allgemein, er besteht aus eine Anzeige, um zu sehen welche Parametertabelle ausgewählt ist, ein Button um eine andere Parametertabelle auswählen zu können und ein Feld im der der Inhalt angezeigt wird und bearbeitet werden kann. Um den Einrichtungsprozess zu unterstützen, werden alle bearbeiteten Zeilen farblich markiert.
+\\Im unteren Teil geht es um die einzelnen Parameter. Es gibt eine Anzeige für den aktuell ausgewählten Parameter, einen Bereich um die Beschreibung, wenn vorhanden mit Bild, anzuzeigen und einen Button um die Beschreibung isoliert und vergrößert in einem neuen Fenster zu öffnen. Um auch hier die Bedienbarkeit zu erleichtern gibt es zwei weitere Buttons die es ermöglichen schnelle zu vorherigen, beziehungsweise dem nachfolgenden Parameter zu springen.
+%TODO einfügen von Bildern
 \subsection{Programmierung}
 \subsubsection{Software-Struktur}
 \subsubsection{Verarbeiten von Benutzeraktionen}

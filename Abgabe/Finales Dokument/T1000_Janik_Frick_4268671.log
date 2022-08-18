@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.19)  22 JUL 2022 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.9)  18 AUG 2022 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (T1000_Janik_Frick_4268671.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04>
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,29 +23,29 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen139
 ))
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count193
@@ -96,7 +96,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -104,11 +104,11 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box53
@@ -132,12 +132,12 @@ LaTeX Font Info:    ... okay on input line 8.
  (T1000_Janik_Frick_4268671.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
@@ -146,43 +146,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{C:/Users/j.frick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...eren. Hierfür soll selbstständig ein „
-                                                  Parametertabellenkonfigura...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (10.41725pt too wide) in paragraph at lines 25--26
-\OT1/cmr/m/n/10 Bei beste-hen-den Pro-gram-men f^^?ur nu-merische Steuerun-gen 
-m^^?ussen derzeit w^^?ahrend
+{C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+[3]
+Overfull \hbox (21.30614pt too wide) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 re-duziert, um den En-twick-lungsprozess nicht durch Un-sicher-
+heiten ^^?uber Kleinigkeiten
  []
 
-[2] [3] (T1000_Janik_Frick_4268671.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+[4] [5] (T1000_Janik_Frick_4268671.aux) ) 
 Here is how much of TeX's memory you used:
  1733 strings out of 478338
- 26171 string characters out of 2835756
- 324472 words of memory out of 3000000
+ 26039 string characters out of 2836701
+ 327472 words of memory out of 3000000
  20200 multiletter control sequences out of 15000+600000
  472476 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,5n,62p,659b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/j.frick/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/j.frick/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/j.fric
-k/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (3 pages, 64004 bytes).
+ 54i,5n,62p,752b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/janik/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/janik/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/janik/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on T1000_Janik_Frick_4268671.pdf (5 pages, 66906 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
