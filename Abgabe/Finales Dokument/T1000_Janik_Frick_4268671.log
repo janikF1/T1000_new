@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.9)  18 AUG 2022 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.9)  25 AUG 2022 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,18 +147,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-[3]
-Overfull \hbox (21.30614pt too wide) in paragraph at lines 25--28
-\OT1/cmr/m/n/10 re-duziert, um den En-twick-lungsprozess nicht durch Un-sicher-
-heiten ^^?uber Kleinigkeiten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
-
- []
-
-[4] [5] (T1000_Janik_Frick_4268671.aux) ) 
+[3] [4] [5] (T1000_Janik_Frick_4268671.aux) ) 
 Here is how much of TeX's memory you used:
  1733 strings out of 478338
  26039 string characters out of 2836701
@@ -166,12 +155,12 @@ Here is how much of TeX's memory you used:
  20200 multiletter control sequences out of 15000+600000
  472476 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,5n,62p,752b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/janik/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/janik/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/janik/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (5 pages, 66906 bytes).
+ 54i,5n,62p,1176b,123s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/janik/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/janik/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/janik/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on T1000_Janik_Frick_4268671.pdf (5 pages, 69071 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
