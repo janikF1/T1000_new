@@ -1,0 +1,51 @@
+Allgemein: 
+- So viele header wie möglich von h in cpp schieben
+- trUtf8() oder Qt5 - Equivalent um alle Anzeigetexte setzen (Vorbereitung für Übresetzung)
+
+WindowManager: 
+- sollte nicht auf Member von seinen unterklassen verweisen: 
+	- z.B. Zeile 8-19: die Komponenten sollten signale mit Bedeutung emitten anstatt auf "triggered" von unterkomponenten zu verweisen
+- 21: "if(1)" entfernen
+- 50-53: Hardcodete Datei wird noch geladen
+- 69-73: configW sollte sich selbst um diese Zuweisungen kümmern
+- 81-88: descriptW sollte sich selbst um diese Zuweisungen kümmern, ggf. Funktionen definieren, die das Setzen dieser Felder zulassen
+- 124-129: funktion in paratabW dafür definieren
+- 145: Wieso directoryFile2? Wenn Du das Bedürfnis hast etwas mit "2" zu suffixen, kurz fragen, ob ein array nicht sinnvoll wäre
+- 154: Das rausholen des ausgewählten Parameters sollte eine Methode von paratabW sein
+- 165: highlightEditedLine sollte eine Methode von paratabW sein
+- 180: handleGoToNextParameterClicked sollte eine Methode von paratabW sein
+- 225: sollte nicht auf Member von seinen unterklassen verweisen
+- 232: handleGoToPreviousParameter sollte eine Methode von paratabW sein
+
+ParatabWindow: 
+- Datenfelder sollen private sein. Zugriff darauf sollte nur über bedeutungsvolle Accessoren geschehen
+- in Konstruktor: Schauen wie viele der Komponenten wirklich als Member von der Klasse gespeichert werden müssen
+
+ParatabSaver: 
+- Wieso gibt es einen Saver aber keinen Loader? 
+- 14: Dateiname gehardcoded
+
+ParatabLogic: 
+- Datenfelder privat machen
+- 20: Sollte eigentlich keinen cursor entgegenehmen
+- 34: wozu diese Methode
+- 5,7: Wieso heißt es ...csv, ist doch eigetlich egal?
+- Allgemein zusammen besprechen
+
+FanucParatabLoader
+- Heißt anders als Dateien
+
+GetFilePathWindow
+- public member nicht notwendig; können komplett raus und als lokale Variablen im Konstruktor erstellt werden
+
+DescriptionWindow
+- public member nicht zwingend notwendig; können komplett raus und als lokale Variablen im Konstruktor erstellt werden
+	-> ggf. Accessoren für funktionalität hinzufügen
+
+CsvDescriptionSetter
+- 16: Textstream encoding setzen auf ein Datenformat, das die Fanuc unterstützt (Herausfinden welches)
+
+ConfigurationWindow
+- public member nicht zwingend notwendig; können komplett raus und als lokale Variablen im Konstruktor erstellt werden
+	-> ggf. Accessoren für funktionalität hinzufügen
+
