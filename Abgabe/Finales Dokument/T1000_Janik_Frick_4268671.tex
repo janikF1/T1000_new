@@ -16,12 +16,16 @@
 \tableofcontents
 \newpage
 \section{Einleitung}
-Die Blum-Novotest GmbH ist im Bereich der Mess- und Prüftechnik tätig. Die Produkte kommen in vielen anspruchsvollen Industrien zum Einsatz, zum Beispiel in der Automobilbranche und der Medizinbranche. An die Produktion werden in diesen Bereichen hohe Ansprüche im Bereich der Präzision gestellt. Um diese Versprechungen und Anforderungen seitens der Kunden einzuhalten und zu erfüllen nutzen international viele Unternehmen die Produkte von Blum, mit Hilfe derer die Präzision der Fertigung geprüft werden kann. Aus den Präzisionsansprüchen an die Kunden-Werkstücke resultieren folglich auch hohe Ansprüche an die Geräte und Software, die in der Qualitätssicherung verwendet werden. \\
-Die Arbeit an einem Projekt/Produkt ist eigentlich nie wirklich vorbei. 
-\\Das hat mehrere Gründe: Es werden immer wieder Fehler gefunden, die behoben werden müssen, um die Qualitätsversprechen und Erwartungen einzuhalten. Außerdem kommen immer wieder Anfragen von Kunden, die sofern es wirtschaftlich ist, umgesetzt werden sollten, um die Kunden nicht an andere Hersteller zu verlieren. Und auch den Entwicklern kommen immer wieder neue Ideen für neue Funktionen haben, die das Einsatzgebiet der Produkte erweitern.\\
-Aus diesen Gründen wird die Konfiguration von Produkten immer aufwändiger und komplexer. Um dieser Problematik entgegen zu wirken wird ein "Parametertabellenkonfigurator" erstellt.  
-\\Der Bereich der Produktpflege und -erweiterung wird durch die Mitarbeit am bestehenden Produkt "LC-Vision" thematisiert.
-\\Beide Projekte dienen dazu den Einstieg in die Abläufe der Softwareentwicklung verständlich und praxisnah kennenzulernen.
+Die Blum-Novotest GmbH(Blum) ist im Bereich Maschinenbau für Mess- und Prüftechnik tätig. Am Standort Grünkraut (BAden-Würtemberg) ist der Hauptsitz der Firma. Dort befinden sich Entwicklung und Fertigung für den Bereich Messtechnik. Am zweiten Standort in Willich (Nordrhein-Westfalen) sind die Entwicklung und Fertigung im Bereich Prüftechnik untergebracht.\\
+Produkte von Blum werden in vielen anspruchsvollen Industrien im Bereich der Qualitätssicherung eingesetzt. Die Kunden kommen unter anderem aus der Automobil-, Luftfahrt- und der Werkzeugmaschinenindustrie. \\
+An die Produkte dieser Industrien werden höchste Ansprüche in Sachen Qualität gestellt. Daraus resultieren auch für die Produkte der Firma Blum höchste Ansprüche. \\
+Um diese Ansprüche erfüllen zu können, werden sowohl bestehende Produkte laufend optimiert und weiterentwickelt, als auch neue Produkte entwickelt. \\
+Die Arbeit wird im Umfeld von Blum am Standort Grünkraut verfasst. \\
+Ziel der Arbeit ist es die vielfältigen Aspekte der Softwareentwicklung kennenzulernen und den Einstieg zu schaffen.\\
+Um dieses Ziel zu erreichen, besteht der praktische Teil aus zwei Projekten.\\
+Mit der Entwicklung eines "Parametertabellenkonfigurators" sollen die verschiedenen Aufgaben der Softwareentwicklung veranschaulicht werden.\\
+Durch die Mitarbeit am schon bestehenden Produkt "LC-Vision" wird die Produktpflege und Weiterentwicklung thematisiert. 
+Außerdem wird dabei das Einarbeiten in unbekannten Code relevant, was ein wichtiger Bestandteil der Produktpflege ist.
 \newpage   
 \section{Softwareentwicklung}
 \subsection{Anforderungsanalyse}
@@ -43,30 +47,47 @@ Nach dem die wichtigsten Anforderungen herausgefiltert wurden, beginnt man damit
 %TODO customer role lesen einfügen
 \subsubsection{GUI-Tests}
 Hat das Produkt ein GUI können Prototypen und GUI-Tests gut eingesetzt werden, um Informationen über den Anwender zu sammeln. Diese Daten können eingesetzt werden, um das GUI zu verbessern und weiterzuentwickeln.
-\\\underline{Click-Test}
-\\Für den Click-Test kann man entweder ein statisches Bild eines GUI-Bereichs (zum Beispiel einen Screenshot), oder ein \\hreff Mockup Tool\footnote{Tool um das GUI zu simulieren} verwenden.
+\vspace{3mm}\\
+\noindent
+\underline{Click-Test}
+\\Für den Click-Test kann man entweder ein statisches Bild eines GUI-Bereichs (zum Beispiel einen Screenshot), oder ein Mockup Tool\footnote{Tool um das GUI zu simulieren} verwenden.
 \\Für die Durchführung zeigt man einer Versuchsperson einen Ausschnitt des GUI und gibt ihr eine Aufgabe die zu diesem Ausschnitt passt. Die Versuchsperson hat die Aufgabe die entsprechende Stelle zu finden und zu zeigen. Die Person, die den Test durchführt hat die Aufgabe währenddessen möglichst genau darauf zu achten, was die Versuchsperson macht und wie sie reagiert. 
 \\Möchte man die Versuchsperson nicht durch Anwesenheit unter Druck setzen, kann man fortgeschrittene Hilfsmittel wie Heatmap-Tools\footnote{Tool um die Mausbewegungen aufzuzeichnen} nutzen. Die Heatmap gibt durch farbliche Kennzeichnungen Aufschluss darüber, an welchen Stellen von den Versuchsperson(-en) besonders häufig nach der Funktion für die Aufgabe gesucht wurde. Ohne ein Heatmap-Tool muss diese Aufgabe von der durchführenden Person mit Notizen oder Erinnerungen selbst übernehmen. 
-\\Je nach dem wie schnell die Testpersonen die richtige Stelle gefunden haben, muss das GUI nochmal angepasst werden, oder es kann so übernommen werden.
-\\\underline{5-Sekunden Test}
+\\Je nach dem wie schnell die Testpersonen die richtige Stelle gefunden haben, muss das GUI nochmal angepasst werden, oder es kann so übernommen werden.\vspace{3mm}
+\noindent
+\underline{5-Sekunden Test}
 \\Beim 5-Sekunden Test wird den Versuchspersonen für 5 Sekunden ein statischer Ausschnitt des GUI gezeigt. Danach werden Fragen bezüglich des Bildes gestellt. Es kann beispielsweise gefragt werden, was positiv oder negativ aufgefallen ist. 
 \\Je nach Antworten können erste Vermutungen über die Qualität des GUI angestellt werden. Da die Informationen aber nur in einer sehr kurzen Zeitspanne für die Versuchspersonen verfügbar sind, können nicht alle Aspekte wahrgenommen werden. 
 \\Deshalb sollte der 5-Sekunden Test mit einer anderen Testmethode kombiniert werden. Besonders häufig genannte Störfaktoren, die die Testpersonen schon innerhalb 5 Sekunden abgeschreckt haben, können aber auch schon auf Basis dieses Tests identifiziert und angepasst werden. Im Gegensatz sollten positive Rückmeldungen auf jeden Fall nochmal geprüft werden, da positive Auffälligkeiten nach längerer Zeit auch störend wirken können.
 \subsection{Implementierung}
 Abhängig davon, in welcher Form ein finaler Prototyp entwickelt wurde, gestaltet sich die Implementierung der Software.
-\\Wurde der Prototyp von Beginn an in Code geschrieben, ist der Aufwand dieser Phase eher klein. Denn der finale Prototyp ist meistens so weit entwickelt, dass neben des GUI auch der größte Teil der zu Grunde liegenden Logik schon besteht und funktioniert. Es wird noch der Rest der Logik entwickelt. Dann ist das Produkt fertig für die Abschluss-Tests.\\Wurde ein Mockup-Tool \footnote{Siehe Fußnote 1}verwendet, kommt jetzt der Zeitpunkt, an dem das Ergebnis des Mockups in Code zu implementieren. 
+\\Wurde der Prototyp von Beginn an in Code geschrieben, ist der Aufwand dieser Phase eher klein. Denn der finale Prototyp ist meistens so weit entwickelt, dass neben des GUI auch der größte Teil der zu Grunde liegenden Logik schon besteht und funktioniert. Es wird noch der Rest der Logik entwickelt. Dann ist das Produkt fertig für die Abschluss-Tests.\\Wurde ein Mockup-Tool\footnote{Siehe Fußnote 1} verwendet, kommt jetzt der Zeitpunkt, an dem das Ergebnis des Mockups in Code zu implementieren. 
 \\Mit der ersten Variante dauert es zwar länger einen finalen Prototypen zu erstellen, da Softwarelösungen an manchen Stellen aufwendig zu finden sind. Ist der Prototyp aber fertig, ist man auch mit der Implementierung (fast) fertig. 
-\\Mit einem Mockup-Tool \footnote{Siehe Fußnote 1}ist die Erstellung des Prototyps deutlich schneller, da man hier noch keine komplexe Logik entwickeln muss. Für die Entwicklung des GUI kann das Mockup als gute Orientierung dienen, da hier die Abläufe einfach nachvollziehbar sind. Aber die Logik muss noch von Beginn an neu entwickelt werden, was zeitaufwendig ist. 
+\\Mit einem Mockup-Tool\footnote{Siehe Fußnote 1} ist die Erstellung des Prototyps deutlich schneller, da man hier noch keine komplexe Logik entwickeln muss. Für die Entwicklung des GUI kann das Mockup als gute Orientierung dienen, da hier die Abläufe einfach nachvollziehbar sind. Aber die Logik muss noch von Beginn an neu entwickelt werden, was zeitaufwendig ist. 
 \\Ist nur ein kurzer Zeitraum zur Verfügung um die oberflächlichen Abläufe und das Design mit einem Prototypen zu erstellen, während der Zeitraum für die Implementierung größer ist, bietet sich die Verwendung eines Mockup-Tools an. Ist es dagegen relevant schnell alle Abläufe und Werte zu besprechen, sollte man den Prototypen direkt mit Code erstellt werden.\\
 Wenn genug Zeit verfügbar ist kann man zwischen beiden Varianten entscheiden.
 \subsection{Tests}
 Um die Funktionalität der Software zu prüfen, gibt es mehrere Optionen wie man vorgehen kann.
- 
+%TODO quelle lesen und hier einfügen
+
+\subsection{Objektorientierte Programmierung}
+\label{Objektorientierte Programmierung}
+%TODO recherche objektorientierung
+\subsection{Clean-Code}
+\label{Clean-Code}
 \section{Parametertabellenkonfigurator}
+Der "Parametertabellenkonfigurator" ist ein internes Projekt, bei dem Mitarbeitende der Abteilung Service-International die Rolle des Kunden übernehmen. Dadurch wird der Einstieg in die Softwareentwicklung vereinfacht. \\
+Das hat mehrere Gründe. Zum Einen ist der Kunde direkt vor Ort und Fragen lassen sich schneller klären, zum Anderen gibt es keinen finanziellen Druck, der bei externen Auftraggebern hinzukommen würde. Auch der zeitliche Druck ist stark reduziert, da das Produkt eine Unterstützung bieten soll. Die Arbeit kann aber auch ohne diese Unterstützung ungehindert fortgeführt werden.
 \subsection{Problemstellung}
-Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig.Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein "Parametertabellenkonfigurator“ entwickelt werden.\newpage
+Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein "Parametertabellenkonfigurator“ entwickelt werden.
 \subsection{Anforderungen}
- 
+Die funktionellen Anforderungen wurden vom Kunden direkt zu Projektstart bereitgestellt. Dennoch war damit die Anforderungsanalyse noch nicht abgeschlossen, denn es fehlten noch Informationen über den Hintergrund des Projekts. \\
+Dieser wurde während Gesprächen mit dem Kunden von Zeit zu Zeit deutlicher; Es geht darum ein Tool zu entwickeln, welches vor allem die unerfahreneren Mitarbeiter im Service bei der Konfiguration der Produkte von Blum zu unterstützen.\\
+Die funktionellen Anforderungen besteht aus zwei Teilen: \\
+Die Parametertabellen und die Beschreibung der einzelnen Parametern.\\
+Für die Parametertabellen müssen Funktionen für das Laden, das Bearbeiten und das Speichern entwickelt werden.\\
+Im Bereich der Beschreibungen geht es darum, die richtige Beschreibung zu laden und anzuzeigen. Da die Beschreibungen nicht angepasst werden müssen, wir hier keine Funktion zum Speichern benötigt.
+
 
 \subsection{Entwurf Benutzeroberfläche}
 Nach dem alle Anforderungen besprochen war, konnte mit den Überlegungen für die Benutzeroberfläche begonnen werden. \\
@@ -80,7 +101,23 @@ Das Hauptfenster ist in zwei Bereiche unterteilt. Der obere ist für die Paramet
 \\Im unteren Teil geht es um die einzelnen Parameter. Es gibt eine Anzeige für den aktuell ausgewählten Parameter, einen Bereich um die Beschreibung, wenn vorhanden mit Bild, anzuzeigen und einen Button um die Beschreibung isoliert und vergrößert in einem neuen Fenster zu öffnen. Um auch hier die Bedienbarkeit zu erleichtern gibt es zwei weitere Buttons die es ermöglichen schnelle zu vorherigen, beziehungsweise dem nachfolgenden Parameter zu springen.
 %TODO einfügen von Bildern
 \subsection{Programmierung}
+Für die Programmierung des "Parametertabellenkonfigurator" kommt die C++-Erweiterung Qt zum Einsatz. Qt wird verwendet, da diese spezielle Komponenten beinhaltet, die für das Entwickeln von Programmen mit GUI konzipiert sind. Dazu gehört neben vielen vordefinierten Klassen für Widgets auch der Signal-SLot Mechanismus, der später noch genauer thematisiert wird.\\
+Im Projekt kommen "Clean-Code Prinzipien" (\ref{Clean-Code}) für eine erhöhte Les- und Wartbarkeit des Codes und die objektorientierte Programmierung (\ref{Objektorientierte Programmierung}) zum Einsatz.
+\subsubsection{Technologien} 
+Um den Prozess der Programmierung zu vereinfachen kamen zusätzliche Tools zum Einsatz. \\
+Optimiert für die Programmiersprache Qt wird der "Qt Creator"\footnote{Herausgegeben von der Qt Company} als Entwicklungsumgebung verwendet. Dieser bietet zum Beispiel einen speziellen Designer, mit dem man das GUI visuell designen kann, ohne alles zu programmieren. \\
+Da das persönliche Ziel des Projekts aber im Einstieg in die Softwareentwicklung liegt, wurde auf diese Möglichkeit verzichtet und der Aufbau des GUI erfolgte vollständig per Programmierung. \\
+Für die Versionsverwaltung kommt Git zum Einsatz. Lokal wird die Zusatzsoftware GitKraken verwendet. Mit GitKraken wird die lokale Arbeit vereinfacht, da man ohne das Terminal die für Git-Relevanten Funktionen schnell nutzen kann. Dazu gehört unter anderem das Laden von alten Softwareständen, die durch einfaches anklicken eines Commits\footnote{gespeicherter Zwischenstand des Projekts} direkt in der Entwicklungsumgebung geladen werden können. 
+Die Verwendung von Git erleichtert auch Software-Reviews\footnote{Feedback zum Code von Kollegen}, da man den Zugang zu einem Repository kontrolliert freigeben kann und somit unabhängig Zugang zum letzten auf dem Server gespeicherten Zustand möglich ist. Auch das Arbeiten auf mehreren Geräten ist durch den Serverzugriff problemlos möglich (wenn Git auf dem entsprechenden Gerät installiert ist).
 \subsubsection{Software-Struktur}
+%TODO Diagramm erstellen
+Die Software ist für die erhöhte Übersichtlichkeit in mehrere Dateien aufgeteilt, denn dadurch ist am Name der Dateien erkennbar welcher Teil der Software sich in der Datei erfindet. Außerdem ist das Verwenden von Objekten in anderen Dateien einfacher, da man genau die Datei einbinden kann, die man benötigt. Dadurch lässt sich die Übersichtlichkeit auch in übergeordneten Dateien erhöhen, da man direkt in den ersten Zeilen erkennt, welche Objekte in dieser Datei verwendet werden.\\
+Es gibt zwei "Managerklassen" die sich um die Anzeige der Inhalte kümmern. Eine von beiden ist der "WindowManager" der dafür verantwortlich ist, die richtigen Fenster zur richtigen Zeit anzuzeigen und auszublenden. Dazu kommt der "DataManager" der dafür verantwortlich ist, dass von der Logik die richtigen Daten geladen oder gespeichert werden und dann an von der GUI dargestellt werden. \\
+Das Vorgehen mit "Managerklassen" dient ebenfalls dem Zweck der Flexibilität. Denn es gibt festgelegte Schnittstellen, die von den "Managerklassen" entsprechend bedient werden. \\
+Für Anpassungen muss abgesehen von Kleinigkeiten nur dir Weiterverarbeitung nach den Schnittstellen angepasst werden. Auch das Austauschen von Einzelteilen lässt sich gut realisieren, da die Schnittstellen definiert sind. \\
+Bei der Logik kommen auch Interfaces zum Einsatz. Interfaces sind ein Bestandteil der objektorientierten Programmierung. Sie geben vor, welche Bestandteile eine Klasse, die die Komponenten des Interfaces erbt, beinhalten und konkret implementieren muss. Dadurch werden einheitliche Schnittstellen für Klassen mit nahezu identischer Implementierung dieser Bestandteile definiert.  %TODO Interface recherchierenm 
+In diesem konkreten Fall gibt es Interfaces für das Laden der Parametertabellen und Beschreibungen. Grund dafür ist, dass es zum Beispiel Beschreibungen in unterschiedlichen Dateiformaten geben könnte. Dann ist es einfacher mit der Implementierung eines Interfaces eine zweite Klasse zu schreiben, die sich dann um ein anderes Dateiformat kümmert.\\
+Außerdem wurden in dieser Software die "SOLID-Prinzipien" angewendet. Die "SOLID-Prinzipien" sind Vorschläge, mit Hilfe derer man seinen Code zu "Clean-Code"
 \subsubsection{Verarbeiten von Benutzeraktionen}
 \subsubsection{Herausforderungen und Lösungen}
 \subsection{Tests}

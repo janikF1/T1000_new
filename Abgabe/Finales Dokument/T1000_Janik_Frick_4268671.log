@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  29 AUG 2022 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  29 AUG 2022 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -305,36 +305,78 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+{C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (1.61647pt too wide) in paragraph at lines 19--29
+\OT1/cmr/m/n/10 Pr^^?uftechnik t^^?atig. Am Stan-dort Gr^^?unkraut (BAden-W^^?u
+rtemberg) ist der Haupt-
+ []
+
+
+Overfull \hbox (7.88948pt too wide) in paragraph at lines 19--29
+\OT1/cmr/m/n/10 Mit der En-twick-lung eines "Pa-ram-e-terta-bel-lenkon-fig-u-ra
+-tors" sollen die ver-schiede-
+ []
+
+
+Overfull \hbox (2.51917pt too wide) in paragraph at lines 19--29
+\OT1/cmr/m/n/10 duk-tpflege und Weit-er-en-twick-lung the-ma-tisiert. Au^^Yer-d
+em wird dabei das Einar-
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
 
 [3]
-Overfull \hbox (9.93001pt too wide) in paragraph at lines 45--55
+Overfull \hbox (9.93001pt too wide) in paragraph at lines 49--62
 \OT1/cmr/m/n/10 Je nach Antworten k^^?onnen er-ste Ver-mu-tun-gen ^^?uber die Q
 ualit^^?at des GUI angestellt
  []
 
 
-Overfull \hbox (7.00072pt too wide) in paragraph at lines 45--55
+Overfull \hbox (7.00072pt too wide) in paragraph at lines 49--62
 \OT1/cmr/m/n/10 R^^?uckmeldungen auf je-den Fall nochmal gepr^^?uft wer-den, da
  pos-i-tive Auff^^?alligkeiten
  []
 
-[4] [5] [6] [7] (T1000_Janik_Frick_4268671.aux)
+[4] [5]
+Overfull \hbox (21.6025pt too wide) in paragraph at lines 84--90
+\OT1/cmr/m/n/10 bere-it-gestellt. Den-noch war damit die An-forderungs-anal-yse
+ noch nicht abgeschlossen,
+ []
+
+[6]
+Overfull \hbox (1.47275pt too wide) in paragraph at lines 114--121
+\OT1/cmr/m/n/10 Dadurch l^^?asst sich die []Ubersichtlichkeit auch in ^^?uberge
+ordneten Dateien erh^^?ohen,
+ []
+
+
+Overfull \hbox (11.02835pt too wide) in paragraph at lines 114--121
+\OT1/cmr/m/n/10 Denn es gibt fest-gelegte Schnittstellen, die von den "Man-ager
+k-lassen" entsprechend
+ []
+
+
+Overfull \hbox (2.5839pt too wide) in paragraph at lines 114--121
+\OT1/cmr/m/n/10 "SOLID-Prinzipien" sind Vorschl^^?age, mit Hilfe derer man sein
+en Code zu "Clean-
+ []
+
+[7] [8] (T1000_Janik_Frick_4268671.aux)
 Package rerunfilecheck Info: File `T1000_Janik_Frick_4268671.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 5801098C38DDC1B7A139016098C79CE9;2716.
+(rerunfilecheck)             Checksum: 07F3FA914BDB2AEBF86645366390D112;3256.
  ) 
 Here is how much of TeX's memory you used:
- 8607 strings out of 477843
- 135677 string characters out of 2823599
- 438719 words of memory out of 3000000
- 27419 multiletter control sequences out of 15000+600000
+ 8621 strings out of 477843
+ 135892 string characters out of 2823599
+ 439821 words of memory out of 3000000
+ 27425 multiletter control sequences out of 15000+600000
  475576 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,77p,752b,436s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,8n,77p,650b,436s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -342,9 +384,9 @@ ublic/amsfonts/cm/cmr10.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr6.pfb><C:/Users/janik/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/janik/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (7 pages, 124383 bytes).
+Output written on T1000_Janik_Frick_4268671.pdf (8 pages, 138374 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
