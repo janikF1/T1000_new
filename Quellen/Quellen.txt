@@ -26,3 +26,19 @@ access: 26.08.2022 11:13
 Never go to a client meeting without a prototype:
 https://ieeexplore.ieee.org/abstract/document/1270760
 access: 26.08.2022 11:18
+
+functional and non-functional requirements:
+https://www.geeksforgeeks.org/functional-vs-non-functional-requirements/#:~:text=A%20functional%20requirement%20defines%20a,system%20fulfill%20the%20functional%20requirements%3F%E2%80%9D
+access: 29.08.2022 7:36
+
+click-test:
+https://www.userzoom.com/click-testing/what-is-a-click-test-and-why-should-it-be-part-of-your/
+access: 29.08.2022 9:25
+
+customer role in agile projects:
+https://lmaruping.com/wp-content/uploads/2017/03/Matook-Maruping-2014.pdf
+access: 29.08.2022
+
+Software Testing from an Agile and Traditional view:
+https://www.sciencedirect.com/science/article/pii/S1877050922007219
+access: 29.08.2022 11:15

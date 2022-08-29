@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{hyperref}
 \author{Janik Frick}
 \title{T1000}
 \begin{document}
@@ -23,12 +24,44 @@ Aus diesen Gründen wird die Konfiguration von Produkten immer aufwändiger und 
 \\Beide Projekte dienen dazu den Einstieg in die Abläufe der Softwareentwicklung verständlich und praxisnah kennenzulernen.
 \newpage   
 \section{Softwareentwicklung}
-Die Softwareentwicklung besteht nicht nur aus der reinen Programmierung von Software. Der Prozess fängt schon früher mit der Anforderungsanalyse an. Dabei ist es wichtig aus den Wünschen und Erwartungen die für einen Prototypen relevanten Informationen herauszufiltern. Nach dem man die wichtigsten Informationen bekommen hat, beginnt die Arbeit an einem Prototypen. Dieser kann, wenn ein "Graphical User Interfce"(GUI) vorgesehen ist, mit einem Mockup-Tool erstellt werden. Zusätzlich können erste Funktionen und  Schnittstellen konzipiert werden. Spielt ein GUI in der Planung keine Rolle, werden lediglich zentral Schnittstellen und Funktionen geplant. \\Dieser Grobentwurf kann in direkter Zusammenarbeit mit dem Kunden erfolgen, oder es finden in regelmäßigen Abständen Termine statt, bei denen die Gedanken und Entwürfe der Entwickler besprochen werden. Die zweite Option ist in der Praxis weitaus häufiger vertreten, da sie (in den meisten Fällen) weniger Zeit braucht und somit Kosteneffizienter ist. Das liegt unter anderem daran, dass weniger Zeit durch Diskussionen über Kleinigkeiten verloren geht.\\
-Nach dem eine Einigung für einen Prototypen gefunden wurde, kann mit der eigentlichen Entwicklungsarbeit begonnen werden. Hier werden die Ideen vom Prototyp übernommen und weitere notwendige Funktionen entwickelt. Häufig fallen während der Entwicklung der Details Änderungen an, die man beim Prototyp nicht beachtet hat. In diesen Fällen muss man entscheiden, ob man sich mit dem Kunden in Verbindung setzt um die Änderungen zu besprechen, oder ob man die Änderung einfach vornimmt
-\\Diese Entscheidung ist meistens davon abhängig, wie groß die nötige Änderung ist und davon, wie die Betreuung seitens des Kunden aussieht. Wenn es eine Ansprechperson gibt, die die nötige Zeit und das benötigte Wissen hat, so dass in kurzer Zeit mit einer hilfreichen Antwort gerechnet werden kann, spricht nichts gegen genaue Absprachen. Ist aber mindestens ein Faktor nicht gegeben, sollte man, wenn möglich, mit Projektbeteiligten innerhalb der eigenen Firma über die notwendigen Änderungen sprechen, oder es ansonsten selbstständig entscheiden. Denn das Warten auf eine hilfreiche Antwort der Ansprechperson, vor allem im späteren Verlauf, wenn ein großer Teil schon fertig ist, kann eine lange Verzögerung mit sich bringen.
-\\Wenn dann die Entwicklungsarbeit fertig ist, geht es in die Evaluierung mit dem Kunden. Hier wird besprochen, ob die Anforderungen ausreichend gut umgesetzt wurden. 
-\\Ist das der Fall, kann das Produkt für den Einsatz freigegeben werden. Die Freigabe ist der Start in die ebenso wichtige Phase der Produktpflege. Hier gilt es auftretende Fehler zu beheben, um die Funktionalität zu gewährleisten. Falls das bestehende Produkt nur als Grundbaustein konzipiert war, geht es in dieser Phase auch darum neue Funktionen zu implementieren. Diese Entwicklungsschritte laufen dann wieder nach dem beschriebenen Konzept ab, in dem man Anforderungen bespricht, Grobentwürfe erstellt, diese implementiert und dann prüft, ob die Anforderungen erfüllt wurden. 
-\\Diese letzte Phase der Produktpflege und Weiterentwicklung dauert in den meisten Fällen so lange wie das Produkt wirtschaftlich rentabel ist. 
+\subsection{Anforderungsanalyse}
+Bei der Anforderungsanalyse geht es darum möglichst viele Informationen zu sammeln. Diese Informationen können aus allen Bereichen und von allen Personen die im Projektumfeld tätig sind. Ziel davon ist es, nicht nur zu wissen, welche Funktionen von dem Produkt erwartet werden, sondern auch um herauszufinden, welche Standards es in diesen Bereichen gibt und welche Faktoren berücksichtigt werden müssen. Dazu zählen beispielsweise Sicherheitsstandards und das spätere Einsatzgebiet. 
+\\Mit Hilfe dieser zusätzlichen Informationen über das Projektumfeld können manche Faktoren schon früh berücksichtigt werden, wodurch man beispielsweise Schnittstellen für externe Sicherheitssoftware schon einplanen kann.
+\subsubsection{Anforderungstypen}
+Anforderungen können in zwei Typen unterteilt werden: Die funktionellen und die nicht funktionellen Anforderungen.
+\\Bei den funktionellen Anforderungen handelt es sich um die Anforderungen die direkt vom Kunden kommen. Diese Anforderungen definieren welche Funktionen das Produkt bereitstellen soll.
+\\Diese Anforderungen sind häufig einfach zu definieren, da es eine konkrete Problemstellung gibt, die durch dieses Produkt gelöst werden soll. Die klare Definition erleichtert die Kommunikation über diese Art von Anforderungen. Außerdem ist dadurch das Testen gut möglich, da das Verhalten des Produkts klar vorgegeben ist. Diese Anforderungen haben die höchste Priorität, da von ihnen der Erfolg des Produktes abhängt.
+\\Die nicht funktionellen Anforderungen sind wesentlich komplexer zu definieren. Diese geben vor, mit welchen Technologien und Vorgehensweisen die funktionellen Anforderungen umgesetzt werden sollen. 
+\\Diese werden meistens durch Personen mit entsprechendem Fachwissen definiert. Sie können sowohl vom Kunden, als auch vom Hersteller definiert kommen.
+\\Diese Anforderungen sind als Orientierungshilfe gut geeignet, sind aber nicht zwingend umzusetzen, da bei der Definition nicht alle Details bedacht werden können und somit kommt es in diesem Bereich immer wieder zu Änderungen.
+\\
+\subsection{Prototyping}
+Nach dem die wichtigsten Anforderungen herausgefiltert wurden, beginnt man damit einen Prototypen zu entwickeln. 
+\\Ein Prototyp dient dazu die gewünschten Abläufe und das "Graphical User Interface"(GUI) so umzusetzen, dass man klar erkennen kann, ob die Umsetzung in die richtige Richtung geht. Dabei müssen zum Beispiel angezeigte Texte nicht zwingend mit denen zusammenpassen, was später angezeigt wird. Prototypen dienen als gute Grundlage für interne und externe Gespräche über den aktuellen Stand und den Fortschritt des Projekts. Während der Entwicklung können auch GUI-Tests verwendet werden.
+\\Für die Entwicklung eines Prototypen müssen wichtige Entscheidungen treffen: Wie sehr wird der Kunde einbezogen?
+\\Unterstützt der Kunde von Beginn an bei der Erstellung des Prototypen und ist somit laufend bei den Entscheidungen involviert, oder dient er als Partner für das Testen der Prototypen? 
+%TODO customer role lesen einfügen
+\subsubsection{GUI-Tests}
+Hat das Produkt ein GUI können Prototypen und GUI-Tests gut eingesetzt werden, um Informationen über den Anwender zu sammeln. Diese Daten können eingesetzt werden, um das GUI zu verbessern und weiterzuentwickeln.
+\\\underline{Click-Test}
+\\Für den Click-Test kann man entweder ein statisches Bild eines GUI-Bereichs (zum Beispiel einen Screenshot), oder ein \\hreff Mockup Tool\footnote{Tool um das GUI zu simulieren} verwenden.
+\\Für die Durchführung zeigt man einer Versuchsperson einen Ausschnitt des GUI und gibt ihr eine Aufgabe die zu diesem Ausschnitt passt. Die Versuchsperson hat die Aufgabe die entsprechende Stelle zu finden und zu zeigen. Die Person, die den Test durchführt hat die Aufgabe währenddessen möglichst genau darauf zu achten, was die Versuchsperson macht und wie sie reagiert. 
+\\Möchte man die Versuchsperson nicht durch Anwesenheit unter Druck setzen, kann man fortgeschrittene Hilfsmittel wie Heatmap-Tools\footnote{Tool um die Mausbewegungen aufzuzeichnen} nutzen. Die Heatmap gibt durch farbliche Kennzeichnungen Aufschluss darüber, an welchen Stellen von den Versuchsperson(-en) besonders häufig nach der Funktion für die Aufgabe gesucht wurde. Ohne ein Heatmap-Tool muss diese Aufgabe von der durchführenden Person mit Notizen oder Erinnerungen selbst übernehmen. 
+\\Je nach dem wie schnell die Testpersonen die richtige Stelle gefunden haben, muss das GUI nochmal angepasst werden, oder es kann so übernommen werden.
+\\\underline{5-Sekunden Test}
+\\Beim 5-Sekunden Test wird den Versuchspersonen für 5 Sekunden ein statischer Ausschnitt des GUI gezeigt. Danach werden Fragen bezüglich des Bildes gestellt. Es kann beispielsweise gefragt werden, was positiv oder negativ aufgefallen ist. 
+\\Je nach Antworten können erste Vermutungen über die Qualität des GUI angestellt werden. Da die Informationen aber nur in einer sehr kurzen Zeitspanne für die Versuchspersonen verfügbar sind, können nicht alle Aspekte wahrgenommen werden. 
+\\Deshalb sollte der 5-Sekunden Test mit einer anderen Testmethode kombiniert werden. Besonders häufig genannte Störfaktoren, die die Testpersonen schon innerhalb 5 Sekunden abgeschreckt haben, können aber auch schon auf Basis dieses Tests identifiziert und angepasst werden. Im Gegensatz sollten positive Rückmeldungen auf jeden Fall nochmal geprüft werden, da positive Auffälligkeiten nach längerer Zeit auch störend wirken können.
+\subsection{Implementierung}
+Abhängig davon, in welcher Form ein finaler Prototyp entwickelt wurde, gestaltet sich die Implementierung der Software.
+\\Wurde der Prototyp von Beginn an in Code geschrieben, ist der Aufwand dieser Phase eher klein. Denn der finale Prototyp ist meistens so weit entwickelt, dass neben des GUI auch der größte Teil der zu Grunde liegenden Logik schon besteht und funktioniert. Es wird noch der Rest der Logik entwickelt. Dann ist das Produkt fertig für die Abschluss-Tests.\\Wurde ein Mockup-Tool \footnote{Siehe Fußnote 1}verwendet, kommt jetzt der Zeitpunkt, an dem das Ergebnis des Mockups in Code zu implementieren. 
+\\Mit der ersten Variante dauert es zwar länger einen finalen Prototypen zu erstellen, da Softwarelösungen an manchen Stellen aufwendig zu finden sind. Ist der Prototyp aber fertig, ist man auch mit der Implementierung (fast) fertig. 
+\\Mit einem Mockup-Tool \footnote{Siehe Fußnote 1}ist die Erstellung des Prototyps deutlich schneller, da man hier noch keine komplexe Logik entwickeln muss. Für die Entwicklung des GUI kann das Mockup als gute Orientierung dienen, da hier die Abläufe einfach nachvollziehbar sind. Aber die Logik muss noch von Beginn an neu entwickelt werden, was zeitaufwendig ist. 
+\\Ist nur ein kurzer Zeitraum zur Verfügung um die oberflächlichen Abläufe und das Design mit einem Prototypen zu erstellen, während der Zeitraum für die Implementierung größer ist, bietet sich die Verwendung eines Mockup-Tools an. Ist es dagegen relevant schnell alle Abläufe und Werte zu besprechen, sollte man den Prototypen direkt mit Code erstellt werden.\\
+Wenn genug Zeit verfügbar ist kann man zwischen beiden Varianten entscheiden.
+\subsection{Tests}
+Um die Funktionalität der Software zu prüfen, gibt es mehrere Optionen wie man vorgehen kann.
+ 
 \section{Parametertabellenkonfigurator}
 \subsection{Problemstellung}
 Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig.Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein "Parametertabellenkonfigurator“ entwickelt werden.\newpage
