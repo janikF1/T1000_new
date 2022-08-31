@@ -1,17 +1,63 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[a4paper,12pt,top=2.5cm,bottom=2.5cm, left=2.5cm, right=2.5cm, numbers=noenddot]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage[ngerman]{babel}
 \author{Janik Frick}
-\title{T1000}
+\newcommand{\dualerPartner}{Blum-Novotest GmbH, Standort Grünkraut}
+\newcommand{\hochschule}{Dualen Hochschule Baden-Württemberg Ravensburg}
+\newcommand{\betreuer}{Mallmann, Guilherme, Dr.-Ing.}
+\newcommand{\studiengang}{Informatik}
+\newcommand{\kurs}{TIT21, Matrikelnummer 4268671}
+\title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit \\[0.4cm]
+\noindent im releasten Produkt LC-VISION}
+
+\usepackage{fancyhdr}
+\addtolength{\headheight}{1.5cm} % make more space for the header
+\pagestyle{fancyplain} % use fancy for all pages except chapter start
+\lhead{\includegraphics[width=50mm,scale=1]{blum-logo.PNG}}
+\rhead{\includegraphics[width=50mm,scale=1]{dhbw.png}}
+\renewcommand{\headrulewidth}{0pt} % remove rule below header
+
 \begin{document}
 %TODO Einstellungen machen
-%TODO Deckblatt entwerfen
 %TODO Eigenarbeitserklärung
 %TODO Abkürzungsverzeichnis
-%TODO Logos auf jede Seite
+%TODO Abklären für Sperrvermerk
+%TODO Quellenarbeit
+
+
+\begin{titlepage}
+\includegraphics[width=50mm,scale=1]{blum-logo.PNG}
+\hfill
+\includegraphics[width=50mm,scale=1]{dhbw.png}
+   \begin{center}
+       \textbf{\huge{\thetitle}}\\
+       \vspace{2.2cm}
+       \Large{Projektarbeit T1000\\
+       des Studiengangs \studiengang\\
+       an der \hochschule\\
+       \vspace{1.5cm}
+       von\\
+       \vspace{0.5cm}
+       \theauthor}
+       
+   \end{center}
+       \vspace{1.6cm}
+       \noindent
+       \vspace{0.3cm}
+       \textbf{\large{Kurs: \kurs}}\\
+       \vspace{0.3cm}
+       \textbf{\large{Dualer Partner: \dualerPartner}}\\
+       \vspace{0.3cm}
+       \textbf{\large{Betreuer: \betreuer}}
+       
+
+\end{titlepage}
 
 \tableofcontents
 \newpage
