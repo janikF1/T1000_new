@@ -7,14 +7,14 @@
 \contentsline {subsubsection}{\numberline {2.2.1}GUI-Tests}{5}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Rolle des Kunden}{5}{subsubsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Implementierung}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Tests}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Tests}{7}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Objektorientierte Programmierung}{7}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Clean-Code}{7}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Parametertabellenkonfigurator}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Problemstellung}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Anforderungen}{7}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Entwurf Benutzeroberfläche}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Programmierung}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Programmierung}{9}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Technologien}{9}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Software-Struktur}{9}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Verarbeiten von Benutzeraktionen}{10}{subsubsection.3.4.3}%
