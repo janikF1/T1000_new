@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {3.3}Entwurf Benutzeroberfläche}{8}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Programmierung}{9}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Technologien}{9}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Software-Struktur}{9}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}Software-Struktur}{10}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Verarbeiten von Benutzeraktionen}{10}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Herausforderungen und Lösungen}{10}{subsubsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.5}Tests}{10}{subsection.3.5}%

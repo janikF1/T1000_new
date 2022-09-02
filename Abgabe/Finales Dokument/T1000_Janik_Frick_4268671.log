@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  2 SEP 2022 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  2 SEP 2022 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,17 +904,15 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
 [4]
-
-LaTeX Warning: Citation 'article' on page 5 undefined on input line 114.
-
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 116.
+Package pdftex.def Info: blum-logo.PNG  used on input line 115.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 116.
+Package pdftex.def Info: dhbw.png  used on input line 115.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
+
 
 Package fancyhdr Warning: \headheight is too small (60.80412pt): 
 (fancyhdr)                Make it at least 79.04533pt, for example:
@@ -926,11 +924,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [5]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 127.
+Package pdftex.def Info: blum-logo.PNG  used on input line 126.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 127.
+Package pdftex.def Info: dhbw.png  used on input line 126.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -944,11 +942,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [6]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 146.
+Package pdftex.def Info: blum-logo.PNG  used on input line 143.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 146.
+Package pdftex.def Info: dhbw.png  used on input line 143.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -960,18 +958,18 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
 [7]
-Overfull \hbox (16.37259pt too wide) in paragraph at lines 158--160
+Overfull \hbox (16.37259pt too wide) in paragraph at lines 155--157
 \OT1/cmr/m/n/12 F[]ur die Pro-gram-mie-rung des "Pa-ra-me-ter-ta-bel-len-kon-fi
 -gu-ra-tor"kommt die C++-Erweiterung
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 160.
+Package pdftex.def Info: blum-logo.PNG  used on input line 157.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 160.
+Package pdftex.def Info: dhbw.png  used on input line 157.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (60.80412pt): 
@@ -984,11 +982,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [8]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 175.
+Package pdftex.def Info: blum-logo.PNG  used on input line 171.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 175.
+Package pdftex.def Info: dhbw.png  used on input line 171.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1002,11 +1000,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [9]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 184.
+Package pdftex.def Info: blum-logo.PNG  used on input line 180.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 184.
+Package pdftex.def Info: dhbw.png  used on input line 180.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1017,7 +1015,29 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
-[10] (T1000_Janik_Frick_4268671.aux)
+[10]
+Overfull \hbox (2.63147pt too wide) in paragraph at lines 182--182
+[]\OT1/cmr/m/n/12 Kirandeep Kaur. ``Im-pre-ci-se Soft-wa-re Re-qui-re-ments: A 
+Soft-wa-re De-ve-lop-ment Risk''.
+ []
+
+File: blum-logo.PNG Graphic file (type png)
+<use blum-logo.PNG>
+Package pdftex.def Info: blum-logo.PNG  used on input line 182.
+(pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
+File: dhbw.png Graphic file (type png)
+<use dhbw.png>
+Package pdftex.def Info: dhbw.png  used on input line 182.
+(pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
+
+Package fancyhdr Warning: \headheight is too small (60.80412pt): 
+(fancyhdr)                Make it at least 79.04533pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.04533pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
+
+[11] (T1000_Janik_Frick_4268671.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1034,10 +1054,10 @@ Package logreq Info: Writing requests to 'T1000_Janik_Frick_4268671.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21509 strings out of 477843
- 399307 string characters out of 2823599
- 1262220 words of memory out of 3000000
- 40135 multiletter control sequences out of 15000+600000
+ 21511 strings out of 477843
+ 399355 string characters out of 2823599
+ 1262124 words of memory out of 3000000
+ 40133 multiletter control sequences out of 15000+600000
  478829 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,16n,106p,10649b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1053,9 +1073,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users
 /janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 <C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (10 pages, 216452 bytes).
+Output written on T1000_Janik_Frick_4268671.pdf (11 pages, 223265 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

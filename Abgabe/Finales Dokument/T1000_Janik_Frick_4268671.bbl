@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{article}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7d4006693a7ad33d7fbce3546e40ffdf}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Kirandeep},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \strng{fullhash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \strng{bibnamehash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \strng{authorbibnamehash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \strng{authornamehash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \strng{authorfullhash}{7d4006693a7ad33d7fbce3546e40ffdf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOSR Journal of Computer Engineering}
+      \field{month}{01}
+      \field{title}{Imprecise Software Requirements: A Software Development Risk}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{10\bibrangedash 12}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.9790/0661-0711012
+      \endverb
+    \endentry
     \entry{10.1145/1060710.1060712}{article}{}
       \name{author}{3}{}{%
         {{hash=ccc954d59faa84ed3b479350f9c82123}{%

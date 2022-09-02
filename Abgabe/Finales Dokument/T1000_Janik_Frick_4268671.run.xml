@@ -80,7 +80,7 @@
       <file>T1000_Janik_Frick_4268671.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bibliography.bib</file>
+      <file>sources.bib</file>
     </requires>
   </external>
 </requests>
