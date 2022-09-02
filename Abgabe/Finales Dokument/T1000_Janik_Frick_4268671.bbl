@@ -1,0 +1,79 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{10.1145/1060710.1060712}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ccc954d59faa84ed3b479350f9c82123}{%
+           family={Nerur},
+           familyi={N\bibinitperiod},
+           given={Sridhar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d4ba9c779cd432d8988e944a9d9f09bc}{%
+           family={Mahapatra},
+           familyi={M\bibinitperiod},
+           given={RadhaKanta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f8b0d1d3428ae9874578c87317080e2}{%
+           family={Mangalaraj},
+           familyi={M\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{376e41e7bab897103a020492ce46ff63}
+      \strng{fullhash}{376e41e7bab897103a020492ce46ff63}
+      \strng{bibnamehash}{376e41e7bab897103a020492ce46ff63}
+      \strng{authorbibnamehash}{376e41e7bab897103a020492ce46ff63}
+      \strng{authornamehash}{376e41e7bab897103a020492ce46ff63}
+      \strng{authorfullhash}{376e41e7bab897103a020492ce46ff63}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Software development methodologies are constantly evolving due to changing technologies and new demands from users. Today's dynamic business environment has given rise to emergent organizations that continuously adapt their structures, strategies, and policies to suit the new environment [12]. Such organizations need information systems that constantly evolve to meet their changing requirements---but the traditional, plan-driven software development methodologies lack the flexibility to dynamically adjust the development process.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Challenges of Migrating to Agile Methodologies}
+      \field{volume}{48}
+      \field{year}{2005}
+      \field{pages}{72\bibrangedash 78}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/1060710.1060712
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1060710.1060712
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1060710.1060712
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

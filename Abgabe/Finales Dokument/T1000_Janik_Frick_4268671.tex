@@ -8,6 +8,8 @@
 \usepackage{titling}
 \usepackage[ngerman]{babel}
 \author{Janik Frick}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
 \newcommand{\dualerPartner}{Blum-Novotest GmbH, Standort Grünkraut}
 \newcommand{\hochschule}{Dualen Hochschule Baden-Württemberg Ravensburg}
 \newcommand{\betreuer}{Mallmann, Guilherme, Dr.-Ing.}
@@ -88,9 +90,6 @@ Anforderungen können in zwei Typen unterteilt werden: Die funktionellen und die
 \subsection{Prototyping}
 Nach dem die wichtigsten Anforderungen herausgefiltert wurden, beginnt man damit einen Prototypen zu entwickeln. 
 \\Ein Prototyp dient dazu die gewünschten Abläufe und das "Graphical User Interface"(GUI) so umzusetzen, dass man klar erkennen kann, ob die Umsetzung in die richtige Richtung geht. Dabei müssen zum Beispiel angezeigte Texte nicht zwingend mit denen zusammenpassen, was später angezeigt wird. Prototypen dienen als gute Grundlage für interne und externe Gespräche über den aktuellen Stand und den Fortschritt des Projekts. Während der Entwicklung können auch GUI-Tests verwendet werden.
-\\Für die Entwicklung eines Prototypen müssen wichtige Entscheidungen treffen: Wie sehr wird der Kunde einbezogen?
-\\Unterstützt der Kunde von Beginn an bei der Erstellung des Prototypen und ist somit laufend bei den Entscheidungen involviert, oder dient er als Partner für das Testen der Prototypen? 
-%TODO customer role lesen einfügen
 \subsubsection{GUI-Tests}
 Hat das Produkt ein GUI können Prototypen und GUI-Tests gut eingesetzt werden, um Informationen über den Anwender zu sammeln. Diese Daten können eingesetzt werden, um das GUI zu verbessern und weiterzuentwickeln.
 \vspace{3mm}\\
@@ -105,6 +104,13 @@ Hat das Produkt ein GUI können Prototypen und GUI-Tests gut eingesetzt werden, 
 \\Beim 5-Sekunden Test wird den Versuchspersonen für 5 Sekunden ein statischer Ausschnitt des GUI gezeigt. Danach werden Fragen bezüglich des Bildes gestellt. Es kann beispielsweise gefragt werden, was positiv oder negativ aufgefallen ist. 
 \\Je nach Antworten können erste Vermutungen über die Qualität des GUI angestellt werden. Da die Informationen aber nur in einer sehr kurzen Zeitspanne für die Versuchspersonen verfügbar sind, können nicht alle Aspekte wahrgenommen werden. 
 \\Deshalb sollte der 5-Sekunden Test mit einer anderen Testmethode kombiniert werden. Besonders häufig genannte Störfaktoren, die die Testpersonen schon innerhalb 5 Sekunden abgeschreckt haben, können aber auch schon auf Basis dieses Tests identifiziert und angepasst werden. Im Gegensatz sollten positive Rückmeldungen auf jeden Fall nochmal geprüft werden, da positive Auffälligkeiten nach längerer Zeit auch störend wirken können.
+\subsubsection{Rolle des Kunden}
+Für die Entwicklung eines Prototypen müssen wichtige Entscheidungen treffen: Wie sehr wird der Kunde einbezogen?
+\\Unterstützt der Kunde von Beginn an bei der Erstellung des Prototypen und ist somit laufend bei den Entscheidungen involviert, oder dient er als Partner für das Testen der Prototypen? 
+Unabhängig von der Entscheidung bei dieser Frage ist sicher, dass der Kunde eine entscheidende Rolle für den Erfolg spielt. Denn von ihm wird die Entscheidung getroffen, ob und wie ein Prototyp nochmals überarbeitet werden soll. \\
+Diese Verantwortung bringt aber auch hohe Anforderungen mit sich. 
+"The success of agile development hinges on finding customers who will actively participate in the development process. Further, the customers are expected to be 'Collaborative, Representative, Authorized, Committed, and Knowledgeable'" \cite{10.1145/1060710.1060712}
+%TODO customer role lesen einfügen
 \subsection{Implementierung}
 Abhängig davon, in welcher Form ein finaler Prototyp entwickelt wurde, gestaltet sich die Implementierung der Software.
 \\Wurde der Prototyp von Beginn an in Code geschrieben, ist der Aufwand dieser Phase eher klein. Denn der finale Prototyp ist meistens so weit entwickelt, dass neben des GUI auch der größte Teil der zu Grunde liegenden Logik schon besteht und funktioniert. Es wird noch der Rest der Logik entwickelt. Dann ist das Produkt fertig für die Abschluss-Tests.\\Wurde ein Mockup-Tool\footnote{Siehe Fußnote 1} verwendet, kommt jetzt der Zeitpunkt, an dem das Ergebnis des Mockups in Code zu implementieren. 
@@ -172,5 +178,5 @@ Außerdem wurden in dieser Software die "SOLID-Prinzipien" angewendet. Die "SOLI
 
 \section{LC-Vision}
 
-
+\printbibliography
 \end{document}

@@ -42,3 +42,7 @@ access: 29.08.2022
 Software Testing from an Agile and Traditional view:
 https://www.sciencedirect.com/science/article/pii/S1877050922007219
 access: 29.08.2022 11:15
+
+challenhges of migrating to agile methologies:
+https://dl.acm.org/doi/abs/10.1145/1060710.1060712
+access: 02.09.2022

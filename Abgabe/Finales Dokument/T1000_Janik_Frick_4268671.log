@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  31 AUG 2022 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.29)  2 SEP 2022 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,6 +429,259 @@ Package babel Info: Making " an active character on input line 122.
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
 )
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count286
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count287
+\c@listtotal=\count288
+\c@listcount=\count289
+\c@liststart=\count290
+\c@liststop=\count291
+\c@citecount=\count292
+\c@citetotal=\count293
+\c@multicitecount=\count294
+\c@multicitetotal=\count295
+\c@instcount=\count296
+\c@maxnames=\count297
+\c@minnames=\count298
+\c@maxitems=\count299
+\c@minitems=\count300
+\c@citecounter=\count301
+\c@maxcitecounter=\count302
+\c@savedcitecounter=\count303
+\c@uniquelist=\count304
+\c@uniquename=\count305
+\c@refsection=\count306
+\c@refsegment=\count307
+\c@maxextratitle=\count308
+\c@maxextratitleyear=\count309
+\c@maxextraname=\count310
+\c@maxextradate=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\c@blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\blx@sectionciteorderinternal@0=\count327
+\blx@entrysetcounter=\count328
+\blx@biblioinstance=\count329
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+\locallabelnumberwidth=\skip84
+\locallabelalphawidth=\skip85
+\localshorthandwidth=\skip86
+\localshortjournalwidth=\skip87
+\localshortserieswidth=\skip88
+\localshorttitlewidth=\skip89
+\localshortauthorwidth=\skip90
+\localshorteditorwidth=\skip91
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count409
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cb
+x
+File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-08-23 L3 programming layer (loader) 
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count412
+\l__pdf_internal_box=\box55
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-08-23 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+
+))
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              with a KOMA-Script class is not recommended.
@@ -441,27 +694,27 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 20.
+(scrartcl)              package `fancyhdr' on input line 22.
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip70
-\f@nch@O@elh=\skip71
-\f@nch@O@erh=\skip72
-\f@nch@O@olh=\skip73
-\f@nch@O@orh=\skip74
-\f@nch@O@elf=\skip75
-\f@nch@O@erf=\skip76
-\f@nch@O@olf=\skip77
-\f@nch@O@orf=\skip78
+\f@nch@headwidth=\skip92
+\f@nch@O@elh=\skip93
+\f@nch@O@erh=\skip94
+\f@nch@O@olh=\skip95
+\f@nch@O@orh=\skip96
+\f@nch@O@elf=\skip97
+\f@nch@O@erf=\skip98
+\f@nch@O@olf=\skip99
+\f@nch@O@orf=\skip100
 )
-(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box55
-)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count413
+\@quotereset=\count414
 
 LaTeX Warning: Unused global option(s):
     [top,bottom,left,right].
@@ -469,29 +722,29 @@ LaTeX Warning: Unused global option(s):
 (T1000_Janik_Frick_4268671.aux)
 \openout1 = `T1000_Janik_Frick_4268671.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-Package hyperref Info: Link coloring OFF on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+Package hyperref Info: Link coloring OFF on input line 28.
  (T1000_Janik_Frick_4268671.out)
 (T1000_Janik_Frick_4268671.out)
-\@outlinefile=\write3
-\openout3 = `T1000_Janik_Frick_4268671.out'.
+\@outlinefile=\write4
+\openout4 = `T1000_Janik_Frick_4268671.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -500,28 +753,28 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 26.
+(scrartcl)           before \begin{document} on input line 28.
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count286
+\BKM@id=\count415
 ))
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
+\scratchcounter=\count416
 \scratchdimen=\dimen155
 \scratchbox=\box56
-\nofMPsegments=\count288
-\nofMParguments=\count289
+\nofMPsegments=\count417
+\nofMParguments=\count418
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count290
+\MPscratchCnt=\count419
 \MPscratchDim=\dimen156
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
 \everyMPtoPDFconversion=\toks25
 )
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -534,20 +787,49 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `T1000_Janik_Frick_4268671.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'T1000_Janik_Frick_4268671.bbl' found.
+ (T1000_Janik_Frick_4268671.bbl)
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 <blum-logo.PNG, id=3, 120.45pt x 63.23625pt>
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 34.
+Package pdftex.def Info: blum-logo.PNG  used on input line 37.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 <dhbw.png, id=5, 710.655pt x 299.1175pt>
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 36.
+Package pdftex.def Info: dhbw.png  used on input line 39.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
  [1
 
 {C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./blum-logo.
-PNG> <./dhbw.png>] (T1000_Janik_Frick_4268671.toc
+PNG> <./dhbw.png>]
+(T1000_Janik_Frick_4268671.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -558,16 +840,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write4
-\openout4 = `T1000_Janik_Frick_4268671.toc'.
+\tf@toc=\write5
+\openout5 = `T1000_Janik_Frick_4268671.toc'.
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 62.
+Package pdftex.def Info: blum-logo.PNG  used on input line 65.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 62.
+Package pdftex.def Info: dhbw.png  used on input line 65.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -579,18 +861,18 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
 [2]
-Overfull \hbox (3.15053pt too wide) in paragraph at lines 64--74
+Overfull \hbox (3.15053pt too wide) in paragraph at lines 67--77
 \OT1/cmr/m/n/12 Die Blum-Novotest GmbH(Blum) ist im Be-reich Ma-schi-nen-bau f[
 ]ur Mess- und Pr[]uftechnik
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 74.
+Package pdftex.def Info: blum-logo.PNG  used on input line 77.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 74.
+Package pdftex.def Info: dhbw.png  used on input line 77.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (60.80412pt): 
@@ -601,7 +883,7 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 80--87
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
 
  []
 
@@ -624,11 +906,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [4]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 107.
+Package pdftex.def Info: blum-logo.PNG  used on input line 114.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 107.
+Package pdftex.def Info: dhbw.png  used on input line 114.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -642,11 +924,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [5]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 126.
+Package pdftex.def Info: blum-logo.PNG  used on input line 133.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 126.
+Package pdftex.def Info: dhbw.png  used on input line 133.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -660,11 +942,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [6]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 148.
+Package pdftex.def Info: blum-logo.PNG  used on input line 155.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 148.
+Package pdftex.def Info: dhbw.png  used on input line 155.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -676,18 +958,18 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.24121pt}.
 
 [7]
-Overfull \hbox (16.37259pt too wide) in paragraph at lines 149--151
+Overfull \hbox (16.37259pt too wide) in paragraph at lines 156--158
 \OT1/cmr/m/n/12 F[]ur die Pro-gram-mie-rung des "Pa-ra-me-ter-ta-bel-len-kon-fi
 -gu-ra-tor"kommt die C++-Erweiterung
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 157.
+Package pdftex.def Info: blum-logo.PNG  used on input line 158.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 157.
+Package pdftex.def Info: dhbw.png  used on input line 158.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (60.80412pt): 
@@ -700,11 +982,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [8]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 166.
+Package pdftex.def Info: blum-logo.PNG  used on input line 173.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 166.
+Package pdftex.def Info: dhbw.png  used on input line 173.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -718,11 +1000,11 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 [9]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 175.
+Package pdftex.def Info: blum-logo.PNG  used on input line 182.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 175.
+Package pdftex.def Info: dhbw.png  used on input line 182.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -737,26 +1019,33 @@ Package fancyhdr Warning: \headheight is too small (60.80412pt):
 Package rerunfilecheck Info: File `T1000_Janik_Frick_4268671.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'T1000_Janik_Frick_4268671.run.xml'.
+\openout1 = `T1000_Janik_Frick_4268671.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 13936 strings out of 477843
- 247959 string characters out of 2823599
- 695316 words of memory out of 3000000
- 32634 multiletter control sequences out of 15000+600000
- 478012 words of font info for 62 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 108i,16n,106p,10649b,492s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 21509 strings out of 477843
+ 399307 string characters out of 2823599
+ 1262176 words of memory out of 3000000
+ 40135 multiletter control sequences out of 15000+600000
+ 478829 words of font info for 65 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 108i,16n,106p,10649b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><C:/Users/janik/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/janik/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/janik/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on T1000_Janik_Frick_4268671.pdf (10 pages, 185697 bytes).
+fonts/cm/cmcsc10.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/janik/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/janik/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/janik/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/janik/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/janik/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users
+/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<C:/Users/janik/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+tt12.pfb>
+Output written on T1000_Janik_Frick_4268671.pdf (10 pages, 215759 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
