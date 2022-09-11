@@ -2,47 +2,49 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 4268671_Janik_Frick_T1000.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 19 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: references.bib
-You've used 1 entry,
+Database file #2: tandf_tjds2025_302.bib
+You've used 7 entries,
             1876 wiz_defined-function locations,
-            487 strings with 3782 characters,
-and the built_in function-call counts, 393 in all, are:
-= -- 43
-> -- 8
+            530 strings with 5060 characters,
+and the built_in function-call counts, 2190 in all, are:
+= -- 226
+> -- 73
 < -- 0
-+ -- 3
-- -- 2
-* -- 26
-:= -- 58
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
++ -- 27
+- -- 20
+* -- 142
+:= -- 294
+add.period$ -- 8
+call.type$ -- 7
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 19
-empty$ -- 34
-format.name$ -- 2
-if$ -- 97
+cite$ -- 7
+duplicate$ -- 130
+empty$ -- 197
+format.name$ -- 20
+if$ -- 552
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 0
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 25
+num.names$ -- 7
+pop$ -- 20
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 18
+skip$ -- 105
 stack$ -- 0
-substring$ -- 36
-swap$ -- 11
+substring$ -- 139
+swap$ -- 67
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 15
+while$ -- 19
+width$ -- 8
+write$ -- 75
