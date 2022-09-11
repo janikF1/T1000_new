@@ -1,0 +1,2 @@
+"Qt has drivers for SQLite, MySQL, DB2, Borland InterBase, Oracle, ODBC, and PostgreSQL. It is also possible to develop your own driver if Qt does not provide the driver needed."
+official qt doku: https://doc.qt.io/qt-6/topics-data-storage.html#:~:text=The%20Qt%20SQL%20module%20uses,Oracle%2C%20ODBC%2C%20and%20PostgreSQL. access: 8.09.2022 14:00
