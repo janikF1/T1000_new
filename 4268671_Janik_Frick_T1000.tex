@@ -1,12 +1,61 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{titling}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
 \author{Janik Frick}
+\title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit im releasten Produkt LC-VISION}
+\usepackage{setspace}
+
+\usepackage{fancyhdr}
+\addtolength{\headheight}{1.5cm} % make more space for the header
+\pagestyle{fancyplain} % use fancy for all pages except chapter start
+\lhead{\includegraphics[width=50mm,scale=1]{blum-logo.PNG}}
+\rhead{\includegraphics[width=50mm,scale=1]{dhbw.png}}
+\renewcommand{\headrulewidth}{0pt} % remove rule below header
+
+\newcommand{\dualerPartner}{Blum-Novotest GmbH, Standort Grünkraut}
+\newcommand{\hochschule}{Dualen Hochschule Baden-Württemberg Ravensburg}
+\newcommand{\betreuer}{Mallmann, Guilherme, Dr.-Ing.}
+\newcommand{\studiengang}{Informatik}
+\newcommand{\kurs}{TIT21, Matrikelnummer 4268671}
+\pagenumbering{arabic}
+
 \begin{document}
+\begin{titlepage}
+\includegraphics[width=50mm,scale=1]{blum-logo.PNG}
+\hfill
+\includegraphics[width=50mm,scale=1]{dhbw.png}
+   \begin{center}
+       \textbf{\huge{\thetitle}}\\
+       \vspace{2.2cm}
+       \Large{Projektarbeit T1000\\
+       des Studiengangs \studiengang\\
+       an der \hochschule\\
+       \vspace{1.5cm}
+       von\\
+       \vspace{0.5cm}
+       \theauthor}
+       
+   \end{center}
+       \vspace{1.6cm}
+       \noindent
+       \vspace{0.3cm}
+       \textbf{\large{Kurs: \kurs}}\\
+       \vspace{0.3cm}
+       \textbf{\large{Dualer Partner: \dualerPartner}}\\
+       \vspace{0.3cm}
+       \textbf{\large{Betreuer: \betreuer}}
+       
+
+\end{titlepage}
+\onehalfspacing
+\tableofcontents
+\newpage
 \section{Einleitung}
 Die Blum-Novotest GmbH(Blum) ist im Bereich Maschinenbau für Mess- und Prüftechnik tätig. Am Standort Grünkraut (Baden-Württemberg) ist der Hauptsitz der Firma. Dort befinden sich Entwicklung und Fertigung für den Bereich Messtechnik. Am zweiten Standort in Willich (Nordrhein-Westfalen) sind die Entwicklung und Fertigung im Bereich Prüftechnik untergebracht.\\
 Produkte von Blum werden in vielen anspruchsvollen Industrien im Bereich der Qualitätssicherung eingesetzt. Die Kunden kommen unter anderem aus der Automobil-, Luftfahrt- und der Werkzeugmaschinenindustrie. \\
@@ -15,13 +64,104 @@ Um diese Ansprüche erfüllen zu können, werden sowohl bestehende Produkte lauf
 Die Arbeit wird im Umfeld von Blum am Standort Grünkraut verfasst. \\
 Ziel der Arbeit ist es die vielfältigen Aspekte der Softwareentwicklung kennenzulernen und den Einstieg zu schaffen.\\
 Um dieses Ziel zu erreichen, besteht der praktische Teil aus zwei Projekten.\\
-Mit der Entwicklung eines "Parametertabellenkonfigurators" sollen die verschiedenen Aufgaben der Softwareentwicklung veranschaulicht werden.\\
-Durch die Mitarbeit am schon bestehenden Produkt "LC-Vision" wird die Produktpflege und Weiterentwicklung thematisiert. 
+Mit der Entwicklung eines \glqq Parametertabellenkonfigurators\grqq\space sollen die verschiedenen Aufgaben der Softwareentwicklung veranschaulicht werden.\\
+Durch die Mitarbeit am schon bestehenden Produkt \glqq LC-Vision\grqq\space wird die Produktpflege und Weiterentwicklung thematisiert. 
 Außerdem wird dabei das Einarbeiten in unbekannten Code relevant, was ein wichtiger Bestandteil der Produktpflege ist.
-\newpage
+\newpage   
+\section{Softwareentwicklung}
+Softwareentwicklung besteht nicht nur aus dem Schreiben von Software. Auch die Entwicklung von Software ist ein Projekt. Man beginnt mit dem Sammeln der Anforderungen, startet die Entwicklung von Prototypen und geht in die Implementierung. Der Prozess endet mit der Produktpflege und dem Service.  
+\subsection{Anforderungsanalyse}
+Eindeutige und präzise Anforderungen bilden die Grundlage für ein funktionierendes Projekt\cite{doi:10.1080/12460125.2016.1187390}. \\
+Daraus folgt, dass es nicht ausreichend ist, die Liste der Anforderungen zu lesen. Anforderungen müssen analysiert und mit weiterem Wissen über das Projektumfeld kombiniert werden. \\
+Dafür gibt es mehrere Techniken, die eingesetzt werden können. 
+\subsubsection{Interviews}
+\label{interview}
+Interviews bieten die Möglichkeit in direkten Gesprächen mit Personen aus dem Umfeld des Projekts Informationen zu sammeln. Diese Informationen können Risiken sein, die zu berücksichtigen sind, Schwierigkeiten bei der aktuellen Vorgehensweise, sowie Abläufe die beibehalten werden sollten. \\
+Der Erfolg dieser Vorgehensweise hängt dabei von allen Beteiligten Personen ab. Fehlt Wissen über das Umfeld des Projekts kann es zu Schwierigkeiten bei der Erstellung der Fragen kommen, wodurch manche Aspekte nicht berücksichtigt werden. Auch die Befragten können Probleme haben ihre Gedanken und ihr Wissen wiederzugeben\cite{tiwari2012selecting}. Das kann die Auswertung der Antworten erschweren.
+\subsubsection{Fragebögen}
+\label{Fragebögen}
+Fragebögen geben den Befragten Personen die Möglichkeit ohne direkte Beeinflussung durch den Ersteller der Fragen, Informationen bereitzustellen. Zusätzlich reduzieren sie den Zeitdruck unter dem geantwortet werden soll und alle Befragten antworten auf die gleiche Fragestellung.\\
+Fragebögen können eingesetzt werden um Annahmen zu bestätigen oder nach Meinungen und Vorschlägen zu fragen\cite{tiwari2012selecting}. \\
+Bei Einsatz dieser Methode ist darauf zu achten die Fragen offen zu formulieren, um die Antworten nicht in eine Richtung zu lenken. 
+\subsubsection{Beobachtung}
+\label{Beobachtung}
+Die Beobachtungsmethode dient dazu aus beobachteten Vorgängen Informationen zu sammeln. \\
+Diese Beobachtung kann offen oder verdeckt durchgeführt werden. Bei der verdeckten Vorgehensweise ist das beobachtete Verhalten natürlicher und realistischer, als bei der offenen Vorgehensweise\cite{silhavy2011requirements}. \\
+Mit diesem Vorgehen lassen sich Abläufe bei Aufgaben nachvollziehen. Gründe für dieses Abläufe sollten durch andere Techniken in Erfahrung gebracht werden.\\
+\subsubsection{Anforderungstypen}
+Anforderungen können in zwei Typen unterteilt werden: Die funktionalen und die nicht funktionalen Anforderungen.
+\\Funktionale Anforderungen geben vor, für welche Aufgaben das Produkt geplant wird und welche Funktionen dafür benötigt werden. Die Validierung dieser Anforderungen ist gegeben, da am Ende eindeutig ist, ob eine Funktionalität verfügbar ist. \\
+Die nicht funktionalen Anforderungen geben vor, mit welchem Vorgehen und welchen Tools eine Funktion umgesetzt werden soll\cite{10.1145/2884781.2884788}. \\
+Nicht funktionale Anforderungen sind häufig unpräzise formuliert und somit problematisch in der Validierung\cite{10.1145/2884781.2884788}.
+\subsection{Grobentwurf}
+Beim Grobentwurf werden die Hauptbestandteile der Software geplant. Dabei sollte der Kunde möglichst miteinbezogen werden, denn der Kunde hat großen Anteil am Gelingen des Projekts\cite{10.1145/1060710.1060712}. \\
+Um den Kunden einzubeziehen können Prototypen eingesetzt werden.\\
+Hat das Programm eine Graphische Benutzeroberfläche(GUI) so kann der Grobentwurf unterschiedlich geplant werden. \\
+\subsubsection{GUI mit Bidern}
+Der Grobentwurf der GUI kann mit Hilfe von Bildern in einem beliebigen Bilderstellungsprogramm nachgebildet werden. Die erstellten Entwürfe dienen als Gesprächsgrundlage für eventuell notwendige Veränderungen. 
+\subsubsection{Prototypen}
+Ein Prototyp ist eine funktionierende, begrenzte Version der Anwendung, die als Basis für Gespräche und die Entwicklung weiterer Prototypen dient\cite{budde1992prototyping}. \\
+Dieser Prototyp muss nicht durch Software erstellt werden, sondern kann auch mit einem Mockup-Tool\footnote{Tool um eine GUI zu simulieren} realisiert werden. \\
+\subsubsection{User-Tests}
+\label{User-Tests}
+Bei User Tests wird einer oder mehreren Testpersonen, abhängig von der Verfügbarkeit, der aktuelle Prototyp vorgelegt. Dann kann man der Testperson eine konkrete Aufgabe geben, oder sie den Prototyp frei entdecken lassen. Bei beiden Vorgehensweisen werden Probleme dokumentiert. Hat man mehrere Testpersonen zur Verfügung können auch Gruppentests durchgeführt werden. Bei diesen arbeiten mehrere Personen an einer Aufgabe. BEi Einzel-Tests lassen sich Probleme im Ablauf besser erkennen. In Gruppen-Tests hingegen werden die tatsächlichen Probleme der Testpersonen besser erkenntlich.\cite{BASTIEN2010e18}.
+\subsubsection{30-Sekunden Tests}
+\label{30-Sekunden Tests}
+Bei 30-Sekunden-Tests bekommen die Testpersonen 30 Sekunden Zeit um den Prototyp zu erkunden. Nach 30 Sekunden wird ein Fragebogen ausgefüllt, auf dem die Übersichtlichkeit bewertet wird\cite{vsimek2015usability}. 
 \section{Parametertabellenkonfigurator}
+Der \glqq Parametertabellenkonfigurator\grqq\space ist ein internes Projekt, bei dem Mitarbeitende der Abteilung Service-International die Rolle des Kunden übernehmen. Dadurch wird der Einstieg in die Softwareentwicklung vereinfacht. \\
+Das hat mehrere Gründe. Zum Einen ist der Kunde direkt vor Ort und Fragen lassen sich schneller klären, zum Anderen gibt es keinen finanziellen Druck, der bei externen Auftraggebern hinzukommen würde. Auch der zeitliche Druck ist stark reduziert, da das Produkt eine Unterstützung bieten soll. Die Arbeit kann aber auch ohne diese Unterstützung ungehindert fortgeführt werden.
+\subsection{Problemstellung}
+Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein \glqq Parametertabellenkonfigurator\grqq\space entwickelt werden.
+\subsection{Anforderungen}
+Die funktionellen Anforderungen wurden vom Kunden direkt zu Projektstart bereitgestellt. Dennoch war damit die Anforderungsanalyse noch nicht abgeschlossen, denn es fehlten noch Informationen über den Hintergrund des Projekts. \\
+Dieser wurde während Gesprächen mit dem Kunden von Zeit zu Zeit deutlicher; Es geht darum ein Tool zu entwickeln, welches vor allem die unerfahreneren Mitarbeiter im Service bei der Konfiguration der Produkte von Blum zu unterstützen.\\
+Die funktionellen Anforderungen besteht aus zwei Teilen: \\
+Die Parametertabellen und die Beschreibung der einzelnen Parametern.\\
+Für die Parametertabellen müssen Funktionen für das Laden, das Bearbeiten und das Speichern entwickelt werden.\\
+Im Bereich der Beschreibungen geht es darum, die richtige Beschreibung zu laden und anzuzeigen. Da die Beschreibungen nicht angepasst werden müssen, wir hier keine Funktion zum Speichern benötigt.
+\subsection{Entwurf Benutzeroberfläche}
+Nach dem alle Anforderungen besprochen war, konnte mit den Überlegungen für die Benutzeroberfläche begonnen werden. \\
+Um die Überlegungen schnell in einen sichtbaren Entwurf zu übertragen, wird das Programm \glqq Balsamiq Mockups 3\grqq\space verwendet. Mit diesem Tool können alle gängigen Designs nachgebaut werden und auch
+ mit Funktionalität, zum Beispiel das anklicken von Buttons oder das auswählen von Optionen in Drop-down Menüs können somit schnell und einfach visualisiert werden. Das ist hilfreich, um Designvorschläge und Ideen besprechen zu können, ohne das man die Änderungen aufwendig programmieren muss.
+\\Zusätzlich bietet der erstellte Entwurf eine gute Unterstützung für die Implementierung des Designs, da man sich den Aufbau der Software in Bezug auf Menüs und Buttons nicht merken muss, sondern diesen immer konkret vorliegen hat.
+\\Für den \glqq Parametertabellenkonfigurator\grqq\space fiel die Wahl auf ein Design, dass aus mehreren Fenstern aufgebaut ist, um die Bedienbarkeit möglichst einfach zu halten, denn die Anzahl an Auswahlmöglichkeiten würde innerhalb eines Fensters die Übersichtlichkeit deutlich reduzieren.
+\\ Wäre alles in einem Fenster, müsste durch \glqq ausgrauen\grqq\space oder ausblenden der Optionen dargestellt werden, welche momentan verfügbar sind. Das ist zwar möglich, ersteres führt aber bei manchen Anwendern zu Verwirrung, oder Unsicherheiten, was den Konfigurationsprozess der Produkte von Blum negativ beeinflussen könnte, zweites ist optisch nicht ansprechend, da immer wieder unerwartete, freie Flächen entstehen und eventuell Layouts verschoben werden. \\
+Diese Problematik kann durch das aufteilen in mehrere Fenster behoben werden, da nur die im Fenster angezeigten Optionen auch verfügbar sind. 
+\\Da von Anfang mindestens ein zweites Fenster geplant war, um die Beschreibungen der einzelnen Parameter in einer vergrößerten Ansicht anzeigen zu können, fügte sich auch das Fenster für die Auswahl der benötigten Parametertabelle problemlos in das Design ein. 
+Das Hauptfenster ist in zwei Bereiche unterteilt. Der obere ist für die Parametertabelle allgemein, er besteht aus eine Anzeige, um zu sehen welche Parametertabelle ausgewählt ist, ein Button um eine andere Parametertabelle auswählen zu können und ein Feld im der der Inhalt angezeigt wird und bearbeitet werden kann. Um den Einrichtungsprozess zu unterstützen, werden alle bearbeiteten Zeilen farblich markiert. 
+\\Im unteren Teil geht es um die einzelnen Parameter. Es gibt eine Anzeige für den aktuell ausgewählten Parameter, einen Bereich um die Beschreibung, wenn vorhanden mit Bild, anzuzeigen und einen Button um die Beschreibung isoliert und vergrößert in einem neuen Fenster zu öffnen. Um auch hier die Bedienbarkeit zu erleichtern gibt es zwei weitere Buttons die es ermöglichen schnelle zu vorherigen, beziehungsweise dem nachfolgenden Parameter zu springen.
+%TODO einfügen von Bildern
+\subsection{Programmierung}
+Für die Programmierung des \glqq Parametertabellenkonfigurator\grqq\space kommt die C++-Erweiterung Qt zum Einsatz. Qt wird verwendet, da diese spezielle Komponenten beinhaltet, die für das Entwickeln von Programmen mit GUI %TODO Abürzungsverzeichnis 
+konzipiert sind. Dazu gehört neben vielen vordefinierten Klassen für Widgets auch der Signal-SLot Mechanismus, der später noch genauer thematisiert wird.\\
+Im Projekt kommen \glqq Clean-Code Prinzipien\grqq\space für eine erhöhte Les- und Wartbarkeit des Codes und die objektorientierte Programmierung zum Einsatz.
+\subsubsection{Technologien} 
+Um den Prozess der Programmierung zu vereinfachen kamen zusätzliche Tools zum Einsatz. \\
+Optimiert für die Programmiersprache Qt wird der \glqq Qt Creator\grqq\space\footnote{Herausgegeben von der Qt Company} als Entwicklungsumgebung verwendet. Dieser bietet zum Beispiel einen speziellen Designer, mit dem man das GUI visuell designen kann, ohne alles zu programmieren. \\
+Da das persönliche Ziel des Projekts aber im Einstieg in die Softwareentwicklung liegt, wurde auf diese Möglichkeit verzichtet und der Aufbau des GUI erfolgte vollständig per Programmierung. \\
+Für die Versionsverwaltung kommt Git zum Einsatz. Lokal wird die Zusatzsoftware GitKraken verwendet. Mit GitKraken wird die lokale Arbeit vereinfacht, da man ohne das Terminal die für Git-Relevanten Funktionen schnell nutzen kann. Dazu gehört unter anderem das Laden von alten Softwareständen, die durch einfaches anklicken eines Commits\footnote{gespeicherter Zwischenstand des Projekts} direkt in der Entwicklungsumgebung bearbeitet werden können. 
+Die Verwendung von Git erleichtert auch Software-Reviews\footnote{Feedback zum Code}, da man den Zugang zu einem Repository kontrolliert freigeben kann und somit unabhängig von der Anwesenheit des Entwicklers Zugang zum letzten auf dem Server gespeicherten Zustand möglich ist. Auch das Arbeiten auf mehreren Geräten ist durch den Serverzugriff problemlos möglich (wenn Git auf dem entsprechenden Gerät installiert ist).\\
+Zusätzlich kommt die Pipeline-Funktion von GitLab zum Einsatz. \\
+\underline{GitLab Pipeline}\\
+Die GitLab Pipeline ermöglicht es jeden auf den Server geladenen Commit automatisiert zu verarbeiten. \\
+Für die Weiterverarbeitung können Shell-Scripts\footnote{Dateien in denen mehrere Befehle stehen, die durch Aufruf der Datei in einem Kommandozeilenprogramm hintereinander ausgeführt werden} verwendet werden. \\Möglichkeiten für die Verarbeitung sind Scripts zum Beispiel das Bauen der Software, oder das Erstellen von Softwarepaketen. Für Softwarepakete gibt es die Option Artefakte\footnote{Dateien, die nach Ausführung der Pipeline heruntergeladen werden} zu erstellen. Dadurch hat man automatisiert alle Dateien, die gebraucht werden, an einem Ort zur Verfügung.
+\subsubsection{Software-Struktur}
+%TODO Diagramm erstellen
+Die Software ist modular aufgebaut, das bedeutet, dass sie aus mehreren möglichst unabhängigen Modulen besteht. Durch diese modulare Struktur wird das Ziel verfolgt Komponenten bei Bedarf anpassen oder austauschen zu können, ohne viel an den anderen Modulen anpassen zu müssen. \\
+Außerdem ist die Software objektorientiert programmiert werden, da sich GUI-Elemente gut als einzelne Objekte eignen. Jedes Fenster der Anzeige ist eine eigene Klasse und ein Modul. Um die Module zu verwalten gibt es zwei Manager-Klassen. Der WindowManager ist dafür verantwortlich das richtige Fenster zur richtigen Zeit anzuzeigen, oder zu verbergen. Die zweite Manager-Klasse ist der DataManager. Er ist die Verbindungsstelle vom Logikmodul mit den GUI-Modulen. Er ist dafür verantwortlich die Benutzeraktionen entgegenzunehmen und dann die richtigen Daten an bereitzustellen. 
+
+\subsubsection{Verarbeiten von Benutzeraktionen}
+Benutzer führen ihre Aktionen auf der GUI aus. Die GUI muss auf verschiedene Aktionen der Benutzer reagieren können. Dafür gäbe es die Möglichkeit, dass sich die verschiedenen benötigten Klassen untereinander kennen. Diese Möglichkeit sorgt aber für starke Abhängigkeiten, wodurch die Modularisierung der Software 
+\subsubsection{Herausforderungen und Lösungen}
+\subsection{Tests}
+\subsection{geplante Erweiterungen}
+\subsection{Reflexion}
+
+\section{LC-Vision}
+\newpage
 
 \newpage
-\bibliography{references}
+\bibliography{references, tandf_tjds2025_302}
 \bibliographystyle{ieeetr}
 \end{document}<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>

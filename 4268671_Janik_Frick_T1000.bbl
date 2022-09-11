@@ -1,10 +1,39 @@
 \begin{thebibliography}{1}
 
-\bibitem{ALHO20131912}
-P.~Alho and J.~Mattila, ``Breaking down the requirements: Reliability in remote
-  handling software,'' {\em Fusion Engineering and Design}, vol.~88, no.~9,
-  pp.~1912--1915, 2013.
-\newblock Proceedings of the 27th Symposium On Fusion Technology (SOFT-27);
-  Liège, Belgium, September 24-28, 2012.
+\bibitem{doi:10.1080/12460125.2016.1187390}
+S.~Lane, P.~O’Raghallaigh, and D.~Sammon, ``Requirements gathering: the
+  journey,'' {\em Journal of Decision Systems}, vol.~25, no.~sup1,
+  pp.~302--312, 2016.
+
+\bibitem{tiwari2012selecting}
+S.~Tiwari, S.~S. Rathore, and A.~Gupta, ``Selecting requirement elicitation
+  techniques for software projects,'' in {\em 2012 CSI Sixth International
+  Conference on Software Engineering (CONSEG)}, pp.~1--10, IEEE, 2012.
+
+\bibitem{silhavy2011requirements}
+R.~Silhavy, P.~Silhavy, and Z.~Prokopova, ``Requirements gathering methods in
+  system engineering,'' {\em Recent Researches in Automatic Control},
+  pp.~105--110, 2011.
+
+\bibitem{10.1145/2884781.2884788}
+J.~Eckhardt, A.~Vogelsang, and D.~M. Fern\'{a}ndez, ``Are "non-functional"
+  requirements really non-functional? an investigation of non-functional
+  requirements in practice,'' in {\em Proceedings of the 38th International
+  Conference on Software Engineering}, ICSE '16, (New York, NY, USA),
+  p.~832–842, Association for Computing Machinery, 2016.
+
+\bibitem{10.1145/1060710.1060712}
+S.~Nerur, R.~Mahapatra, and G.~Mangalaraj, ``Challenges of migrating to agile
+  methodologies,'' {\em Commun. ACM}, vol.~48, p.~72–78, may 2005.
+
+\bibitem{budde1992prototyping}
+R.~Budde, K.~Kautz, K.~Kuhlenkamp, and H.~Z{\"u}llighoven, ``What is
+  prototyping?,'' {\em Information Technology \& People}, 1992.
+
+\bibitem{BASTIEN2010e18}
+J.~C. Bastien, ``Usability testing: a review of some methodological and
+  technical aspects of the method,'' {\em International Journal of Medical
+  Informatics}, vol.~79, no.~4, pp.~e18--e23, 2010.
+\newblock Human Factors Engineering for Healthcare Applications Special Issue.
 
 \end{thebibliography}
