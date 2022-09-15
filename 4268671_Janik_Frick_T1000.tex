@@ -5,7 +5,13 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{pdfpages}
 \usepackage{titling}
+\usepackage{float}
+\usepackage[format=plain,
+      justification=RaggedRight,
+      singlelinecheck=false]
+     {caption}
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
 \author{Janik Frick}
 \title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit im releasten Produkt LC-VISION}
@@ -157,7 +163,8 @@ Bestätigt der Kunde das Resultat kann mit dem Training betreuender Personen und
 \subsubsection{Test Automatisierung}
 Das manuelle Ausführen von Tests kann zeitaufwändig sein, wodurch man auf die Idee kommen kann diese Tests zu automatisieren. Diese Entscheidung ist dabei von unterschiedlichen Faktoren abhängig. \\
 Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. 
-
+\subsection{Objektorientierung}
+\label{Objektorientierung}
 \section{Parametertabellenkonfigurator}
 Mit Hilfe des \glqq Parametertabellenkonfigurators\grqq\space sollen die Abläufe der Konfiguration unterstützt werden.
 \subsection{Problemstellung}
@@ -180,8 +187,50 @@ Benötigte Steuerelemente sind Möglichkeiten um Parametertabellen und Beschreib
 Um das GUI zu entwerfen kommt ein Prototyp \ref{Prototypen} zum Einsatz, der mit dem Mockup-Tool "Balsamiq Mockup 3" erstellt wurde. Das Tool bietet nahezu alle gängigen GUI-Elemente an und kann diese miteinander verknüpfen, so dass schon in einem frühen Stadium die Funktionalität gegeben ist und besprochen werden kann. Zusätzlich bietet das Tool eine unkomplizierte Möglichkeit alternative Entwürfe zu entwerfen und in den Ablauf der Simulation zu integrieren. Das unterstützt den Prozess während der Entwicklung des GUI, da neue Vorschläge in kurzer Zeit besprochen und weiterentwickelt werden können.\\
 \newline
 Das GUI ist aus mehreren einzelnen Fenstern aufgebaut. Dieser Aufbau unterstützt die Übersichtlichkeit und der Benutzerführung bei der Verwendung, da jeweils nur die benötigten Informationen und Funktionen angezeigt werden.\\ 
-Insgesamt besteht die Software aus vier Fenstern. Bei der ersten Verwendung der Software wird ein Fenster angezeigt, in das 
- 
+Insgesamt besteht das GUI aus vier Fenstern die dem Benutzer die benötigten Funktionen zur Verfügung stellen. \\
+Ein Fenster dient dem Zweck bei erster Benutzung den Pfad zu einer Datenbank, in der die Beschreibungen gespeichert sind, einzugeben. Im nächsten Fenster lässt sich die Auswahl der Parametertabellen konfigurieren. Nach der Auswahl einer Parametertabelle wird diese im Hauptfenster angezeigt. In diesem Fenster werden die Beschreibungen der Parameter angezeigt und die Parametertabelle kann angepasst werden. Es gibt Steuerelemente für die Navigation durch die Parametertabelle, für die Navigation durch die Fenster und die Möglichkeit die geänderte Parametertabelle zu speichern.\\
+\begin{figure}[H]
+\includegraphics[scale=1]{pictures_and_research/Bilder/filepathWindow.PNG}
+\caption{Fenster um den Dateipfad der Datenbank einzugeben,\\
+es gibt einen Standardpfad}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=1]{pictures_and_research/Bilder/errorFilePathW.PNG}
+\caption{Wurde ein nicht vorhandener Pfad eingegeben erscheint die Fehlermeldung "Please enter a valid path"}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=1]{pictures_and_research/Bilder/configW.PNG}
+\caption{Fenster um Auswahl der Parametertabellen zu konfigurieren}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=0.75]{pictures_and_research/Bilder/paratabW.PNG}
+\caption{Fenster für die Anzeige der Parametertabellen und deren Beschreibungen}
+\end{figure}
+\noindent
+In Abbildung 4 werden im Oberen Bereich werden Informationen zur aktuell ausgewählten Parametertabelle angezeigt. Oben rechts gibt es Steuerelemente um eine andere Parametertabelle auszuwählen, oder die Aktuelle zu speichern.\\
+Unterhalb der Anzeige für die Parametertabelle ist der Bereich für detaillierte Informationen zum aktuellen Parameter. Es gibt Steuerelemente um andere Parameter auszuwählen. Dies ist mit den Buttons "Next" und "Previous" möglich, die jeweils um einen Parameter nach oben oder nach unten springen. Durch direkte Eingabe eines Parameters in das Parameterfeld kann zu einem beliebigen Parameter gesprungen werden. Um größere Beschreibungen übersichtlich sehen zu können gibt es die Möglichkeit die Beschreibung isoliert in einem neuen Fenster zu öffnen.\\
+\begin{figure}[H]
+\includegraphics[scale=0.6]{pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG}
+\caption{Wird ein nicht vorhandener Parameter in das Feld eingegeben wird eine Fehlermeldung angezeigt.}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=1]{pictures_and_research/Bilder/descriptW.PNG}
+\caption{Isolierte Ansicht einer Beschreibung eines Parameters}
+\end{figure}\noindent
+Das in Abbildung 6 sichtbare Bild hat eine konstante Größe. Der Grund dafür ist dass ansonsten bei Änderung der Fenstergröße das Bild verzerrt werden würde und das Erkennen von wichtigen Informationen im Bild erschwert werden würde.
+\subsection{Programmierung}
+Für die Programmierung des \glqq Parametertabellenkonfigurator\grqq\space kommt das für GUI optimierte C++ Framework Qt zum Einsatz. \\
+\subsubsection{Softwarestruktur}
+Für die Programmierung kommt die objektorientierte Programmierung \ref{Objektorientierung} zum Einsatz, da sich Elemente eines GUI gut als Objekt darstellen lassen.
+Die Software ist modular aufgebaut. Das bedeutet sie besteht aus einzelnen Modulen, die jeweils eine bestimmte Aufgabe übernehmen. Um die Module miteinander zu verknüpfen gibt es Klassen, die für die Aufrufe der entsprechenden Module verantwortlich sind. \\
+Dieses Design bietet die Möglichkeit die Anzeige der Daten von der grundlegenden Logik getrennt zu verwalten.\\
+Die Module haben vorgegebene Schnittstellen, die von den \lq Managerklassen\rq\space bedient werden. Diese Schnittstellen rufen die internen Methoden des Moduls auf. Somit lässt sich der Inhalt und die Funktionsweise eines Moduls verändern ohne dass der Aufruf des Interface durch die \lq Managerklassen\rq\space verändert werden muss. Dadurch entsteht eine hohe Flexibilität. \\
+\begin{figure}[H]
+\includegraphics[page=1,scale=0.6]{pictures_and_research/pdf_files/smallParatabUml.pdf}
+\caption{UML-Diagramm der Software ohne Inhalte der Klassen}
+\end{figure}
+Das in Abbildung 7 dargestellte Diagramm dient zur Veranschaulichung der Modularität der Software, aus Gründen der Übersichtlichkeit wurde daher auf den Inhalt der einzelnen Klassen verzichtet.
+\subsubsection{•}
 \section{LC-Vision}
 \newpage
 
