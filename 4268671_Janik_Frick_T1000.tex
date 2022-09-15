@@ -162,20 +162,24 @@ Mit diesem Vorgehen sind alle Module und ihre Abhängigkeiten auf ihre Funktiona
 Bestätigt der Kunde das Resultat kann mit dem Training betreuender Personen und Benutzern begonnen werden\cite{rakos1990software}.\\
 \subsubsection{Test Automatisierung}
 Das manuelle Ausführen von Tests kann zeitaufwändig sein, wodurch man auf die Idee kommen kann diese Tests zu automatisieren. Diese Entscheidung ist dabei von unterschiedlichen Faktoren abhängig. \\
-Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. 
+Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. \\
+Diese und noch weitere Faktoren beeinflussen den Aufwand für die Automatisierung von Test. Es ist also wichtig sich Gedanken über mögliche Probleme zu machen, bevor man den Zeitaufwand auf sich nimmt um die Automatisierung umzusetzen. 
 \subsection{Objektorientierung}
 \label{Objektorientierung}
+\subsection{Clean-Code}
+\label{CC}
 \subsection{Versionsverwaltung}
 \label{Git}
 \subsection{Continous Integration/ Developement}
 \label{CI}
-\subsection{Datenbanken}
+\section{Datenbanken}
 \label{Db}
 \section{Parametertabellenkonfigurator}
 Mit Hilfe des \glqq Parametertabellenkonfigurators\grqq\space sollen die Abläufe der Konfiguration unterstützt werden.
 \subsection{Problemstellung}
 Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein \glqq Parametertabellenkonfigurator\grqq\space entwickelt werden.
-\subsection{Anforderungen} 
+\subsection{Anforderungen}
+\label{Anfs} 
 An den \glqq Parametertabellenkonfigurator\grqq\space gibt es mehrere Anforderungen. \\
 Parametertabellen sollen eingelesen und angezeigt werden können. Zu den Parametern soll es ermöglicht werden Beschreibungen aus Text und Bild speichern und anzeigen zu können.\\
 Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungsen \ref{Anforderungstypen}\\
@@ -225,36 +229,40 @@ Unterhalb der Anzeige für die Parametertabelle ist der Bereich für detailliert
 \end{figure}\noindent
 Das in Abbildung 6 sichtbare Bild hat eine konstante Größe. Der Grund dafür ist dass ansonsten bei Änderung der Fenstergröße das Bild verzerrt werden würde und das Erkennen von wichtigen Informationen im Bild erschwert werden würde.
 \subsection{Programmierung}
-Für die Programmierung des \glqq Parametertabellenkonfigurator\grqq\space kommt das für GUI optimierte C++ Framework Qt zum Einsatz. \\
+Für die Programmierung wird wie in den nicht funktionalen Anforderungen \ref{Anfs} vorgegeben C++ mit dem für GUI optimierte Framework Qt verwendet. \\
+Da Qt für den Aufbau von Benutzeroberflächen Klassen bereitstellt, wird die Software objektorientiert \ref{Objektorientierung} programmiert. Um den Code auch mit wachsender Größe lesbar und verständlich zu halten kommen \lq Clean-Code Prinzipien\rq\space\ref{CC} zum Einsatz.\\
 \subsubsection{Softwarestruktur}
-Für die Programmierung kommt die objektorientierte Programmierung \ref{Objektorientierung} zum Einsatz, da sich Elemente eines GUI gut als Objekt darstellen lassen.
-Die Software ist modular aufgebaut. Das bedeutet sie besteht aus einzelnen Modulen, die jeweils eine bestimmte Aufgabe übernehmen. Um die Module miteinander zu verknüpfen gibt es Klassen, die für die Aufrufe der entsprechenden Module verantwortlich sind. \\
-Dieses Design bietet die Möglichkeit die Anzeige der Daten von der grundlegenden Logik getrennt zu verwalten.\\
-Die Module haben vorgegebene Schnittstellen, die von den \lq Managerklassen\rq\space bedient werden. Diese Schnittstellen rufen die internen Methoden des Moduls auf. Somit lässt sich der Inhalt und die Funktionsweise eines Moduls verändern ohne dass der Aufruf des Interface durch die \lq Managerklassen\rq\space verändert werden muss. Dadurch entsteht eine hohe Flexibilität. \\
+Um die Software flexibel zu gestalten, wird diese modular programmiert. Die Logik und das GUI bestehen aus mehreren einzelnen Klassen, die als Module betrachtet werden können. Um die einzelnen Module zu verbinden gibt es eine \lq Managerklasse\rq\space für den Logikteil und eine für die Module des GUI. Um diese beiden \lq Managerklassen\rq\space ebenfalls unabhängig zu halten gibt es eine weitere \lq Managerklasse\rq\space die dafür verantwortlich ist, die Daten zwischen Logik und GUI zu transferieren. \\
+Diese Trennung ermöglicht es Anpassungen an den einzelnen Modulen vorzunehmen, ohne die höheren Ebenen grundlegend anzupassen.
 \begin{figure}[H]
 \includegraphics[page=1,scale=0.6]{pictures_and_research/pdf_files/smallParatabUml.pdf}
 \caption{UML-Diagramm der Software ohne Inhalte der Klassen}
-\end{figure}
-Das in Abbildung 7 dargestellte Diagramm dient zur Veranschaulichung der Modularität der Software, aus Gründen der Übersichtlichkeit wurde daher auf den Inhalt der einzelnen Klassen verzichtet.\\
-\subsubsection{Verarbeitung von Benutzereingaben}
-Während der Verwendung der Software interagiert der Benutzer mit dem GUI und erwartet eine entsprechende Reaktion des Programms. Um die Interaktionen zu verarbeiten bietet Qt einen \lq Signal-Slot Mechanismus\rq\space. In diesem Mechanismus werden definierte Signale ausgesendet, die dann von einem festgelegten Slot empfangen und weiterverarbeitet werden. Für Qt eigene Klassen gibt es vordefinierte Signale, mit denen die Interaktion mit einem GUI-Element verarbeitet werden können. Signale sind nicht auf vordefinierte Signale limitiert. Man kann auch benutzerdefinierte Signale erstellen. Das Aussenden dieser Signale wird manuell im Code ausgelöst. Signale können mit mehreren Argumenten ausgesendet werden. Signale können mit allen Slots verbunden werden, die die gleiche Anzahl an Argumenten oder weniger Argumente entgegen nehmen, dabei muss die Reihenfolge der Datentypen übereinstimmen. \\
-Signals und Slots funktionieren wie Methoden, ein Signal kann also mit mehreren Slots verbunden werden und ein Slot kann von mehreren Signalen aufgerufen werden.\\
-Der Vorteil Benutzerinteraktionen mit dem \lq Signal-Slot Mechanismus\rq\space zu verarbeiten liegt in der höheren Unabhängigkeit gegenüber dem Aufrufen von konkreten Methoden.\\
-Beim Aussenden des Signals ist es unerheblich von wem das Signal empfangen und weiterverarbeitet wird. \\
-Für das Aufrufen von Methoden ohne Rückgabewert, zum Beispiel zum Anzeigen oder Verbergen eines GUI-Elements ist diese Funktion eine Möglichkeit dies ohne direkte Abhängigkeit zu einer GUI-Klasse auszuführen.\\
-Es ist aber nicht möglich alle Abhängigkeiten mit diesem Mechanismus zu beseitigen. Die Ursache liegt im Fehlen von Rückgabewerten an den Sender von Signalen. Werden für den Aufruf einer Methode die Resultate mehrerer anderer Methoden benötigt lassen sich diese mit dem \lq Signal-Slot Mechanismus\rq\space nicht zusammenführen.\\
-\subsubsection{Speichern und Laden der Beschreibungen}
-Um die Beschreibungen zu speichern wird eine SQL-Datenbank \ref{Db} verwendet. Es wird eine SQL-Datenbank verwendet, da die Inhalte die gespeichert werden sollen zum Design einer SQL-Datenbank passen und Qt standardmäßig die Verwendung von SQL unterstützt. In der Datenbank ist der Parametername der Primary Key der den Beschreibungstext und das Bild eindeutig identifiziert. \\
-Um aus einer ausgewählten Zeile in der Parametertabelle den Parameter also den notwendigen Primary Key zu finden werden \lq Reguläre Ausdrücke\rq\space genutzt. Mit Hilfe von \lq Reguläre Ausdrücken\rq\space lassen sich Texte auf gewisse Muster untersuchen. In diesem Fall wird mit Hilfe einer Cursor-Klasse von Qt die Zeile ausgewählt und mit einem \lq Regulären Ausdruck\rq\space auf einen Parameter untersucht. Wird ein Parameter erkannt wird auf die Datenbank zugegriffen um den Text der Beschreibung und wenn vorhanden das Bild aus der Datenbank zu laden und anzuzeigen.
-
-\subsubsection{Verwaltung der Software}
-Die einzelnen Klassen sind jeweils in einer eigenen Datei geschrieben. Dies unterstützt die Übersichtlichkeit, da am Dateinamen erkennbar ist, welche Klasse und somit welche Funktionalitäten man in der Datei zu finden ist. Auch in den \lq Managerklassen\rq\space wird die Übersichtlichkeit gefördert, da man an den Texten der includes\footnote{Einbindungen von Dateien in andere} erkennen kann, welche Funktionalitäten in dieser Klasse hinzugefügt wurden. \\
-\underline{Tools für die Versionsverwaltung}\\
-Um die Fortschritte des Projekts zu sichern kommt GitLab zum Einsatz. GitLab basiert auf dem Versionsverwaltungstool Git. GitLab ist eine vollständige DevOps-Plattform, unterstützt also den gesamten Entwicklungsprozess. GitLab bietet Funktionen für die Planung, die Codeverwaltung und für \glqq Contiouse Integration/ Developement\grqq\space\ref{CI}.\\
-Als Schnittstelle zwischen lokaler Arbeit und dem Repository auf dem Server dient GitKraken. GirKraken ist ein Git-Management Tool mit dem man Git für sein Projekt verwalten kann.\\
-In der Software sieht man den gesamten Verlauf des Projekts. Softwarestände können durch auswählen eines Commits\footnote{Gespeicherter Zwischenstand} direkt in einer Entwicklungsumgebung geladen und weiterverarbeitet werden. \\
-Änderungen und Fortschritte können in der Benutzeroberfläche gezielt ausgewählt und zu einem Commit zusammengefasst werden. Diese Commits können direkt aus der Software auf den GitLab Server geladen und somit gesichert werden.
-
+\end{figure}\noindent
+Das Diagramm in Abbildung 7 dient dazu die Modularität der Software zu veranschaulichen, daher wurde auf die Darstellung von Inhalten der Klassen verzichtet
+\subsubsection{Verarbeitung von Benutzeraktionen}
+Interagiert der Benutzer mit dem GUI werden entsprechende Veränderungen erwartet. \\
+Qt bietet für die Verarbeitung der Benutzeraktionen mit dem \lq Signal-Slot Mechanismus\rq\space Unterstützung. Dieser Mechanismus bietet die Möglichkeit Signale auszusenden, die von einem verbundenen Slot empfangen werden können. Dabei muss das Senderobjekt keine Verbindung zum Empfängerobjekt haben. Die Verbindung zwischen Signal kann entweder direkt im Empfängerobjekt , oder in einer Instanz einer \lq Managerklasse\rq\space eingerichtet werden. Grundvoraussetzung ist, dass das Objekt, in dem die Verbindung eingerichtet ist, sowohl eine Verbindung mit dem Sender- als auch mit dem Empfängerobjekt hat.\\
+Die meisten Klassen die von Qt bereitgestellt werden, haben vordefinierte Signale. Diese erlauben es die Benutzerinteraktionen zu verarbeiten und entsprechend darauf zu reagieren. \\
+Neben den Signalen von GUI-Elementen können Signale auch selbst definierte Signale eingesetzt werden um Methoden aufzurufen. Signale von GUI-Elementen werden ohne weitere Implementierungen durch den Entwickler gesendet. Selbstdefinierte Signale müssen mit einem Befehl gesendet werden. Signale können auch Argumente übergeben, die vom verbundenen Slot verarbeitet werden können. Dabei muss die Zahl der Argumente des Slots nicht mit der des Signals übereinstimmen. Signale können mit allen Slots verbunden werden, die gleich viele oder weniger Argumente entgegennehmen. Begrenzend wirkt hier die Reihenfolge der Datentypen der Argumente. Diese muss übereinstimmen.\\
+Dieser Mechanismus ermöglicht weitere Flexibilität, da jederzeit neue Verbindungen erstellt werden könne, oder bestehende entfernt werden können. Diese Funktionalität ist hilfreich, wenn das Ausführen einer Methode Signale aussenden würde, die unerwünschte Folgen hätten. In diesem Fall kann man die Verbindung von Signal und Slot zu Beginn der Methode trennen und am Ende der Methode wieder herstellen. \\
+\subsubsection{Bearbeitung der Parametertabelle}
+Vor der Bearbeitung wird im ConfigurationWindow, Abbildung 3, die Steuerung und das Produkt festgelegt. Durch klicken auf \glqq Select Paratab\grqq\space wird ein Dateiexplorer-Fenster geöffnet. Durch die getroffene Auswahl im ConfigurationWindow, Abbildung 3, werden die angezeigten Dateien im Dateiexplorer gefiltert um die Auswahl der richtigen Parametertabelle zu vereinfachen. Die ausgewählte Parametertabelle wird im ParatabWindow, Abbildung 4 und 5, angezeigt.\\
+Um einen Parameter zu bearbeiten, muss die entsprechende Zeile im Textfeld ausgewählt zu werden. Dazu gibt es unterschiedliche Möglichkeiten. Man kann eine Zeile direkt durch anklicken mit der Maus auswählen. Möchte der Benutzer jeden Parameter nacheinander konfigurieren bieten die Buttons \lq Next\rq\space und \lq Previous\rq\space die Möglichkeit direkt zum nächsten, beziehungsweise zum vorherigen Parameter zu springen, ohne danach zu suchen. Geht es darum bestimmte Parameter an verschiedenen Stellen zu bearbeiten, kann im Feld für die Anzeige des aktuellen Parameters ein Parameter eingegeben werden. Ist der eingegebene Parameter in der Tabelle enthalten, springt die Anzeige direkt zu diesem Parameter.\\
+Um zu prüfen, ob eine Zeile einen Parameter enthält kommen \lq Reguläre Ausdrücke\rq\space zum Einsatz. Mit Diesen lassen sich Texte auf bestimmte Inhalte oder Muster untersuchen. \\
+In dieser Software wird mit Hilfe der Cursor-Klasse von Qt die gesamte Zeile ausgewählt und mit einem \lq Regulären Ausdruck\rq\space untersucht. \\
+Um die Bearbeitung der Parameter zu unterstützen wird unterhalb der Anzeige für die Parametertabelle die Beschreibung des Parameters angezeigt. Die Option \glqq Open Description in new Window\grqq ,\space Abbildung 4 und 5, hilft bei langen Beschreibungstexten und Bildern das Lesen der Beschreibung zu vereinfachen. Es öffnet sich ein neues Fenster, zu sehen in Abbildung 6, in dem die Beschreibung und das Bild isoliert angezeigt werden.\\
+Ist die Konfiguration der Parametertabelle abgeschlossen, kann in der oberen rechten Ecke, zu sehen in Abbildung 4 und 5, die Parametertabelle gespeichert werden. 
+\subsubsection{Speicherung der Beschreibungen}
+Für das Speichern von Beschreibungen ist eine SQL Datenbank \ref{Db} im Einsatz. Dieser Datenbanktyp wurde gewählt, da die Daten die gespeichert werden zum SQL-Format passen und Qt eine interne Integration für SQL bietet.\\
+Die Datenbank besteht aus mehreren Tabellen. Jeder Produkttyp ist in einer eignen Tabelle. Die Tabellen sind vom Aufbau gleich, der Parameter ist der Primarykey der die Beschreibung mit Text und Bild eindeutig identifiziert.
+\subsubsection{Tests}
+Die Software wird abgesehen von der GItLab Pipeline \ref{Tools} manuell getestet. Dies hat den Grund, dass die Automatisierung von Tests anspruchsvoll und zeitaufwendig ist \ref{Tests}.
+\subsubsection{Verwendete Tools}
+\label{Tools}
+Um die Entwicklung zu unterstützen werden Tools für die Versionsverwaltung und \lq Continous Developement/ Integration\rq\space \ref{CI} eingesetzt.\\
+Für die Versionsverwaltung kommen GitKraken und GitLab zum Einsatz. GitKraken dient als Schnittstelle zwischen dem lokalen Projekt auf dem Computer und der Plattform für \lq Continous Developement/ Integration\rq\space \ref{CI} GitLab. In GitKraken lässt sich der gesamte Verlauf des Projekts einsehen. Außerdem können alte Commits \ref{Git} ausgewählt werden und direkt in einer Entwicklungsumgebung geöffnet werden. Für die Sicherung auf dem Server bietet GitKraken die Git Befehle, die durch eine graphische Benutzeroberfläche oder durch das integrierte Terminal genutzt werden können.\\
+GitLab wird nicht nur für die Sicherung von Softwareständen auf einem Server eingesetzt. Ebenfalls genutzt werden die Möglichkeiten für das Organisieren von To-Do's durch \lq Issues\rq ,\space sowie die GitLab Pipeline. Mit der GitLab Pipeline lassen sich nach jeder Änderung auf dem Server Scripts\footnote{Dateien mit Befehlen, die nacheinander ausgeführt werden} ausführen. Somit können nach jeder Änderung auf dem Server automatisierte Prozesse gestartet werden. Für dieses Projekt wird in der Pipeline getestet, ob die Software kompiliert werden kann. Zusätzlich werden während dem Prozess Artefakte erstellt, in denen Dateien gesammelt werden, die für das Erstellen eines Installers benötigt werden. Diese Artefakte lassen sich nach dem erfolgreichen Durchlauf der Pipeline als ZIP-Ordner herunterladen.\\
+\subsection{Reflexion}
 
 \section{LC-Vision}
 \newpage
