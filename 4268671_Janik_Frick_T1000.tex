@@ -165,6 +165,10 @@ Das manuelle Ausführen von Tests kann zeitaufwändig sein, wodurch man auf die 
 Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. 
 \subsection{Objektorientierung}
 \label{Objektorientierung}
+\subsection{Versionsverwaltung}
+\label{Git}
+\subsection{Continous Integration/ Developement}\\
+\label{CI}
 \section{Parametertabellenkonfigurator}
 Mit Hilfe des \glqq Parametertabellenkonfigurators\grqq\space sollen die Abläufe der Konfiguration unterstützt werden.
 \subsection{Problemstellung}
@@ -230,7 +234,11 @@ Die Module haben vorgegebene Schnittstellen, die von den \lq Managerklassen\rq\s
 \caption{UML-Diagramm der Software ohne Inhalte der Klassen}
 \end{figure}
 Das in Abbildung 7 dargestellte Diagramm dient zur Veranschaulichung der Modularität der Software, aus Gründen der Übersichtlichkeit wurde daher auf den Inhalt der einzelnen Klassen verzichtet.
-\subsubsection{•}
+\subsubsection{Verwaltung der Software}
+Die einzelnen Klassen sind jeweils in einer eigenen Datei geschrieben. Dies unterstützt die Übersichtlichkeit, da am Dateinamen erkennbar ist, welche Klasse und somit welche Funktionalitäten man in der Datei zu finden ist. Auch in den \lq Managerklassen\rq\space wird die Übersichtlichkeit gefördert, da man an den Texten der includes\footnote{Einbindungen von Dateien in andere} erkennen kann, welche Funktionalitäten in dieser Klasse hinzugefügt wurden. \\
+\underline{Tools für die Versionsverwaltung}\\
+Um die Fortschritte des Projekts zu sichern kommt GitLab zum Einsatz. GitLab basiert auf dem Versionsverwaltungstool Git. GitLab ist eine vollständige DevOps-Plattform, unterstützt also den gesamten Entwicklungsprozess. GitLab bietet Funktionen für die Planung, die Codeverwaltung und für \glqq Contiouse Integration/ Developement\grqq\space\ref{CI}.
+
 \section{LC-Vision}
 \newpage
 
