@@ -17,6 +17,9 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Tests}{7}{}%
 \contentsline {subsubsection}{\numberline {2.4.2}Test Automatisierung}{8}{}%
 \contentsline {subsection}{\numberline {2.5}Objektorientierung}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Versionsverwaltung}{8}{}%
+\contentsline {subsection}{\numberline {2.7}Continous Integration/ Developement}{8}{}%
+\contentsline {subsection}{\numberline {2.8}Datenbanken}{8}{}%
 \contentsline {section}{\numberline {3}Parametertabellenkonfigurator}{8}{}%
 \contentsline {subsection}{\numberline {3.1}Problemstellung}{8}{}%
 \contentsline {subsection}{\numberline {3.2}Anforderungen}{8}{}%
@@ -25,4 +28,7 @@
 \contentsline {subsection}{\numberline {3.3}GUI-Entwurf}{9}{}%
 \contentsline {subsection}{\numberline {3.4}Programmierung}{13}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Softwarestruktur}{13}{}%
-\contentsline {section}{\numberline {4}LC-Vision}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Verarbeitung von Benutzereingaben}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Speichern und Laden der Beschreibungen}{15}{}%
+\contentsline {subsubsection}{\numberline {3.4.4}Verwaltung der Software}{15}{}%
+\contentsline {section}{\numberline {4}LC-Vision}{16}{}%

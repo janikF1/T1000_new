@@ -167,8 +167,10 @@ Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierun
 \label{Objektorientierung}
 \subsection{Versionsverwaltung}
 \label{Git}
-\subsection{Continous Integration/ Developement}\\
+\subsection{Continous Integration/ Developement}
 \label{CI}
+\subsection{Datenbanken}
+\label{Db}
 \section{Parametertabellenkonfigurator}
 Mit Hilfe des \glqq Parametertabellenkonfigurators\grqq\space sollen die Abläufe der Konfiguration unterstützt werden.
 \subsection{Problemstellung}
@@ -233,11 +235,26 @@ Die Module haben vorgegebene Schnittstellen, die von den \lq Managerklassen\rq\s
 \includegraphics[page=1,scale=0.6]{pictures_and_research/pdf_files/smallParatabUml.pdf}
 \caption{UML-Diagramm der Software ohne Inhalte der Klassen}
 \end{figure}
-Das in Abbildung 7 dargestellte Diagramm dient zur Veranschaulichung der Modularität der Software, aus Gründen der Übersichtlichkeit wurde daher auf den Inhalt der einzelnen Klassen verzichtet.
+Das in Abbildung 7 dargestellte Diagramm dient zur Veranschaulichung der Modularität der Software, aus Gründen der Übersichtlichkeit wurde daher auf den Inhalt der einzelnen Klassen verzichtet.\\
+\subsubsection{Verarbeitung von Benutzereingaben}
+Während der Verwendung der Software interagiert der Benutzer mit dem GUI und erwartet eine entsprechende Reaktion des Programms. Um die Interaktionen zu verarbeiten bietet Qt einen \lq Signal-Slot Mechanismus\rq\space. In diesem Mechanismus werden definierte Signale ausgesendet, die dann von einem festgelegten Slot empfangen und weiterverarbeitet werden. Für Qt eigene Klassen gibt es vordefinierte Signale, mit denen die Interaktion mit einem GUI-Element verarbeitet werden können. Signale sind nicht auf vordefinierte Signale limitiert. Man kann auch benutzerdefinierte Signale erstellen. Das Aussenden dieser Signale wird manuell im Code ausgelöst. Signale können mit mehreren Argumenten ausgesendet werden. Signale können mit allen Slots verbunden werden, die die gleiche Anzahl an Argumenten oder weniger Argumente entgegen nehmen, dabei muss die Reihenfolge der Datentypen übereinstimmen. \\
+Signals und Slots funktionieren wie Methoden, ein Signal kann also mit mehreren Slots verbunden werden und ein Slot kann von mehreren Signalen aufgerufen werden.\\
+Der Vorteil Benutzerinteraktionen mit dem \lq Signal-Slot Mechanismus\rq\space zu verarbeiten liegt in der höheren Unabhängigkeit gegenüber dem Aufrufen von konkreten Methoden.\\
+Beim Aussenden des Signals ist es unerheblich von wem das Signal empfangen und weiterverarbeitet wird. \\
+Für das Aufrufen von Methoden ohne Rückgabewert, zum Beispiel zum Anzeigen oder Verbergen eines GUI-Elements ist diese Funktion eine Möglichkeit dies ohne direkte Abhängigkeit zu einer GUI-Klasse auszuführen.\\
+Es ist aber nicht möglich alle Abhängigkeiten mit diesem Mechanismus zu beseitigen. Die Ursache liegt im Fehlen von Rückgabewerten an den Sender von Signalen. Werden für den Aufruf einer Methode die Resultate mehrerer anderer Methoden benötigt lassen sich diese mit dem \lq Signal-Slot Mechanismus\rq\space nicht zusammenführen.\\
+\subsubsection{Speichern und Laden der Beschreibungen}
+Um die Beschreibungen zu speichern wird eine SQL-Datenbank \ref{Db} verwendet. Es wird eine SQL-Datenbank verwendet, da die Inhalte die gespeichert werden sollen zum Design einer SQL-Datenbank passen und Qt standardmäßig die Verwendung von SQL unterstützt. In der Datenbank ist der Parametername der Primary Key der den Beschreibungstext und das Bild eindeutig identifiziert. \\
+Um aus einer ausgewählten Zeile in der Parametertabelle den Parameter also den notwendigen Primary Key zu finden werden \lq Reguläre Ausdrücke\rq\space genutzt. Mit Hilfe von \lq Reguläre Ausdrücken\rq\space lassen sich Texte auf gewisse Muster untersuchen. In diesem Fall wird mit Hilfe einer Cursor-Klasse von Qt die Zeile ausgewählt und mit einem \lq Regulären Ausdruck\rq\space auf einen Parameter untersucht. Wird ein Parameter erkannt wird auf die Datenbank zugegriffen um den Text der Beschreibung und wenn vorhanden das Bild aus der Datenbank zu laden und anzuzeigen.
+
 \subsubsection{Verwaltung der Software}
 Die einzelnen Klassen sind jeweils in einer eigenen Datei geschrieben. Dies unterstützt die Übersichtlichkeit, da am Dateinamen erkennbar ist, welche Klasse und somit welche Funktionalitäten man in der Datei zu finden ist. Auch in den \lq Managerklassen\rq\space wird die Übersichtlichkeit gefördert, da man an den Texten der includes\footnote{Einbindungen von Dateien in andere} erkennen kann, welche Funktionalitäten in dieser Klasse hinzugefügt wurden. \\
 \underline{Tools für die Versionsverwaltung}\\
-Um die Fortschritte des Projekts zu sichern kommt GitLab zum Einsatz. GitLab basiert auf dem Versionsverwaltungstool Git. GitLab ist eine vollständige DevOps-Plattform, unterstützt also den gesamten Entwicklungsprozess. GitLab bietet Funktionen für die Planung, die Codeverwaltung und für \glqq Contiouse Integration/ Developement\grqq\space\ref{CI}.
+Um die Fortschritte des Projekts zu sichern kommt GitLab zum Einsatz. GitLab basiert auf dem Versionsverwaltungstool Git. GitLab ist eine vollständige DevOps-Plattform, unterstützt also den gesamten Entwicklungsprozess. GitLab bietet Funktionen für die Planung, die Codeverwaltung und für \glqq Contiouse Integration/ Developement\grqq\space\ref{CI}.\\
+Als Schnittstelle zwischen lokaler Arbeit und dem Repository auf dem Server dient GitKraken. GirKraken ist ein Git-Management Tool mit dem man Git für sein Projekt verwalten kann.\\
+In der Software sieht man den gesamten Verlauf des Projekts. Softwarestände können durch auswählen eines Commits\footnote{Gespeicherter Zwischenstand} direkt in einer Entwicklungsumgebung geladen und weiterverarbeitet werden. \\
+Änderungen und Fortschritte können in der Benutzeroberfläche gezielt ausgewählt und zu einem Commit zusammengefasst werden. Diese Commits können direkt aus der Software auf den GitLab Server geladen und somit gesichert werden.
+
 
 \section{LC-Vision}
 \newpage
