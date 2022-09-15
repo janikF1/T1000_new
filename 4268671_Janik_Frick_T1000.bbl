@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{doi:10.1080/12460125.2016.1187390}
 S.~Lane, P.~O’Raghallaigh, and D.~Sammon, ``Requirements gathering: the
@@ -22,6 +22,11 @@ J.~Eckhardt, A.~Vogelsang, and D.~M. Fern\'{a}ndez, ``Are "non-functional"
   Conference on Software Engineering}, ICSE '16, (New York, NY, USA),
   p.~832–842, Association for Computing Machinery, 2016.
 
+\bibitem{THEUNISSEN2022106733}
+T.~Theunissen, U.~{van Heesch}, and P.~Avgeriou, ``A mapping study on
+  documentation in continuous software development,'' {\em Information and
+  Software Technology}, vol.~142, p.~106733, 2022.
+
 \bibitem{10.1145/1060710.1060712}
 S.~Nerur, R.~Mahapatra, and G.~Mangalaraj, ``Challenges of migrating to agile
   methodologies,'' {\em Commun. ACM}, vol.~48, p.~72–78, may 2005.
@@ -35,5 +40,24 @@ J.~C. Bastien, ``Usability testing: a review of some methodological and
   technical aspects of the method,'' {\em International Journal of Medical
   Informatics}, vol.~79, no.~4, pp.~e18--e23, 2010.
 \newblock Human Factors Engineering for Healthcare Applications Special Issue.
+
+\bibitem{vsimek2015usability}
+P.~{\v{S}}imek, J.~Van{\v{e}}k, and P.~Pavl{\'\i}k, ``Usability of ux methods
+  in agrarian sector-verification,'' {\em Agris on-line Papers in Economics and
+  Informatics}, vol.~7, no.~665-2016-45086, pp.~49--56, 2015.
+
+\bibitem{10.1145/2470654.2466442}
+J.~Matejka, T.~Grossman, and G.~Fitzmaurice, ``Patina: Dynamic heatmaps for
+  visualizing application usage,'' in {\em Proceedings of the SIGCHI Conference
+  on Human Factors in Computing Systems}, CHI '13, (New York, NY, USA),
+  p.~3227–3236, Association for Computing Machinery, 2013.
+
+\bibitem{rakos1990software}
+J.~J. Rakos, {\em Software Project Management}.
+\newblock Prentice Hall, 1990.
+
+\bibitem{fewster1999software}
+M.~Fewster and D.~Graham, {\em Software test automation}.
+\newblock Addison-Wesley Reading, 1999.
 
 \end{thebibliography}

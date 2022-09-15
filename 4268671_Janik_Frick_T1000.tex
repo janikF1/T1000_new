@@ -10,6 +10,10 @@
 \author{Janik Frick}
 \title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit im releasten Produkt LC-VISION}
 \usepackage{setspace}
+\usepackage{scrextend}
+\deffootnote[1em]{1em}{1em}{%
+   \textsuperscript{\thefootnotemark}%
+}
 
 \usepackage{fancyhdr}
 \addtolength{\headheight}{1.5cm} % make more space for the header
@@ -77,7 +81,7 @@ Dafür gibt es mehrere Techniken, die eingesetzt werden können.
 \subsubsection{Interviews}
 \label{interview}
 Interviews bieten die Möglichkeit in direkten Gesprächen mit Personen aus dem Umfeld des Projekts Informationen zu sammeln. Diese Informationen können Risiken sein, die zu berücksichtigen sind, Schwierigkeiten bei der aktuellen Vorgehensweise, sowie Abläufe die beibehalten werden sollten. \\
-Der Erfolg dieser Vorgehensweise hängt dabei von allen Beteiligten Personen ab. Fehlt Wissen über das Umfeld des Projekts kann es zu Schwierigkeiten bei der Erstellung der Fragen kommen, wodurch manche Aspekte nicht berücksichtigt werden. Auch die Befragten können Probleme haben ihre Gedanken und ihr Wissen wiederzugeben\cite{tiwari2012selecting}. Das kann die Auswertung der Antworten erschweren.
+Der Erfolg dieser Vorgehensweise hängt dabei von allen Beteiligten Personen ab. Fehlt Wissen über das Umfeld des Projekts kann es zu Schwierigkeiten beim Sammeln der Fragen kommen, wodurch manche Aspekte nicht berücksichtigt werden. Auch die Befragten können Probleme haben ihre Gedanken und ihr Wissen wiederzugeben\cite{tiwari2012selecting}. Das kann die Auswertung der Antworten erschweren.
 \subsubsection{Fragebögen}
 \label{Fragebögen}
 Fragebögen geben den Befragten Personen die Möglichkeit ohne direkte Beeinflussung durch den Ersteller der Fragen, Informationen bereitzustellen. Zusätzlich reduzieren sie den Zeitdruck unter dem geantwortet werden soll und alle Befragten antworten auf die gleiche Fragestellung.\\
@@ -89,75 +93,95 @@ Die Beobachtungsmethode dient dazu aus beobachteten Vorgängen Informationen zu 
 Diese Beobachtung kann offen oder verdeckt durchgeführt werden. Bei der verdeckten Vorgehensweise ist das beobachtete Verhalten natürlicher und realistischer, als bei der offenen Vorgehensweise\cite{silhavy2011requirements}. \\
 Mit diesem Vorgehen lassen sich Abläufe bei Aufgaben nachvollziehen. Gründe für dieses Abläufe sollten durch andere Techniken in Erfahrung gebracht werden.\\
 \subsubsection{Anforderungstypen}
+\label{Anforderungstypen}
 Anforderungen können in zwei Typen unterteilt werden: Die funktionalen und die nicht funktionalen Anforderungen.
 \\Funktionale Anforderungen geben vor, für welche Aufgaben das Produkt geplant wird und welche Funktionen dafür benötigt werden. Die Validierung dieser Anforderungen ist gegeben, da am Ende eindeutig ist, ob eine Funktionalität verfügbar ist. \\
 Die nicht funktionalen Anforderungen geben vor, mit welchem Vorgehen und welchen Tools eine Funktion umgesetzt werden soll\cite{10.1145/2884781.2884788}. \\
 Nicht funktionale Anforderungen sind häufig unpräzise formuliert und somit problematisch in der Validierung\cite{10.1145/2884781.2884788}.
+\subsection{Dokumentation}
+\label{Dokumenation}
+Die Dokumentation von Softwareprojekten ist neben der eigentlichen Entwicklung ein relevanter Teilaspekt. Die Dokumentation dient zur Sicherung von Wissen und Grundlagen von Entscheidungen. \\
+Die Dokumentation kann in zwei Bereiche unterteilt werden. Die Dokumentation der Software und die Dokumentation für den Anwender\cite{THEUNISSEN2022106733}.\\
+\underline{Software-Dokumentation}\\
+Diese Form der Dokumentation soll Wissen über die Software beinhalten. Dazu zählen Grundlagen für Entscheidungen der Softwarearchitektur und die Aufgaben von Funktionen, Methoden und Variablen.\\
+Die Relevanz besteht darin Wissensverlust zu verhindern, der entsteht, wenn der Entwickler nicht zur Verfügung steht. Dieser Verlust beeinflusst die Einarbeitungsdauer eines neuen Mitarbeiters und somit auch die Produktpflege. \\
+Diese Problematik der mangelnden Softwaredokumentation ist in agilen Umfeldern bekannt. Sich ändernde Anforderungen verursachen die Notwendigkeit die Software anzupassen, was Anpassungen der Dokumentation erfordert. Geänderte Anforderungen bringen auch neue kurzfristige Aufgaben mit sich, denen eine höhere Priorität beigemessen wird, als der Aktualisierung der Dokumentation. Kommen viele Änderungen in kurzer Zeit stauen sich die anstehenden Änderungen auf und sorgen für einen hohen Zeitaufwand der Dokumentation. Dies resultiert oftmals in einer vernachlässigten Dokumentation.\\
+Weitere potentielle Schwierigkeiten resultieren aus der Ansicht, dass der Code bereits eine ausreichende Dokumentation für diesen Zweck darstellt und dass Informationen häufig informell und verbal kommuniziert werden, was dazu führen kann, dass diese Informationen nach der Verarbeitung nirgends festgehalten sind und dadurch verloren gehen können\cite{THEUNISSEN2022106733}.\\
+
+\underline{User-Dokumentation}\\
+Der Dokumentation für die Anwender und die Betreuer wird meist mehr Bedeutung beigemessen, da sie für den Einsatz des Produktes relevant ist.\\
+Diese Dokumentation beinhaltet Fehlermeldungen, Voraussetzungen für die Installation und Informationen für die Verwendung. Probleme mit dieser Dokumentation können Schwierigkeiten im Kundenservice verursachen. Da Probleme dieser Art einen direkten Einfluss auf den Erfolg eines Produktes oder der Firma haben können. Diese möglichen Konsequenzen sorgen dafür, dass dieser Dokumentation mehr Bedeutung beigemessen wird\cite{THEUNISSEN2022106733}.
+
 \subsection{Grobentwurf}
-Beim Grobentwurf werden die Hauptbestandteile der Software geplant. Dabei sollte der Kunde möglichst miteinbezogen werden, denn der Kunde hat großen Anteil am Gelingen des Projekts\cite{10.1145/1060710.1060712}. \\
+Beim Grobentwurf werden die Hauptbestandteile der Software und die Softwarearchitektur geplant. Dabei sollte der Kunde möglichst miteinbezogen werden, denn der Kunde hat großen Anteil am Gelingen des Projekts\cite{10.1145/1060710.1060712}. \\
 Um den Kunden einzubeziehen können Prototypen eingesetzt werden.\\
 Hat das Programm eine Graphische Benutzeroberfläche(GUI) so kann der Grobentwurf unterschiedlich geplant werden. \\
-\subsubsection{GUI mit Bidern}
-Der Grobentwurf der GUI kann mit Hilfe von Bildern in einem beliebigen Bilderstellungsprogramm nachgebildet werden. Die erstellten Entwürfe dienen als Gesprächsgrundlage für eventuell notwendige Veränderungen. 
+\subsubsection{GUI mit Bildern}
+\label{GUI mit Bildern}
+Der Grobentwurf der GUI kann mit Hilfe von Bildern in einem beliebigen Bilderstellungsprogramm nachgebildet werden. Die erstellten Entwürfe dienen als Gesprächsgrundlage für eventuell notwendige Veränderungen. Hierbei ist zu beachten, dass die Simulation von Verbindungen zwischen GUI-Elementen zeitaufwendig oder gar nicht möglich ist.
 \subsubsection{Prototypen}
+\label{Prototypen}
 Ein Prototyp ist eine funktionierende, begrenzte Version der Anwendung, die als Basis für Gespräche und die Entwicklung weiterer Prototypen dient\cite{budde1992prototyping}. \\
-Dieser Prototyp muss nicht durch Software erstellt werden, sondern kann auch mit einem Mockup-Tool\footnote{Tool um eine GUI zu simulieren} realisiert werden. \\
+Dieser Prototyp kann durch Software, oder mit einem Mockup-Tool\footnote{Tool um ein GUI zu simulieren}, oder auch in einer Software für Präsentationen, realisiert werden. Ein Software basierter Prototyp erfordert die Mitarbeit der Entwickler im Design Prozess. 
 \subsubsection{User-Tests}
 \label{User-Tests}
-Bei User Tests wird einer oder mehreren Testpersonen, abhängig von der Verfügbarkeit, der aktuelle Prototyp vorgelegt. Dann kann man der Testperson eine konkrete Aufgabe geben, oder sie den Prototyp frei entdecken lassen. Bei beiden Vorgehensweisen werden Probleme dokumentiert. Hat man mehrere Testpersonen zur Verfügung können auch Gruppentests durchgeführt werden. Bei diesen arbeiten mehrere Personen an einer Aufgabe. BEi Einzel-Tests lassen sich Probleme im Ablauf besser erkennen. In Gruppen-Tests hingegen werden die tatsächlichen Probleme der Testpersonen besser erkenntlich.\cite{BASTIEN2010e18}.
+Bei User Tests wird einer oder mehreren Testpersonen, abhängig von der Verfügbarkeit, der aktuelle Prototyp \ref{Prototypen} vorgelegt. Dann kann man der Testperson eine konkrete Aufgabe geben, oder sie den Prototyp frei entdecken lassen. Bei beiden Vorgehensweisen werden Probleme dokumentiert. Hat man mehrere Testpersonen zur Verfügung können auch Gruppentests durchgeführt werden. Bei diesen arbeiten mehrere Personen an einer Aufgabe. Bei Einzel-Tests lassen sich Probleme im Ablauf besser erkennen. In Gruppen-Tests hingegen werden die tatsächlichen Probleme der Testpersonen besser erkenntlich.\cite{BASTIEN2010e18}. \\
+Mit dieser Testmethodik lassen sich nur Prototypen \ref{Prototypen} testen, da nur hier die Verbindungen funktional sind.
 \subsubsection{30-Sekunden Tests}
 \label{30-Sekunden Tests}
-Bei 30-Sekunden-Tests bekommen die Testpersonen 30 Sekunden Zeit um den Prototyp zu erkunden. Nach 30 Sekunden wird ein Fragebogen ausgefüllt, auf dem die Übersichtlichkeit bewertet wird\cite{vsimek2015usability}. 
+Bei 30-Sekunden-Tests bekommen die Testpersonen 30 Sekunden Zeit um den Prototyp zu erkunden. Nach 30 Sekunden wird ein Fragebogen ausgefüllt, auf dem die Übersichtlichkeit bewertet wird\cite{vsimek2015usability}. \\
+30-Sekunden Tests lassen sich mit Bildentwürfen \ref{GUI mit Bildern} und mit Prototypen \ref{Prototypen} durchführen, da es bei beiden Entwürfen möglich ist ein Element für 30 Sekunden zu zeigen.
+\subsubsection{Heatmaps}
+\label{Heatmaps}
+Heatmaptools markieren farbig welche Bereiche einer Benutzeroberfläche oft genutzt werden und welche seltene\cite{10.1145/2470654.2466442}. Diese Daten geben Informationen darüber ob Kernfunktionen anders positioniert werden sollten.\\
+Diese Methode lässt sich für Bildentwürfe \ref{GUI mit Bildern} und Prototypen \ref{Prototypen} verwenden.
+
+\subsection{Implementierung}
+In der Implementierung ist der Aufwand abhängig von der Vorgehensweise. Wird das GUI mit Hilfe von Bildentwürfen \ref{GUI mit Bildern} entwickelt, ist der Aufwand der Implementierung höher, da die Applikation von Grund auf programmiert werden muss. \\
+Wird mit Prototypen \ref{Prototypen} gearbeitet, ist die Implementierung weniger aufwendig. Kommt ein Mockup-Tool zum Einsatz muss die Software ebenfalls von Grund auf programmiert werden, aber der Mock-Up Prototyp dient als Hilfestellung um die Übersicht über die notwendigen Verbindungen zwischen GUI Elementen zu behalten.\\
+Ist der Prototyp programmiert werden, ist die Struktur fertig und muss gegebenenfalls um Funktionen ergänzt werden, die im Grobentwurf nicht berücksichtigt wurden. \\
+Entscheidungen was Design und Technologien betrifft, sollten vor Beginn der Implementierung getroffen worden sein. Die Aufgabe der Entwickler besteht darin das geplante Design so in Module zu unterteilen, das es programmiert werden kann\cite{rakos1990software}. 
+\subsubsection{Tests}
+\label{Tests}
+Durch Tests wird validiert, ob die Software die Anforderungen erfüllt. Dabei sollten alle Ergebnisse von Tests dokumentiert werden, um Fehlerquellen, Lösungen und die Kosten für das Beheben der Fehler im Überblick zu behalten\cite{rakos1990software}.\\
+Diese bestehen aus mehreren Stufen.\\
+\underline{Modultests}\\
+Programmierte Module werden isoliert getestet, um zu prüfen, ob das Modul die Aufgaben erfüllt. Dazu kann auch ein simulierter Input verwenden, wenn benötigte Module noch nicht verfügbar sind. \\
+Diese Tests können in zwei Arten unterteilt werden. Bei 'white-box' Tests wird das Modul in einzelnen Schritten getestet. Der Tester weiß wie die Daten verarbeitet werden. Bei 'black-box' Tests versucht der Tester das Vorgehen eines Nutzers nachzustellen. Dabei ist dem Tester die genaue Verarbeitung egal\cite{rakos1990software}.\\
+\underline{Low-Level Integrationstests}\\
+In diesem Stadium werden die Aufrufe und Rückgabewerte von anderen Modulen getestet. Dabei spielt es keine Rolle, von wem die abhängigen Module entwickelt wurden. Stehen keine realen Daten zur Verfügung kann mit simulierten Daten gearbeitet werden.\cite{rakos1990software}.\\
+Ob diese Tests manuell oder automatisiert stattfinden hängt von unterschiedlichen Faktoren ab.\\
+\newline
+Mit diesem Vorgehen sind alle Module und ihre Abhängigkeiten auf ihre Funktionalität überprüft. Auf dieser Basis wird eine Version erstellt und getestet die in dieser Form praxistauglich ist. Parallel wird daran gearbeitet die benötigten Umgebungsbedingungen bereitzustellen. Dieses Setup wird auf Funktionalität geprüft. Bei erfolgreichem Verlauf der Tests kann die Dokumentation \ref{Dokumenation} fertiggestellt werden.
+Bestätigt der Kunde das Resultat kann mit dem Training betreuender Personen und Benutzern begonnen werden\cite{rakos1990software}.\\
+\subsubsection{Test Automatisierung}
+Das manuelle Ausführen von Tests kann zeitaufwändig sein, wodurch man auf die Idee kommen kann diese Tests zu automatisieren. Diese Entscheidung ist dabei von unterschiedlichen Faktoren abhängig. \\
+Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. 
+
 \section{Parametertabellenkonfigurator}
-Der \glqq Parametertabellenkonfigurator\grqq\space ist ein internes Projekt, bei dem Mitarbeitende der Abteilung Service-International die Rolle des Kunden übernehmen. Dadurch wird der Einstieg in die Softwareentwicklung vereinfacht. \\
-Das hat mehrere Gründe. Zum Einen ist der Kunde direkt vor Ort und Fragen lassen sich schneller klären, zum Anderen gibt es keinen finanziellen Druck, der bei externen Auftraggebern hinzukommen würde. Auch der zeitliche Druck ist stark reduziert, da das Produkt eine Unterstützung bieten soll. Die Arbeit kann aber auch ohne diese Unterstützung ungehindert fortgeführt werden.
+Mit Hilfe des \glqq Parametertabellenkonfigurators\grqq\space sollen die Abläufe der Konfiguration unterstützt werden.
 \subsection{Problemstellung}
 Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbetriebnahme Parametertabellen in einem beliebigen Texteditor angepasst werden. Aufgrund der Anzahl, wie auch der Einstellmöglichkeiten der Parameter, wird hierfür eine separate Installationsanleitung benötigt. Der Prozess der Parametrierung ist daher Fehleranfällig und von der Erfahrung des Inbetriebnehmers abhängig. Um den hohen Anforderungen der Kunden gerecht zu werden, gilt es potentielle Fehlerquellen zu eliminieren. Hierfür soll selbstständig ein \glqq Parametertabellenkonfigurator\grqq\space entwickelt werden.
-\subsection{Anforderungen}
-Die funktionellen Anforderungen wurden vom Kunden direkt zu Projektstart bereitgestellt. Dennoch war damit die Anforderungsanalyse noch nicht abgeschlossen, denn es fehlten noch Informationen über den Hintergrund des Projekts. \\
-Dieser wurde während Gesprächen mit dem Kunden von Zeit zu Zeit deutlicher; Es geht darum ein Tool zu entwickeln, welches vor allem die unerfahreneren Mitarbeiter im Service bei der Konfiguration der Produkte von Blum zu unterstützen.\\
-Die funktionellen Anforderungen besteht aus zwei Teilen: \\
-Die Parametertabellen und die Beschreibung der einzelnen Parametern.\\
-Für die Parametertabellen müssen Funktionen für das Laden, das Bearbeiten und das Speichern entwickelt werden.\\
-Im Bereich der Beschreibungen geht es darum, die richtige Beschreibung zu laden und anzuzeigen. Da die Beschreibungen nicht angepasst werden müssen, wir hier keine Funktion zum Speichern benötigt.
-\subsection{Entwurf Benutzeroberfläche}
-Nach dem alle Anforderungen besprochen war, konnte mit den Überlegungen für die Benutzeroberfläche begonnen werden. \\
-Um die Überlegungen schnell in einen sichtbaren Entwurf zu übertragen, wird das Programm \glqq Balsamiq Mockups 3\grqq\space verwendet. Mit diesem Tool können alle gängigen Designs nachgebaut werden und auch
- mit Funktionalität, zum Beispiel das anklicken von Buttons oder das auswählen von Optionen in Drop-down Menüs können somit schnell und einfach visualisiert werden. Das ist hilfreich, um Designvorschläge und Ideen besprechen zu können, ohne das man die Änderungen aufwendig programmieren muss.
-\\Zusätzlich bietet der erstellte Entwurf eine gute Unterstützung für die Implementierung des Designs, da man sich den Aufbau der Software in Bezug auf Menüs und Buttons nicht merken muss, sondern diesen immer konkret vorliegen hat.
-\\Für den \glqq Parametertabellenkonfigurator\grqq\space fiel die Wahl auf ein Design, dass aus mehreren Fenstern aufgebaut ist, um die Bedienbarkeit möglichst einfach zu halten, denn die Anzahl an Auswahlmöglichkeiten würde innerhalb eines Fensters die Übersichtlichkeit deutlich reduzieren.
-\\ Wäre alles in einem Fenster, müsste durch \glqq ausgrauen\grqq\space oder ausblenden der Optionen dargestellt werden, welche momentan verfügbar sind. Das ist zwar möglich, ersteres führt aber bei manchen Anwendern zu Verwirrung, oder Unsicherheiten, was den Konfigurationsprozess der Produkte von Blum negativ beeinflussen könnte, zweites ist optisch nicht ansprechend, da immer wieder unerwartete, freie Flächen entstehen und eventuell Layouts verschoben werden. \\
-Diese Problematik kann durch das aufteilen in mehrere Fenster behoben werden, da nur die im Fenster angezeigten Optionen auch verfügbar sind. 
-\\Da von Anfang mindestens ein zweites Fenster geplant war, um die Beschreibungen der einzelnen Parameter in einer vergrößerten Ansicht anzeigen zu können, fügte sich auch das Fenster für die Auswahl der benötigten Parametertabelle problemlos in das Design ein. 
-Das Hauptfenster ist in zwei Bereiche unterteilt. Der obere ist für die Parametertabelle allgemein, er besteht aus eine Anzeige, um zu sehen welche Parametertabelle ausgewählt ist, ein Button um eine andere Parametertabelle auswählen zu können und ein Feld im der der Inhalt angezeigt wird und bearbeitet werden kann. Um den Einrichtungsprozess zu unterstützen, werden alle bearbeiteten Zeilen farblich markiert. 
-\\Im unteren Teil geht es um die einzelnen Parameter. Es gibt eine Anzeige für den aktuell ausgewählten Parameter, einen Bereich um die Beschreibung, wenn vorhanden mit Bild, anzuzeigen und einen Button um die Beschreibung isoliert und vergrößert in einem neuen Fenster zu öffnen. Um auch hier die Bedienbarkeit zu erleichtern gibt es zwei weitere Buttons die es ermöglichen schnelle zu vorherigen, beziehungsweise dem nachfolgenden Parameter zu springen.
-%TODO einfügen von Bildern
-\subsection{Programmierung}
-Für die Programmierung des \glqq Parametertabellenkonfigurator\grqq\space kommt die C++-Erweiterung Qt zum Einsatz. Qt wird verwendet, da diese spezielle Komponenten beinhaltet, die für das Entwickeln von Programmen mit GUI %TODO Abürzungsverzeichnis 
-konzipiert sind. Dazu gehört neben vielen vordefinierten Klassen für Widgets auch der Signal-SLot Mechanismus, der später noch genauer thematisiert wird.\\
-Im Projekt kommen \glqq Clean-Code Prinzipien\grqq\space für eine erhöhte Les- und Wartbarkeit des Codes und die objektorientierte Programmierung zum Einsatz.
-\subsubsection{Technologien} 
-Um den Prozess der Programmierung zu vereinfachen kamen zusätzliche Tools zum Einsatz. \\
-Optimiert für die Programmiersprache Qt wird der \glqq Qt Creator\grqq\space\footnote{Herausgegeben von der Qt Company} als Entwicklungsumgebung verwendet. Dieser bietet zum Beispiel einen speziellen Designer, mit dem man das GUI visuell designen kann, ohne alles zu programmieren. \\
-Da das persönliche Ziel des Projekts aber im Einstieg in die Softwareentwicklung liegt, wurde auf diese Möglichkeit verzichtet und der Aufbau des GUI erfolgte vollständig per Programmierung. \\
-Für die Versionsverwaltung kommt Git zum Einsatz. Lokal wird die Zusatzsoftware GitKraken verwendet. Mit GitKraken wird die lokale Arbeit vereinfacht, da man ohne das Terminal die für Git-Relevanten Funktionen schnell nutzen kann. Dazu gehört unter anderem das Laden von alten Softwareständen, die durch einfaches anklicken eines Commits\footnote{gespeicherter Zwischenstand des Projekts} direkt in der Entwicklungsumgebung bearbeitet werden können. 
-Die Verwendung von Git erleichtert auch Software-Reviews\footnote{Feedback zum Code}, da man den Zugang zu einem Repository kontrolliert freigeben kann und somit unabhängig von der Anwesenheit des Entwicklers Zugang zum letzten auf dem Server gespeicherten Zustand möglich ist. Auch das Arbeiten auf mehreren Geräten ist durch den Serverzugriff problemlos möglich (wenn Git auf dem entsprechenden Gerät installiert ist).\\
-Zusätzlich kommt die Pipeline-Funktion von GitLab zum Einsatz. \\
-\underline{GitLab Pipeline}\\
-Die GitLab Pipeline ermöglicht es jeden auf den Server geladenen Commit automatisiert zu verarbeiten. \\
-Für die Weiterverarbeitung können Shell-Scripts\footnote{Dateien in denen mehrere Befehle stehen, die durch Aufruf der Datei in einem Kommandozeilenprogramm hintereinander ausgeführt werden} verwendet werden. \\Möglichkeiten für die Verarbeitung sind Scripts zum Beispiel das Bauen der Software, oder das Erstellen von Softwarepaketen. Für Softwarepakete gibt es die Option Artefakte\footnote{Dateien, die nach Ausführung der Pipeline heruntergeladen werden} zu erstellen. Dadurch hat man automatisiert alle Dateien, die gebraucht werden, an einem Ort zur Verfügung.
-\subsubsection{Software-Struktur}
-%TODO Diagramm erstellen
-Die Software ist modular aufgebaut, das bedeutet, dass sie aus mehreren möglichst unabhängigen Modulen besteht. Durch diese modulare Struktur wird das Ziel verfolgt Komponenten bei Bedarf anpassen oder austauschen zu können, ohne viel an den anderen Modulen anpassen zu müssen. \\
-Außerdem ist die Software objektorientiert programmiert werden, da sich GUI-Elemente gut als einzelne Objekte eignen. Jedes Fenster der Anzeige ist eine eigene Klasse und ein Modul. Um die Module zu verwalten gibt es zwei Manager-Klassen. Der WindowManager ist dafür verantwortlich das richtige Fenster zur richtigen Zeit anzuzeigen, oder zu verbergen. Die zweite Manager-Klasse ist der DataManager. Er ist die Verbindungsstelle vom Logikmodul mit den GUI-Modulen. Er ist dafür verantwortlich die Benutzeraktionen entgegenzunehmen und dann die richtigen Daten an bereitzustellen. 
-
-\subsubsection{Verarbeiten von Benutzeraktionen}
-Benutzer führen ihre Aktionen auf der GUI aus. Die GUI muss auf verschiedene Aktionen der Benutzer reagieren können. Dafür gäbe es die Möglichkeit, dass sich die verschiedenen benötigten Klassen untereinander kennen. Diese Möglichkeit sorgt aber für starke Abhängigkeiten, wodurch die Modularisierung der Software 
-\subsubsection{Herausforderungen und Lösungen}
-\subsection{Tests}
-\subsection{geplante Erweiterungen}
-\subsection{Reflexion}
-
+\subsection{Anforderungen} 
+An den \glqq Parametertabellenkonfigurator\grqq\space gibt es mehrere Anforderungen. \\
+Parametertabellen sollen eingelesen und angezeigt werden können. Zu den Parametern soll es ermöglicht werden Beschreibungen aus Text und Bild speichern und anzeigen zu können.\\
+Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungsen \ref{Anforderungstypen}\\
+Nicht funktionale Anforderungen \ref{Anforderungstypen} sind die Verwendung der Programmiersprache und das Verwenden des in C++ entwickelten Framework Qt.\\
+Aus diesen Anforderungen lässt sich ableiten welche GUI-Elemente nötig sind und welche Funktionalitäten benötigt werden.\\
+Um die Anforderungen an den \glqq Parametertabellenkonfigurator\grqq\space zu sammeln, die nicht im Auftragsdokument stehen, wurde das Interview \ref{interview} gewählt. Die Entscheidung wurde getroffen weil in offenen Gesprächen mehr Zusatzinformationen fließen, als in Umfragen \ref{Fragebögen} oder durch Beobachtung \ref{Beobachtung}. Zusätzlich kann auf Verständnisschwierigkeiten reagiert werden, solange das Gespräch noch aktuell ist und der Kontext noch nicht vergessen ist.\\
+Hauptergebnis ist die Bedeutung eines übersichtlichen GUI.
+\subsubsection{Notwendige Funktionalitäten}
+Um die Parametertabellen anzeigen zu können müssen diese aus einer Datei eingelesen werden. Um Konfigurationen festzuhalten wird eine Funktion zum Speichern der Tabellen benötigt. \\
+Für die Beschreibungen wird zusätzlich eine Funktion benötigt um diese mit den richtigen Parametern zu verknüpfen. \\
+\subsubsection{Notwendige GUI-Elemente}
+Das GUI benötigt Anzeigemöglichkeiten für die Parametertabellen und Beschreibungen, Angaben von Namen, Steuerung und Produkttyp zur aktuellen Parametertabelle und den aktuellen Parameter.\\
+Benötigte Steuerelemente sind Möglichkeiten um Parametertabellen und Beschreibungen szu laden und zu speichern. 
+\subsection{GUI-Entwurf}
+Um das GUI zu entwerfen kommt ein Prototyp \ref{Prototypen} zum Einsatz, der mit dem Mockup-Tool "Balsamiq Mockup 3" erstellt wurde. Das Tool bietet nahezu alle gängigen GUI-Elemente an und kann diese miteinander verknüpfen, so dass schon in einem frühen Stadium die Funktionalität gegeben ist und besprochen werden kann. Zusätzlich bietet das Tool eine unkomplizierte Möglichkeit alternative Entwürfe zu entwerfen und in den Ablauf der Simulation zu integrieren. Das unterstützt den Prozess während der Entwicklung des GUI, da neue Vorschläge in kurzer Zeit besprochen und weiterentwickelt werden können.\\
+\newline
+Das GUI ist aus mehreren einzelnen Fenstern aufgebaut. Dieser Aufbau unterstützt die Übersichtlichkeit und der Benutzerführung bei der Verwendung, da jeweils nur die benötigten Informationen und Funktionen angezeigt werden.\\ 
+Insgesamt besteht die Software aus vier Fenstern. Bei der ersten Verwendung der Software wird ein Fenster angezeigt, in das 
+ 
 \section{LC-Vision}
 \newpage
 

@@ -6,20 +6,20 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Fragebögen}{3}{}%
 \contentsline {subsubsection}{\numberline {2.1.3}Beobachtung}{4}{}%
 \contentsline {subsubsection}{\numberline {2.1.4}Anforderungstypen}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Grobentwurf}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}GUI mit Bidern}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Prototypen}{5}{}%
-\contentsline {subsubsection}{\numberline {2.2.3}User-Tests}{5}{}%
-\contentsline {section}{\numberline {3}Parametertabellenkonfigurator}{5}{}%
-\contentsline {subsection}{\numberline {3.1}Problemstellung}{5}{}%
-\contentsline {subsection}{\numberline {3.2}Anforderungen}{6}{}%
-\contentsline {subsection}{\numberline {3.3}Entwurf Benutzeroberfläche}{6}{}%
-\contentsline {subsection}{\numberline {3.4}Programmierung}{7}{}%
-\contentsline {subsubsection}{\numberline {3.4.1}Technologien}{7}{}%
-\contentsline {subsubsection}{\numberline {3.4.2}Software-Struktur}{8}{}%
-\contentsline {subsubsection}{\numberline {3.4.3}Verarbeiten von Benutzeraktionen}{9}{}%
-\contentsline {subsubsection}{\numberline {3.4.4}Herausforderungen und Lösungen}{9}{}%
-\contentsline {subsection}{\numberline {3.5}Tests}{9}{}%
-\contentsline {subsection}{\numberline {3.6}geplante Erweiterungen}{9}{}%
-\contentsline {subsection}{\numberline {3.7}Reflexion}{9}{}%
-\contentsline {section}{\numberline {4}LC-Vision}{9}{}%
+\contentsline {subsection}{\numberline {2.2}Dokumentation}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Grobentwurf}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}GUI mit Bildern}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Prototypen}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}User-Tests}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.4}30-Sekunden Tests}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.5}Heatmaps}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Implementierung}{6}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Tests}{7}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Test Automatisierung}{8}{}%
+\contentsline {section}{\numberline {3}Parametertabellenkonfigurator}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Problemstellung}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Anforderungen}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Notwendige Funktionalitäten}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Notwendige GUI-Elemente}{9}{}%
+\contentsline {subsection}{\numberline {3.3}GUI-Entwurf}{9}{}%
+\contentsline {section}{\numberline {4}LC-Vision}{10}{}%
