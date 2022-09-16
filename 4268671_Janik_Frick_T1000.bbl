@@ -60,4 +60,20 @@ J.~J. Rakos, {\em Software Project Management}.
 M.~Fewster and D.~Graham, {\em Software test automation}.
 \newblock Addison-Wesley Reading, 1999.
 
+\bibitem{10.1145/71605.71612}
+B.~P. Pokkunuri, ``Object oriented programming,'' {\em SIGPLAN Not.}, vol.~24,
+  p.~96–101, nov 1989.
+
+\bibitem{https://doi.org/10.1111/2041-210X.13961}
+A.~Filazzola and C.~Lortie, ``A call for clean code to effectively communicate
+  science,'' {\em Methods in Ecology and Evolution}, vol.~n/a, no.~n/a.
+
+\bibitem{sarcar2021use}
+V.~Sarcar, ``Use the dry principle,'' in {\em Simple and Efficient Programming
+  with C\#}, pp.~109--128, Springer, 2021.
+
+\bibitem{denker2015versionsverwaltung}
+M.~Denker, S.~Srecec, D.~A. liegt das~im Literaturverzeichnis, P.~Git,
+  S.~Chacon, and B.~Straub, ``Versionsverwaltung mit git,'' 2015.
+
 \end{thebibliography}

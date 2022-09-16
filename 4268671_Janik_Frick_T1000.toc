@@ -17,22 +17,24 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Tests}{8}{}%
 \contentsline {subsubsection}{\numberline {2.4.2}Test Automatisierung}{9}{}%
 \contentsline {subsection}{\numberline {2.5}Objektorientierung}{9}{}%
-\contentsline {subsection}{\numberline {2.6}Clean-Code}{9}{}%
-\contentsline {subsection}{\numberline {2.7}Versionsverwaltung}{9}{}%
-\contentsline {subsection}{\numberline {2.8}Continous Integration/ Developement}{9}{}%
-\contentsline {section}{\numberline {3}Datenbanken}{9}{}%
-\contentsline {section}{\numberline {4}Parametertabellenkonfigurator}{9}{}%
-\contentsline {subsection}{\numberline {4.1}Problemstellung}{9}{}%
-\contentsline {subsection}{\numberline {4.2}Anforderungen}{10}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Notwendige Funktionalitäten}{10}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Notwendige GUI-Elemente}{10}{}%
-\contentsline {subsection}{\numberline {4.3}GUI-Entwurf}{10}{}%
-\contentsline {subsection}{\numberline {4.4}Programmierung}{14}{}%
-\contentsline {subsubsection}{\numberline {4.4.1}Softwarestruktur}{14}{}%
-\contentsline {subsubsection}{\numberline {4.4.2}Verarbeitung von Benutzeraktionen}{15}{}%
-\contentsline {subsubsection}{\numberline {4.4.3}Bearbeitung der Parametertabelle}{16}{}%
-\contentsline {subsubsection}{\numberline {4.4.4}Speicherung der Beschreibungen}{17}{}%
-\contentsline {subsubsection}{\numberline {4.4.5}Tests}{17}{}%
-\contentsline {subsubsection}{\numberline {4.4.6}Verwendete Tools}{17}{}%
-\contentsline {subsection}{\numberline {4.5}Reflexion}{18}{}%
-\contentsline {section}{\numberline {5}LC-Vision}{18}{}%
+\contentsline {subsection}{\numberline {2.6}Clean-Code}{10}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}SOLID-Prinzipien}{10}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}DRY-Prinzipien}{11}{}%
+\contentsline {subsection}{\numberline {2.7}Versionsverwaltung}{11}{}%
+\contentsline {subsection}{\numberline {2.8}Continous Integration/ Developement}{12}{}%
+\contentsline {section}{\numberline {3}Datenbanken}{12}{}%
+\contentsline {section}{\numberline {4}Parametertabellenkonfigurator}{12}{}%
+\contentsline {subsection}{\numberline {4.1}Problemstellung}{12}{}%
+\contentsline {subsection}{\numberline {4.2}Anforderungen}{12}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Notwendige Funktionalitäten}{13}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Notwendige GUI-Elemente}{13}{}%
+\contentsline {subsection}{\numberline {4.3}GUI-Entwurf}{13}{}%
+\contentsline {subsection}{\numberline {4.4}Programmierung}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Softwarestruktur}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}Verarbeitung von Benutzeraktionen}{18}{}%
+\contentsline {subsubsection}{\numberline {4.4.3}Bearbeitung der Parametertabelle}{19}{}%
+\contentsline {subsubsection}{\numberline {4.4.4}Speicherung der Beschreibungen}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.5}Tests}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.6}Verwendete Tools}{20}{}%
+\contentsline {subsection}{\numberline {4.5}Reflexion}{21}{}%
+\contentsline {section}{\numberline {5}LC-Vision}{21}{}%
