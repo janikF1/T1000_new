@@ -64,6 +64,7 @@
        
 
 \end{titlepage}
+\thispagestyle{empty}
 \onehalfspacing
 \noindent
 {\Large Abkürzungsverzeichnis}\\
@@ -73,10 +74,14 @@
 \acro{GUI}[GUI]{Graphische Benutzeroberfläche}
 \end{acronym}
 \newpage
+\thispagestyle{empty}
 \listoffigures
 \newpage
+\thispagestyle{empty}
 \tableofcontents
+\thispagestyle{empty}
 \newpage
+\setcounter{page}{1}
 \section{Einleitung}
 Die \ac{Blum} ist im Bereich Maschinenbau für Mess- und Prüftechnik tätig. Am Standort Grünkraut (Baden-Württemberg) ist der Hauptsitz der Firma. Dort befinden sich Entwicklung und Fertigung für den Bereich Messtechnik. Am zweiten Standort in Willich (Nordrhein-Westfalen) sind die Entwicklung und Fertigung im Bereich Prüftechnik untergebracht.\\
 Produkte von \ac{Blum} werden in vielen anspruchsvollen Industrien im Bereich der Qualitätssicherung eingesetzt. Die Kunden kommen unter anderem aus der Automobil-, Luftfahrt- und der Werkzeugmaschinenindustrie. \\
@@ -302,7 +307,7 @@ Um die Entwicklung zu unterstützen werden Tools für die Versionsverwaltung und
 Für die Versionsverwaltung kommen GitKraken und GitLab zum Einsatz. GitKraken dient als Schnittstelle zwischen dem lokalen Projekt auf dem Computer und der Plattform für \lq Continous Developement/ Integration\rq\space \ref{CI} GitLab. In GitKraken lässt sich der gesamte Verlauf des Projekts einsehen. Außerdem können alte Commits \ref{Git} ausgewählt werden und direkt in einer Entwicklungsumgebung geöffnet werden. Für die Sicherung auf dem Server bietet GitKraken die Git Befehle, die durch eine graphische Benutzeroberfläche oder durch das integrierte Terminal genutzt werden können.\\
 GitLab wird nicht nur für die Sicherung von Softwareständen auf einem Server eingesetzt. Ebenfalls genutzt werden die Möglichkeiten für das Organisieren von To-Do's durch \lq Issues\rq ,\space sowie die GitLab Pipeline. Die GitLab Pipeline ist ein Feature im Kontext von Continous Integration \ref{CI}. Zusätzlich werden während dem Prozess Artefakte erstellt, in denen Dateien gesammelt werden, die für das Erstellen eines Installers benötigt werden. Diese Artefakte lassen sich nach dem erfolgreichen Durchlauf der Pipeline als ZIP-Ordner herunterladen.\\
 \section{LC-Vision}
-
+Durch das Projekt wurde deutlich, welche Bedeutung eine Ansprechperson für die Einarbeitung in eine neue Software hat. Nicht alles ist dokumentiert \ref{Dokumenation} und nicht alles ist direkt zu finden. 
 \newpage
 \bibliography{references, tandf_tjds2025_302}
 \bibliographystyle{ieeetr}
