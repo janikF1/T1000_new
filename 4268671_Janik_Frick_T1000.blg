@@ -9,45 +9,45 @@ Database file #1: references.bib
 Database file #2: tandf_tjds2025_302.bib
 Warning--empty year in https://doi.org/10.1111/2041-210X.13961
 Warning--empty journal in denker2015versionsverwaltung
-You've used 16 entries,
+You've used 18 entries,
             1876 wiz_defined-function locations,
-            587 strings with 6498 characters,
-and the built_in function-call counts, 4547 in all, are:
-= -- 466
-> -- 154
+            597 strings with 6706 characters,
+and the built_in function-call counts, 4936 in all, are:
+= -- 504
+> -- 166
 < -- 0
-+ -- 58
-- -- 42
-* -- 280
-:= -- 603
-add.period$ -- 19
-call.type$ -- 16
-change.case$ -- 14
++ -- 63
+- -- 45
+* -- 294
+:= -- 652
+add.period$ -- 22
+call.type$ -- 18
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 281
-empty$ -- 421
-format.name$ -- 42
-if$ -- 1152
+cite$ -- 20
+duplicate$ -- 303
+empty$ -- 467
+format.name$ -- 45
+if$ -- 1257
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 18
-newline$ -- 54
-num.names$ -- 16
-pop$ -- 56
+int.to.str$ -- 18
+missing$ -- 20
+newline$ -- 61
+num.names$ -- 18
+pop$ -- 70
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 217
+skip$ -- 235
 stack$ -- 0
-substring$ -- 245
-swap$ -- 139
+substring$ -- 253
+swap$ -- 148
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 37
-width$ -- 18
-write$ -- 162
+while$ -- 40
+width$ -- 20
+write$ -- 179
 (There were 2 warnings)

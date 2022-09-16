@@ -76,4 +76,12 @@ V.~Sarcar, ``Use the dry principle,'' in {\em Simple and Efficient Programming
 M.~Denker, S.~Srecec, D.~A. liegt das~im Literaturverzeichnis, P.~Git,
   S.~Chacon, and B.~Straub, ``Versionsverwaltung mit git,'' 2015.
 
+\bibitem{fowler2006continuous}
+M.~Fowler and M.~Foemmel, ``Continuous integration,'' 2006.
+
+\bibitem{10.1145/1283920.1283937}
+E.~F. Codd, {\em Relational Database: A Practical Foundation for Productivity},
+  p.~1981.
+\newblock New York, NY, USA: Association for Computing Machinery, 2007.
+
 \end{thebibliography}
