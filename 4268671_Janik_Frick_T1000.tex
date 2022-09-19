@@ -14,7 +14,7 @@
      {caption}
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
 \author{Janik Frick}
-\title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit\\
+\title{Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit\\\vspace{0.35cm}
  im releasten Produkt LC-VISION}
 \usepackage{setspace}
 \usepackage{scrextend}
@@ -65,6 +65,18 @@
 
 \end{titlepage}
 \thispagestyle{empty}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: Konzipierung und Erstellung eines Parametertabellenkonfigurators und Praxisnahe Mitarbeit
+ im releasten Produkt LC-VISION selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Ich versichere zudem, dass die eingereichte elektronische Fassung
+mit der gedruckten Fassung übereinstimmt.\\
+
+\vspace{3cm}--------------------------------------------------\hfill -----------------------------------\\
+
+Ort Datum \hfill Unterschrift
+    }%
+}
+\newpage
 \onehalfspacing
 \noindent
 {\Large Abkürzungsverzeichnis}\\
@@ -187,7 +199,7 @@ Objektorientierte Programmierung ist ein Softwaredesign bei man dem Systeme auf 
 Jedes Objekt ist eigenständig. Diese Eigenständigkeit der Objekte führt dazu, dass die Objekte dafür verantwortlich sind die richtigen Abläufe auszuführen. In der funktionalen Programmierung ist derjenige dafür verantwortlich die passenden Methoden aufzurufen, der das Resultat der Methoden benötigt.\\
 In der Objektorientierten Programmierung gibt es die Möglichkeit den Zugriff auf Attribute von Objekten zu regulieren. Dadurch können Variablen die nur für die interne Verarbeitung benötigt werden, vor äußerer Manipulation geschützt werden.\\
 Die Abstraktion von Abläufen ist ein wesentlicher Bestandteil der Objektorientierung. Abstraktion bedeutet, dass für den Sender einer Anfrage nicht relevant ist, wie die Information erzeugt wird, die er benötigt. Der Sender bekommt die Information für die er eine Anfrage gestellt hat. \\
-Eine weitere Grundlage der Objektorientierung stellt die Vererbung dar. Durch Vererbung können Klassen Methoden von anderen Klassen übernehmen und bei Bedarf anpassen. Eine Unterklasse kann von beliebig vielen \lq Eternklassen \rq\space erben. Vererbung unterstützt Anpassungen. Änderungen in \lq Eternklassen \rq\space werden ohne weiteren Aufwand von den Unterklassen übernommen. Änderungen in Unterklassen führen nicht zu Änderungen in den  \lq Eternklassen \rq\space.\\
+Eine weitere Grundlage der Objektorientierung stellt die Vererbung dar. Durch Vererbung können Klassen Methoden von anderen Klassen übernehmen und bei Bedarf anpassen. Eine Unterklasse kann von beliebig vielen \lq Elternklassen \rq\space erben. Vererbung unterstützt Anpassungen. Änderungen in \lq Elternklassen \rq\space werden ohne weiteren Aufwand von den Unterklassen übernommen. Änderungen in Unterklassen führen nicht zu Änderungen in den  \lq Elternklassen \rq\space.\\
 Die Objektorientierung ist eine Modularisierung von Systemen. Objekte, die gleichzeitig Module sind, werden durch das aussenden von Anfragen so miteinander verknüpft, dass sie das gewünschte Gesamtsystem darstellen. Auf Grund der Eigenständigkeit der Objekte lassen sich Anpassungen durchführen, ohne das gesamte System umzubauen.\\
 Die Objektorientierung kann die reale Welt näher abbilden, als die prozedurale Programmierung\cite{10.1145/71605.71612}.
 \subsection{Clean-Code}
@@ -226,7 +238,7 @@ Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbe
 \label{Anfs} 
 An den \glqq Parametertabellenkonfigurator\grqq\space gibt es mehrere Anforderungen. \\
 Parametertabellen sollen eingelesen und angezeigt werden können. Zu den Parametern soll es ermöglicht werden Beschreibungen aus Text und Bild speichern und anzeigen zu können.\\
-Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungsen \ref{Anforderungstypen}\\
+Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungen \ref{Anforderungstypen}\\
 Nicht funktionale Anforderungen \ref{Anforderungstypen} sind die Verwendung der Programmiersprache und das Verwenden des in C++ entwickelten Framework Qt.\\
 Aus diesen Anforderungen lässt sich ableiten welche \ac{GUI}-Elemente nötig sind und welche Funktionalitäten benötigt werden.\\
 Um die Anforderungen an den \glqq Parametertabellenkonfigurator\grqq\space zu sammeln, die nicht im Auftragsdokument stehen, wurde das Interview \ref{interview} gewählt. Die Entscheidung wurde getroffen weil in offenen Gesprächen mehr Zusatzinformationen fließen, als in Umfragen \ref{Fragebögen} oder durch Beobachtung \ref{Beobachtung}. Zusätzlich kann auf Verständnisschwierigkeiten reagiert werden, solange das Gespräch noch aktuell ist und der Kontext noch nicht vergessen ist.\\
@@ -236,7 +248,7 @@ Um die Parametertabellen anzeigen zu können müssen diese aus einer Datei einge
 Für die Beschreibungen wird zusätzlich eine Funktion benötigt um diese mit den richtigen Parametern zu verknüpfen. \\
 \subsubsection{Notwendige GUI-Elemente}
 Die \ac{GUI} benötigt Anzeigemöglichkeiten für die Parametertabellen und Beschreibungen, Angaben von Namen, Steuerung und Produkttyp zur aktuellen Parametertabelle und den aktuellen Parameter.\\
-Benötigte Steuerelemente sind Möglichkeiten um Parametertabellen und Beschreibungen szu laden und zu speichern. 
+Benötigte Steuerelemente sind Möglichkeiten um Parametertabellen und Beschreibungen zu laden und zu speichern. 
 \subsection{GUI-Entwurf}
 Um die \ac{GUI} zu entwerfen kommt ein Prototyp \ref{Prototypen} zum Einsatz, der mit dem Mockup-Tool "Balsamiq Mockup 3" erstellt wurde. Das Tool bietet nahezu alle gängigen \ac{GUI}-Elemente an und kann diese miteinander verknüpfen, so dass schon in einem frühen Stadium die Funktionalität gegeben ist und besprochen werden kann. Zusätzlich bietet das Tool eine unkomplizierte Möglichkeit alternative Entwürfe zu entwerfen und in den Ablauf der Simulation zu integrieren. Das unterstützt den Prozess während der Entwicklung der \ac{GUI}, da neue Vorschläge in kurzer Zeit besprochen und weiterentwickelt werden können.\\
 \newline
@@ -287,7 +299,7 @@ Das Diagramm in Abbildung 7 dient dazu die Modularität der Software zu veransch
 Interagiert der Benutzer mit der \ac{GUI} werden entsprechende Veränderungen erwartet. \\
 Qt bietet für die Verarbeitung der Benutzeraktionen mit dem \lq Signal-Slot Mechanismus\rq\space Unterstützung. Dieser Mechanismus bietet die Möglichkeit Signale auszusenden, die von einem verbundenen Slot empfangen werden können. Dabei muss das Senderobjekt keine Verbindung zum Empfängerobjekt haben. Die Verbindung zwischen Signal kann entweder direkt im Empfängerobjekt , oder in einer Instanz einer \lq Managerklasse\rq\space eingerichtet werden. Grundvoraussetzung ist, dass das Objekt, in dem die Verbindung eingerichtet ist, sowohl eine Verbindung mit dem Sender- als auch mit dem Empfängerobjekt hat.\\
 Die meisten Klassen die von Qt bereitgestellt werden, haben vordefinierte Signale. Diese erlauben es die Benutzerinteraktionen zu verarbeiten und entsprechend darauf zu reagieren. \\
-Neben den Signalen von \ac{GUI}-Elementen können Signale auch selbst definierte Signale eingesetzt werden um Methoden aufzurufen. Signale von\ac{GUI}-Elementen werden ohne weitere Implementierungen durch den Entwickler gesendet. Selbstdefinierte Signale müssen mit einem Befehl gesendet werden. Signale können auch Argumente übergeben, die vom verbundenen Slot verarbeitet werden können. Dabei muss die Zahl der Argumente des Slots nicht mit der des Signals übereinstimmen. Signale können mit allen Slots verbunden werden, die gleich viele oder weniger Argumente entgegennehmen. Begrenzend wirkt hier die Reihenfolge der Datentypen der Argumente. Diese muss übereinstimmen.\\
+Neben den Signalen von \ac{GUI}-Elementen können Signale auch selbst definierte Signale eingesetzt werden um Methoden aufzurufen. Signale von\ac{GUI}-Elementen werden ohne weitere Implementierungen durch den Entwickler gesendet. Selbst definierte Signale müssen mit einem Befehl gesendet werden. Signale können auch Argumente übergeben, die vom verbundenen Slot verarbeitet werden können. Dabei muss die Zahl der Argumente des Slots nicht mit der des Signals übereinstimmen. Signale können mit allen Slots verbunden werden, die gleich viele oder weniger Argumente entgegennehmen. Begrenzend wirkt hier die Reihenfolge der Datentypen der Argumente. Diese muss übereinstimmen.\\
 Dieser Mechanismus ermöglicht weitere Flexibilität, da jederzeit neue Verbindungen erstellt werden könne, oder bestehende entfernt werden können. Diese Funktionalität ist hilfreich, wenn das Ausführen einer Methode Signale aussenden würde, die unerwünschte Folgen hätten. In diesem Fall kann man die Verbindung von Signal und Slot zu Beginn der Methode trennen und am Ende der Methode wieder herstellen. \\
 \subsubsection{Bearbeitung der Parametertabelle}
 Vor der Bearbeitung wird im ConfigurationWindow, Abbildung 3, die Steuerung und das Produkt festgelegt. Durch klicken auf \glqq Select Paratab\grqq\space wird ein Dateiexplorer-Fenster geöffnet. Durch die getroffene Auswahl im ConfigurationWindow, Abbildung 3, werden die angezeigten Dateien im Dateiexplorer gefiltert um die Auswahl der richtigen Parametertabelle zu vereinfachen. Die ausgewählte Parametertabelle wird im ParatabWindow, Abbildung 4 und 5, angezeigt.\\
@@ -307,7 +319,7 @@ Um die Entwicklung zu unterstützen werden Tools für die Versionsverwaltung und
 Für die Versionsverwaltung kommen GitKraken und GitLab zum Einsatz. GitKraken dient als Schnittstelle zwischen dem lokalen Projekt auf dem Computer und der Plattform für \lq Continous Developement/ Integration\rq\space \ref{CI} GitLab. In GitKraken lässt sich der gesamte Verlauf des Projekts einsehen. Außerdem können alte Commits \ref{Git} ausgewählt werden und direkt in einer Entwicklungsumgebung geöffnet werden. Für die Sicherung auf dem Server bietet GitKraken die Git Befehle, die durch eine graphische Benutzeroberfläche oder durch das integrierte Terminal genutzt werden können.\\
 GitLab wird nicht nur für die Sicherung von Softwareständen auf einem Server eingesetzt. Ebenfalls genutzt werden die Möglichkeiten für das Organisieren von To-Do's durch \lq Issues\rq ,\space sowie die GitLab Pipeline. Die GitLab Pipeline ist ein Feature im Kontext von Continous Integration \ref{CI}. Zusätzlich werden während dem Prozess Artefakte erstellt, in denen Dateien gesammelt werden, die für das Erstellen eines Installers benötigt werden. Diese Artefakte lassen sich nach dem erfolgreichen Durchlauf der Pipeline als ZIP-Ordner herunterladen.\\
 \section{LC-Vision}
-Durch das Projekt wurde deutlich, welche Bedeutung eine Ansprechperson für die Einarbeitung in eine neue Software hat. Nicht alles ist dokumentiert \ref{Dokumenation} und nicht alles ist direkt zu finden. 
+
 \newpage
 \bibliography{references, tandf_tjds2025_302}
 \bibliographystyle{ieeetr}
