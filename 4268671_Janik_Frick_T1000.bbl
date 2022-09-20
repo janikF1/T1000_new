@@ -84,4 +84,15 @@ E.~F. Codd, {\em Relational Database: A Practical Foundation for Productivity},
   p.~1981.
 \newblock New York, NY, USA: Association for Computing Machinery, 2007.
 
+\bibitem{34908}
+M.~Johnson and M.~Senges, ``Learning to be a software engineer in a complex
+  organization: A case study focusing on apprenticeship/practice based learning
+  for getting new engineers productive in contributing to the google
+  codebase,'' {\em Journal of Workplace Learning}, vol.~22, no. 3,
+  pp.~180--194, 2010.
+
+\bibitem{mock2003dynamic}
+M.~Mock, ``Dynamic analysis from the bottom up,'' in {\em WODA 2003 ICSE
+  Workshop on Dynamic Analysis}, p.~13, Citeseer, 2003.
+
 \end{thebibliography}

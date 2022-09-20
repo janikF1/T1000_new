@@ -2,52 +2,50 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 4268671_Janik_Frick_T1000.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'name_of_file' (item size: 1) to 19 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: references.bib
-Database file #2: tandf_tjds2025_302.bib
 Warning--empty year in https://doi.org/10.1111/2041-210X.13961
 Warning--empty journal in denker2015versionsverwaltung
-You've used 18 entries,
+You've used 20 entries,
             1876 wiz_defined-function locations,
-            597 strings with 6706 characters,
-and the built_in function-call counts, 4936 in all, are:
-= -- 504
-> -- 166
+            609 strings with 7087 characters,
+and the built_in function-call counts, 5466 in all, are:
+= -- 557
+> -- 178
 < -- 0
-+ -- 63
-- -- 45
-* -- 294
-:= -- 652
-add.period$ -- 22
-call.type$ -- 18
-change.case$ -- 15
++ -- 68
+- -- 48
+* -- 325
+:= -- 721
+add.period$ -- 24
+call.type$ -- 20
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 303
-empty$ -- 467
-format.name$ -- 45
-if$ -- 1257
+cite$ -- 22
+duplicate$ -- 337
+empty$ -- 524
+format.name$ -- 48
+if$ -- 1395
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 20
-newline$ -- 61
-num.names$ -- 18
-pop$ -- 70
+int.to.str$ -- 20
+missing$ -- 22
+newline$ -- 67
+num.names$ -- 20
+pop$ -- 79
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 235
+skip$ -- 258
 stack$ -- 0
-substring$ -- 253
-swap$ -- 148
+substring$ -- 285
+swap$ -- 162
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 40
-width$ -- 20
-write$ -- 179
+while$ -- 45
+width$ -- 22
+write$ -- 199
 (There were 2 warnings)

@@ -77,8 +77,12 @@ Ort Datum \hfill Unterschrift
     }%
 }
 \newpage
+\tableofcontents
+\thispagestyle{empty}
+\newpage
 \onehalfspacing
 \noindent
+\thispagestyle{empty}
 {\Large Abkürzungsverzeichnis}\\
 \newline
 \begin{acronym}[Abkürzungsverzeichnis]
@@ -88,23 +92,15 @@ Ort Datum \hfill Unterschrift
 \newpage
 \thispagestyle{empty}
 \listoffigures
-\newpage
-\thispagestyle{empty}
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\setcounter{page}{1}
-\section{Einleitung}
-Die \ac{Blum} ist im Bereich Maschinenbau für Mess- und Prüftechnik tätig. Am Standort Grünkraut (Baden-Württemberg) ist der Hauptsitz der Firma. Dort befinden sich Entwicklung und Fertigung für den Bereich Messtechnik. Am zweiten Standort in Willich (Nordrhein-Westfalen) sind die Entwicklung und Fertigung im Bereich Prüftechnik untergebracht.\\
-Produkte von \ac{Blum} werden in vielen anspruchsvollen Industrien im Bereich der Qualitätssicherung eingesetzt. Die Kunden kommen unter anderem aus der Automobil-, Luftfahrt- und der Werkzeugmaschinenindustrie. \\
-An die Produkte dieser Industrien werden höchste Ansprüche in Sachen Qualität gestellt. Daraus resultieren auch für die Produkte der Firma \ac{Blum} höchste Ansprüche. \\
-Um diese Ansprüche erfüllen zu können, werden sowohl bestehende Produkte laufend optimiert und weiterentwickelt, als auch neue Produkte entwickelt. \\
-Die Arbeit wird im Umfeld von \ac{Blum} am Standort Grünkraut verfasst. \\
-Ziel der Arbeit ist es die vielfältigen Aspekte der Softwareentwicklung kennenzulernen und den Einstieg zu schaffen.\\
-Um dieses Ziel zu erreichen, besteht der praktische Teil aus zwei Projekten.\\
-Mit der Entwicklung eines \glqq Parametertabellenkonfigurators\grqq\space sollen die verschiedenen Aufgaben der Softwareentwicklung veranschaulicht werden.\\
-Durch die Mitarbeit am schon bestehenden Produkt \glqq LC-Vision\grqq\space wird die Produktpflege und Weiterentwicklung thematisiert. 
-Außerdem wird dabei das Einarbeiten in unbekannten Code relevant, was ein wichtiger Bestandteil der Produktpflege ist.
+\newpage\setcounter{page}{1}\noindent
+{\Large Abstract}\\\noindent
+The following project work focuses on software developement in different stages. The first part describes the developement process itself. It contains steps that could be followed and some tools that could be used during developement. It focuses on the Steps that are important for creating software with graphical user interfaces, but also mentions aspects that could be used in software without a graphical user interface. In the second part the developement process is explained with an example. The developement of a \glqq Parametertabellenkonfigurator\grqq\space aims to support the configuration process for \ac{Blum} products. This project describes the developement from the beginning. \\
+The third part contains a short description of the work at the released product \glqq LC-VISION\grqq. The focus is on getting an overview of an unkwnown codebase.\\\newline
+\noindent
+{\Large Zusammenfassung}\\
+\noindent
+Die Projektarbeit behandelt den Prozess der Softwareentwicklung in verschiedenen Entwicklungsstufen. Zu Beginn wird der Prozess der Softwareentwicklung allgemein beschrieben. Dieser Teil legt den Fokus auf die Entwicklung von Anwendungen mit grafischen Benutzeroberflächen, beinhaltet aber auch Informationen die für die Entwicklung von Anwendungen ohne grafische Benutzeroberfläche genutzt werden können. Mit der Entwicklung eines \glqq Parametertabellenkonfigurators\grqq\space wird der Entwicklungsprozess von Beginn an beschrieben. Das Projekt hat zum Ziel die Konfiguration von Produkten von \ac{Blum} zu unterstützen. Im dritten Teil wird die Mitarbeit am bereits releasten Produkt \glqq LC-VISION\grqq\space thematisiert. In diesem Abschnitt geht es darum eine Übersicht über unbekannte Software zu bekommen.
+
 \newpage   
 \section{Softwareentwicklung}
 Softwareentwicklung besteht nicht nur aus dem Schreiben von Software. Auch die Entwicklung von Software ist ein Projekt. Man beginnt mit dem Sammeln der Anforderungen, startet die Entwicklung von Prototypen und geht in die Implementierung. Der Prozess endet mit der Produktpflege und dem Service.  
@@ -317,10 +313,23 @@ Die Software wird abgesehen von der GItLab Pipeline \ref{Tools} manuell getestet
 \label{Tools}
 Um die Entwicklung zu unterstützen werden Tools für die Versionsverwaltung und \lq Continous Developement/ Integration\rq\space \ref{CI} eingesetzt.\\
 Für die Versionsverwaltung kommen GitKraken und GitLab zum Einsatz. GitKraken dient als Schnittstelle zwischen dem lokalen Projekt auf dem Computer und der Plattform für \lq Continous Developement/ Integration\rq\space \ref{CI} GitLab. In GitKraken lässt sich der gesamte Verlauf des Projekts einsehen. Außerdem können alte Commits \ref{Git} ausgewählt werden und direkt in einer Entwicklungsumgebung geöffnet werden. Für die Sicherung auf dem Server bietet GitKraken die Git Befehle, die durch eine graphische Benutzeroberfläche oder durch das integrierte Terminal genutzt werden können.\\
-GitLab wird nicht nur für die Sicherung von Softwareständen auf einem Server eingesetzt. Ebenfalls genutzt werden die Möglichkeiten für das Organisieren von To-Do's durch \lq Issues\rq ,\space sowie die GitLab Pipeline. Die GitLab Pipeline ist ein Feature im Kontext von Continous Integration \ref{CI}. Zusätzlich werden während dem Prozess Artefakte erstellt, in denen Dateien gesammelt werden, die für das Erstellen eines Installers benötigt werden. Diese Artefakte lassen sich nach dem erfolgreichen Durchlauf der Pipeline als ZIP-Ordner herunterladen.\\
-\section{LC-Vision}
+GitLab wird nicht nur für die Sicherung von Softwareständen auf einem Server eingesetzt. Ebenfalls genutzt werden die Möglichkeiten für das Organisieren von To-Do's durch \lq Issues\rq ,\space sowie die GitLab Pipeline. Die GitLab Pipeline ist ein Feature im Kontext von Continous Integration \ref{CI}. Zusätzlich werden während dem Prozess Artefakte erstellt, in denen Dateien gesammelt werden, die für das Erstellen eines Installers benötigt werden. Diese Artefakte lassen sich nach dem erfolgreichen Durchlauf der Pipeline als ZIP-Ordner herunterladen.\\ 
+\section{LC-VISION}
+Während der Entwicklung von Software fallen kleine Fehler und Unstimmigkeiten auf, die die Funktionalität der Software kaum reduziert, aber dennoch behoben werden sollten. \\
+Diese Fehler können von falscher Wortwahl bis hin zur fehlenden. oder inkonsistenten Darstellung von Daten reichen. Da diese Unstimmigkeiten im Code verteilt sind, kann deren Bearbeitung das Verständnis der Software unterstützen.\\
+Dieses Vorgehen hilft dabei von der Erfahrung anderer Entwickler zu profitieren. Man lernt deren Techniken kennen und reflektiert seine eigene Arbeit. Außerdem fördert die aktive Mitarbeit nicht nur Kenntnisse über die Theorie der Softwareentwicklung sondern auch über die praktischen Aspekte.\cite{34908}.\\
+Ein weiterer Vorteil ist das der Lernprozess in einer relevanten Umgebung stattfindet\cite{34908}.\\
+Hat eine Aufgabe Relevanz kann dies einen positiven Einfluss auf die Motivation haben. \\
+Bevor mit der Behebung von Unstimmigkeiten angefangen werden konnte, bestand das Ziel darin den Code und die Benutzeroberfläche kennenzulernen. \\
+Es gibt zwei Methoden um Software kennen zu lernen. In der statischen Analyse wird das Programm nicht ausgeführt. Es wird nur der Code analysiert\cite{mock2003dynamic}. Somit kann diese Analyse auf jedem Gerät durchgeführt werden, dass einen Texteditor ausführen kann. Für eine qualitative Analyse werden aber große Teile der Software benötigt. Programme bestehen immer häufig aus Einzelteilen, die zur Laufzeit zusammengesetzt werden, wodurch die Ergebnisse der statischen Analyse häufig zu ungenau sind\cite{mock2003dynamic}.\\
+In der dynamischen Analyse werden Informationen verarbeitet, die zur Laufzeit erhoben werden. Von der dynamischen Analyse kann auch die statische Analyse profitieren, da Entscheidungen die sonst auf Mutmaßungen basieren, mit realen Daten unterstützt werden können\cite{mock2003dynamic}.\\
+Die dynamische Analyse bringt neue Techniken und Möglichkeiten für das Sammeln von Informationen\cite{mock2003dynamic}.\\
+Diese Methoden können eingesetzt werden um Code zu verstehen und zu optimieren. Für optimale Ergebnisse sollten beide Vorgehensweisen kombiniert werden.\cite{mock2003dynamic}.\\
+Beide Methoden kommen zum Einsatz um Zusammenhänge, sowie Abläufe zu erkennen und die obersten Schichten der Software, in denen die \ac{GUI} aufgebaut ist, ausfindig zu machen. Auf Basis der gewonnenen Erkenntnisse konnten tiefere Schichten erkundet werden und Wissen erweitert werden.\\
+Um das Wissen zu festigen und die Sicherheit im Umgang mit dem Code zu erhöhen wurden Unstimmigkeiten behoben und Erweiterungen entwickelt. \\
+
 
 \newpage
-\bibliography{references, tandf_tjds2025_302}
+\bibliography{references}
 \bibliographystyle{ieeetr}
 \end{document}<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
