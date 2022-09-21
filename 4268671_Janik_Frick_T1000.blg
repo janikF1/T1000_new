@@ -5,47 +5,57 @@ Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: references.bib
+Warning--empty journal in blackwell2002programming
+Warning--empty journal in tiwari2012selecting
+Warning--empty journal in 10.1145/2884781.2884788
+Warning--empty journal in 10.1145/2470654.2466442
+Warning--empty journal in rakos1990software
+Warning--empty journal in fewster1999software
 Warning--empty year in https://doi.org/10.1111/2041-210X.13961
+Warning--empty journal in sarcar2021use
 Warning--empty journal in denker2015versionsverwaltung
-You've used 20 entries,
+Warning--empty journal in fowler2006continuous
+Warning--empty journal in 10.1145/1283920.1283937
+Warning--empty journal in mock2003dynamic
+You've used 22 entries,
             1876 wiz_defined-function locations,
-            609 strings with 7087 characters,
-and the built_in function-call counts, 5466 in all, are:
-= -- 557
-> -- 178
+            621 strings with 7283 characters,
+and the built_in function-call counts, 5563 in all, are:
+= -- 559
+> -- 186
 < -- 0
-+ -- 68
-- -- 48
-* -- 325
-:= -- 721
-add.period$ -- 24
-call.type$ -- 20
-change.case$ -- 17
++ -- 72
+- -- 50
+* -- 330
+:= -- 757
+add.period$ -- 23
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 337
-empty$ -- 524
-format.name$ -- 48
-if$ -- 1395
+cite$ -- 34
+duplicate$ -- 344
+empty$ -- 511
+format.name$ -- 50
+if$ -- 1394
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 22
 missing$ -- 22
-newline$ -- 67
-num.names$ -- 20
-pop$ -- 79
+newline$ -- 70
+num.names$ -- 22
+pop$ -- 89
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 258
+skip$ -- 256
 stack$ -- 0
-substring$ -- 285
-swap$ -- 162
+substring$ -- 289
+swap$ -- 159
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 45
-width$ -- 22
-write$ -- 199
-(There were 2 warnings)
+warning$ -- 12
+while$ -- 48
+width$ -- 24
+write$ -- 195
+(There were 12 warnings)

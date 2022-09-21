@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{blackwell2002programming}
+A.~F. Blackwell, ``What is programming?,'' p.~20, 2002.
+
 \bibitem{doi:10.1080/12460125.2016.1187390}
 S.~Lane, P.~O’Raghallaigh, and D.~Sammon, ``Requirements gathering: the
   journey,'' {\em Journal of Decision Systems}, vol.~25, no.~sup1,
@@ -7,8 +10,7 @@ S.~Lane, P.~O’Raghallaigh, and D.~Sammon, ``Requirements gathering: the
 
 \bibitem{tiwari2012selecting}
 S.~Tiwari, S.~S. Rathore, and A.~Gupta, ``Selecting requirement elicitation
-  techniques for software projects,'' in {\em 2012 CSI Sixth International
-  Conference on Software Engineering (CONSEG)}, pp.~1--10, IEEE, 2012.
+  techniques for software projects,'' pp.~1--10, 2012.
 
 \bibitem{silhavy2011requirements}
 R.~Silhavy, P.~Silhavy, and Z.~Prokopova, ``Requirements gathering methods in
@@ -18,9 +20,7 @@ R.~Silhavy, P.~Silhavy, and Z.~Prokopova, ``Requirements gathering methods in
 \bibitem{10.1145/2884781.2884788}
 J.~Eckhardt, A.~Vogelsang, and D.~M. Fern\'{a}ndez, ``Are "non-functional"
   requirements really non-functional? an investigation of non-functional
-  requirements in practice,'' in {\em Proceedings of the 38th International
-  Conference on Software Engineering}, ICSE '16, (New York, NY, USA),
-  p.~832–842, Association for Computing Machinery, 2016.
+  requirements in practice,'' p.~832–842, 2016.
 
 \bibitem{THEUNISSEN2022106733}
 T.~Theunissen, U.~{van Heesch}, and P.~Avgeriou, ``A mapping study on
@@ -48,17 +48,13 @@ P.~{\v{S}}imek, J.~Van{\v{e}}k, and P.~Pavl{\'\i}k, ``Usability of ux methods
 
 \bibitem{10.1145/2470654.2466442}
 J.~Matejka, T.~Grossman, and G.~Fitzmaurice, ``Patina: Dynamic heatmaps for
-  visualizing application usage,'' in {\em Proceedings of the SIGCHI Conference
-  on Human Factors in Computing Systems}, CHI '13, (New York, NY, USA),
-  p.~3227–3236, Association for Computing Machinery, 2013.
+  visualizing application usage,'' p.~3227–3236, 2013.
 
 \bibitem{rakos1990software}
-J.~J. Rakos, {\em Software Project Management}.
-\newblock Prentice Hall, 1990.
+J.~J. Rakos, ``Software project management,'' 1990.
 
 \bibitem{fewster1999software}
-M.~Fewster and D.~Graham, {\em Software test automation}.
-\newblock Addison-Wesley Reading, 1999.
+M.~Fewster and D.~Graham, ``Software test automation,'' 1999.
 
 \bibitem{10.1145/71605.71612}
 B.~P. Pokkunuri, ``Object oriented programming,'' {\em SIGPLAN Not.}, vol.~24,
@@ -68,9 +64,12 @@ B.~P. Pokkunuri, ``Object oriented programming,'' {\em SIGPLAN Not.}, vol.~24,
 A.~Filazzola and C.~Lortie, ``A call for clean code to effectively communicate
   science,'' {\em Methods in Ecology and Evolution}, vol.~n/a, no.~n/a.
 
+\bibitem{hutton2009clean}
+D.~Hutton, ``Clean code: a handbook of agile software craftsmanship,'' {\em
+  Kybernetes}, 2009.
+
 \bibitem{sarcar2021use}
-V.~Sarcar, ``Use the dry principle,'' in {\em Simple and Efficient Programming
-  with C\#}, pp.~109--128, Springer, 2021.
+V.~Sarcar, ``Use the dry principle,'' pp.~109--128, 2021.
 
 \bibitem{denker2015versionsverwaltung}
 M.~Denker, S.~Srecec, D.~A. liegt das~im Literaturverzeichnis, P.~Git,
@@ -80,9 +79,8 @@ M.~Denker, S.~Srecec, D.~A. liegt das~im Literaturverzeichnis, P.~Git,
 M.~Fowler and M.~Foemmel, ``Continuous integration,'' 2006.
 
 \bibitem{10.1145/1283920.1283937}
-E.~F. Codd, {\em Relational Database: A Practical Foundation for Productivity},
-  p.~1981.
-\newblock New York, NY, USA: Association for Computing Machinery, 2007.
+E.~F. Codd, ``Relational database: A practical foundation for productivity,''
+  p.~1981, 2007.
 
 \bibitem{34908}
 M.~Johnson and M.~Senges, ``Learning to be a software engineer in a complex
@@ -92,7 +90,6 @@ M.~Johnson and M.~Senges, ``Learning to be a software engineer in a complex
   pp.~180--194, 2010.
 
 \bibitem{mock2003dynamic}
-M.~Mock, ``Dynamic analysis from the bottom up,'' in {\em WODA 2003 ICSE
-  Workshop on Dynamic Analysis}, p.~13, Citeseer, 2003.
+M.~Mock, ``Dynamic analysis from the bottom up,'' p.~13, 2003.
 
 \end{thebibliography}
