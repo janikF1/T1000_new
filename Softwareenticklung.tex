@@ -1,0 +1,131 @@
+% !TEX root = 4268671_Janik_Frick_T1000.tex
+\section{Softwareentwicklung}
+Das Schreiben von Code ist nur einer von vielen Teilen der Softwareentwicklung. Das Erfassen des Problems, das Design und die Produktpflege sind ebenfalls Teil der Softwareentwicklung\cite{blackwell2002programming}. Der Prozess beginnt mit der Anforderungsanalyse. Auf Basis der Anforderungen wird ein Grobentwurf entwickelt, der als Grundlage für die Implementierung dient. Der Prozess endet mit der Produktpflege und dem Service für das Produkt.
+\subsection{Anforderungsanalyse}
+Eindeutige und präzise Anforderungen bilden die Grundlage für ein funktionierendes Projekt\cite{doi:10.1080/12460125.2016.1187390}.
+Daraus folgt, dass es nicht ausreichend ist, die Liste der Anforderungen zu lesen. Anforderungen müssen analysiert und mit weiterem Wissen über das Projektumfeld kombiniert werden. \\
+Dafür gibt es mehrere Techniken, die eingesetzt werden können. 
+\subsubsection{Interviews}
+\label{interview}
+Interviews bieten die Möglichkeit in direkten Gesprächen mit Personen aus dem Umfeld des Projekts Informationen zu sammeln. Diese Informationen können Risiken sein, die zu berücksichtigen sind, Schwierigkeiten bei der aktuellen Vorgehensweise, sowie Abläufe die beibehalten werden sollten.\\
+Der Erfolg dieser Vorgehensweise hängt dabei von allen beteiligten Personen ab. Fehlt Wissen über das Umfeld des Projekts kann es zu Schwierigkeiten beim Sammeln der Fragen kommen, wodurch manche Aspekte nicht berücksichtigt werden. Auch die Befragten können Probleme haben ihre Gedanken und ihr Wissen wiederzugeben \cite{tiwari2012selecting}. Das kann die Auswertung der Antworten erschweren.
+\subsubsection{Fragebögen}
+\label{Fragebögen}
+Fragebögen geben den befragten Personen die Möglichkeit ohne direkte Beeinflussung durch den Ersteller der Fragen, Informationen bereitzustellen. Zusätzlich reduzieren sie den Zeitdruck unter dem geantwortet werden soll und alle Befragten antworten auf die gleiche Fragestellung.\\
+Fragebögen können eingesetzt werden um Annahmen zu bestätigen oder nach Meinungen und Vorschlägen zu fragen\cite{tiwari2012selecting}. \\
+Bei Einsatz dieser Methode ist darauf zu achten die Fragen offen zu formulieren, um die Antworten nicht in eine Richtung zu lenken. 
+\subsubsection{Beobachtung}
+\label{Beobachtung}
+Die Beobachtungsmethode dient dazu aus beobachteten Vorgängen Informationen zu sammeln. \\
+Diese Beobachtung kann offen oder verdeckt durchgeführt werden. Bei der verdeckten Vorgehensweise ist das beobachtete Verhalten natürlicher und realistischer, als bei der offenen Vorgehensweise\cite{silhavy2011requirements}. \\
+Mit diesem Vorgehen lassen sich Abläufe bei Aufgaben nachvollziehen. Gründe für dieses Abläufe sollten durch andere Techniken in Erfahrung gebracht werden.\\
+\subsubsection{Anforderungstypen}
+\label{Anforderungstypen}
+Anforderungen können in zwei Typen unterteilt werden: Die funktionalen und die nicht funktionalen Anforderungen. Dabei ist zu beachten, dass keine eindeutige Trennung zwischen den beiden Anforderungstypen sinnvoll ist, wie die Ergebnisse der Untersuchung von Eckhardt et al. zeigen\cite{10.1145/2884781.2884788}.
+\\Funktionale Anforderungen geben vor, für welche Aufgaben das Produkt geplant wird und welche Funktionen dafür benötigt werden. Die Validierung dieser Anforderungen ist gegeben, da am Ende eindeutig ist, ob eine Funktionalität verfügbar ist. \\
+Die nicht funktionalen Anforderungen geben vor, mit welchem Vorgehen und welchen Tools eine Funktion umgesetzt werden soll\cite{10.1145/2884781.2884788}. \\
+Auch Anforderungen für Performance wie beispielsweise Reaktionszeiten, vorgegebene Schnittstellen zu anderer Software, wie dem Betriebssystem, können Teil der nicht funktionalen Anforderungen\cite{10.1145/2884781.2884788}. 
+Die gegebenen Beispiele sind keine vollständige Aufzählung, da es sehr viele Bereiche gibt, aus denen nicht funktionale Anforderungen stammen können.
+Nicht funktionale Anforderungen sind häufig unpräzise formuliert und somit problematisch in der Validierung\cite{10.1145/2884781.2884788}.
+\subsection{Dokumentation}
+\label{Dokumenation}
+Die Dokumentation von Softwareprojekten ist neben der eigentlichen Entwicklung ein relevanter Teilaspekt. Die Dokumentation dient zur Sicherung von Wissen und Grundlagen von Entscheidungen. \\
+Die Dokumentation kann in zwei Bereiche unterteilt werden. Die Dokumentation des Codes und die Dokumentation für den Anwender\cite{THEUNISSEN2022106733}.\\
+\subsubsection{Sourcecode-Dokumentation}
+Diese Form der Dokumentation soll Wissen über die Software beinhalten. Dazu zählen Grundlagen für Entscheidungen der Softwarearchitektur und die Aufgaben von Funktionen, Methoden und Variablen.\\
+Die Relevanz besteht darin Wissensverlust zu verhindern, der entsteht, wenn der Entwickler nicht zur Verfügung steht. Dieser Verlust beeinflusst die Einarbeitungsdauer eines neuen Mitarbeiters und somit auch die Produktpflege. \\
+Diese Problematik der mangelnden Softwaredokumentation ist in agilen Umfeldern bekannt. Sich ändernde Anforderungen verursachen die Notwendigkeit die Software anzupassen, was Anpassungen der Dokumentation erfordert. Geänderte Anforderungen bringen auch neue kurzfristige Aufgaben mit sich, denen eine höhere Priorität beigemessen wird, als der Aktualisierung der Dokumentation. Kommen viele Änderungen in kurzer Zeit stauen sich die anstehenden Änderungen auf und sorgen für einen hohen Zeitaufwand der Dokumentation. Dies resultiert oftmals in einer vernachlässigten Dokumentation.\\
+Weitere potenzielle Schwierigkeiten resultieren aus der Ansicht, dass der Code bereits eine ausreichende Dokumentation für diesen Zweck darstellt und dass Informationen häufig informell und verbal kommuniziert werden, was dazu führen kann, dass diese Informationen nach der Verarbeitung nirgends festgehalten sind und dadurch verloren gehen können\cite{THEUNISSEN2022106733}.\newline
+\noindent
+\subsubsection{User-Dokumentation}
+Der Dokumentation für die Anwender, Servicepersonal und Support-Mitarbeiter wird meist mehr Bedeutung beigemessen, da sie für den Einsatz des Produktes relevant ist.\\
+Diese Dokumentation beinhaltet Fehlermeldungen, Voraussetzungen für die Installation und Informationen für die Verwendung. Probleme mit dieser Dokumentation können Schwierigkeiten im Kundenservice verursachen. Probleme dieser Art können einen direkten Einfluss auf den Erfolg eines Produktes oder der Firma haben. Diese möglichen Konsequenzen sorgen dafür, dass dieser Dokumentation mehr Bedeutung beigemessen wird\cite{THEUNISSEN2022106733}.
+
+\subsection{Grobentwurf}
+Beim Grobentwurf werden die Hauptbestandteile der Software und die Softwarearchitektur geplant. Dabei sollte der Kunde möglichst miteinbezogen werden, denn der Kunde hat großen Anteil am Gelingen des Projekts\cite{10.1145/1060710.1060712}. \\
+Um den Kunden einzubeziehen, können Prototypen eingesetzt werden.\\
+Hat das Programm eine \ac{GUI} so kann der Grobentwurf unterschiedlich geplant werden. \\
+\subsubsection{GUI mit Bildern}
+\label{GUI mit Bildern}
+Der Grobentwurf der \ac{GUI} kann mit Hilfe von Bildern in einem beliebigen Bilderstellungsprogramm nachgebildet werden. Die erstellten Entwürfe dienen als Gesprächsgrundlage für eventuell notwendige Veränderungen. Hierbei ist zu beachten, dass die Simulation von Verbindungen zwischen \ac{GUI}-Elementen zeitaufwendig oder gar nicht möglich ist.
+\subsubsection{Prototypen}
+\label{Prototypen}
+Ein Prototyp ist eine funktionierende, begrenzte Version der Anwendung, die als Basis für Gespräche und die Entwicklung weiterer Prototypen dient\cite{budde1992prototyping}. \\
+Dieser Prototyp kann durch Software, oder mit einem Mockup-Tool\footnote{Tool um eine \ac{GUI} zu simulieren}, oder auch in einer Software für Präsentationen, realisiert werden. Ein auf Software basierter Prototyp erfordert die Mitarbeit der Entwickler im Design Prozess. 
+\subsubsection{User-Tests}
+\label{User-Tests}
+Bei User Tests wird einer oder mehreren Testpersonen, abhängig von der Verfügbarkeit, der aktuelle Prototyp, siehe \ref{Prototypen}, vorgelegt. Dann kann man der Testperson eine konkrete Aufgabe geben, oder sie den Prototyp frei entdecken lassen. Bei beiden Vorgehensweisen werden Probleme dokumentiert. Stehen mehrere Testpersonen zur Verfügung können auch Gruppentests durchgeführt werden. Bei diesen arbeiten mehrere Personen an einer Aufgabe. Bei Einzel-Tests lassen sich Probleme im Ablauf besser erkennen. In Gruppen-Tests hingegen kann besser nachvollzogen werden, welchen individuellen Problemen Benutzer begegnen\cite{BASTIEN2010e18}. Beide Problemquellen sollten für den Entwurf einer intuitiven Benutzeroberfläche berücksichtigt und möglichst behoben werden. \\
+Mit dieser Testmethodik lassen sich nur Prototypen, siehe \ref{Prototypen}, testen, da nur hier die Verbindungen funktional sind.
+\subsubsection{30-Sekunden Tests}
+\label{30-Sekunden Tests}
+Bei 30-Sekunden-Tests bekommen die Testpersonen 30 Sekunden Zeit, um den Prototyp zu erkunden. Nach 30 Sekunden wird ein Fragebogen ausgefüllt, auf dem die Übersichtlichkeit bewertet wird\cite{vsimek2015usability}. \\
+30-Sekunden Tests lassen sich mit Bildentwürfen, siehe \ref{GUI mit Bildern}, und mit Prototypen, siehe  \ref{Prototypen}, durchführen, da es bei beiden Entwürfen möglich ist ein Element für 30 Sekunden zu zeigen.
+\subsubsection{Heatmaps}
+\label{Heatmaps}
+Heatmaptools markieren farbig welche Bereiche einer Benutzeroberfläche oft genutzt werden und welche seltene\cite{10.1145/2470654.2466442}. Diese Daten geben Informationen darüber ob Kernfunktionen anders positioniert werden sollten.\\
+Diese Methode lässt sich für Bildentwürfe, siehe \ref{GUI mit Bildern}, und Prototypen, siehe \ref{Prototypen}, verwenden.
+
+\subsection{Implementierung}
+Der Aufwand der Implementierung lässt sich nicht zwingend aus dem Vorgehen bei der Entwicklung eines Grobentwurfs ableiten. Wurden die Grobentwürfe, wie in \ref{GUI mit Bildern} beschrieben, als einzelne Bilder entworfen, muss zwar von Grund auf neu begonnen werden den Code zu schreiben, es müssen aber auch keine Schwierigkeiten, die durch eine unsaubere Programmierung entstanden sind, gelöst werden. \\
+Wird mit Prototypen, (\ref{Prototypen}), gearbeitet, kann dies den Implementierungsprozess beschleunigen. Kommt ein Mockup-Tool zum Einsatz muss die Software ebenfalls von Grund auf programmiert werden, aber der Mock-Up Prototyp dient als Hilfestellung um die Übersicht über die notwendigen Verbindungen zwischen \ac{GUI}-Elementen zu behalten.\\
+Programmierte Prototypen bieten zwar die benötigten Funktionalitäten, sind aber nicht zwingend für den praktischen Einsatz geeignet. Ursachen können in unter anderem in fehlender Kompatibilität der Programmiersprache des Prototyps mit dem Zielsystem liegen. Auch wenn die Programmiersprache übereinstimmt kann es sein, dass für den Einsatz als Prototyp für den Grobentwurf externe Abhängigkeiten nicht berücksichtigt werden. Dies kann dazu führen, dass die Integration externer Abhängigkeiten so aufwendig wäre, dass es wirtschaftlicher ist die Implementierung von Grund auf zu beginnen.\\
+Entscheidungen was Design und Technologien betrifft, sollten vor Beginn der Implementierung getroffen worden sein. Die Aufgabe der Entwickler besteht darin das geplante Design so in Module zu unterteilen, das es programmiert werden kann\cite{rakos1990software}. 
+\subsubsection{Tests}
+\label{Tests}
+Durch Tests wird validiert, ob die Software die Anforderungen erfüllt. Dabei sollten alle Ergebnisse von Tests dokumentiert werden, um Fehlerquellen, Lösungen und die Kosten für das Beheben der Fehler im Überblick zu behalten\cite{rakos1990software}.\\
+Diese bestehen aus mehreren Stufen.
+\begin{description}
+\item{\underline{Modultests}}\hfill\\
+Programmierte Module werden isoliert getestet, um zu prüfen, ob das Modul die Aufgaben erfüllt. Dazu kann auch ein simulierter Input verwenden, wenn benötigte Module noch nicht verfügbar sind. \\
+Diese Tests können in zwei Arten unterteilt werden. Bei 'white-box' Tests wird das Modul in einzelnen Schritten getestet. Der Tester weiß wie die Daten verarbeitet werden. Bei 'black-box' Tests versucht der Tester das Vorgehen eines Nutzers nachzustellen. Dabei ist dem Tester die genaue Verarbeitung egal\cite{rakos1990software}.
+\item{\underline{Low-Level Integrationstests}}\hfill\\
+In diesem Stadium werden die Aufrufe und Rückgabewerte von anderen Modulen getestet. Dabei spielt es keine Rolle, von wem die abhängigen Module entwickelt wurden. Stehen keine realen Daten zur Verfügung kann mit simulierten Daten gearbeitet werden.\cite{rakos1990software}.\\
+Ob diese Tests manuell oder automatisiert stattfinden hängt von unterschiedlichen Faktoren ab.
+\end{description}
+Mit diesem Vorgehen sind alle Module und ihre Abhängigkeiten auf ihre Funktionalität überprüft. Auf dieser Basis wird eine Version erstellt und getestet die in dieser Form praxistauglich ist. Parallel wird daran gearbeitet die benötigten Umgebungsbedingungen bereitzustellen. Dieses Setup wird auf Funktionalität geprüft. Bei erfolgreichem Verlauf der Tests kann die Dokumentation für den Kunden, siehe \ref{Dokumenation}, fertiggestellt werden.
+Bestätigt der Kunde das Resultat kann mit dem Training betreuender Personen und Benutzern begonnen werden\cite{rakos1990software}.\\
+\subsubsection{Test Automatisierung}
+Das manuelle Ausführen von Tests kann zeitaufwändig sein, wodurch man auf die Idee kommen kann diese Tests zu automatisieren. Diese Entscheidung ist dabei von unterschiedlichen Faktoren abhängig. \\
+Die Erfahrung des Verantwortlichen beeinflusst die Dauer für die Automatisierung maßgeblich. Auch die Umgebung, in der die Anwendung funktionieren soll, muss automatisiert simuliert werden. Basiert die Funktionalität der Software auf Benutzereingaben, oder läuft sie nach dem Start alleine? Anwendungen die selbstständig ablaufen, sind meistens einfacher zu testen, als solche bei denen man eine automatisierte Benutzerinteraktion nachstellen muss\cite{fewster1999software}. \\
+Diese und noch weitere Faktoren beeinflussen den Aufwand für die Automatisierung von Tests. Es muss also eine Kosten-Nutzen-Analyse durchgeführt werden um entscheiden zu können, ob die Automatisierung einen Mehrwert bietet.
+\subsection{Objektorientierung}
+\label{Objektorientierung}
+In der Objektorientierung können Objekte als grundlegende Elemente betrachtet werden. Objekte haben Datenattribute und Verarbeitungsattribute. Die Daten werden in Variablen verschiedener Datentypen gespeichert. Verarbeitungsattribute sind die Methoden eines Objekts. Auf \lq Anfragen\rq\space reagiert das Objekt mit der Ausführung von Methoden. Durch die Zusammenfassung mehrerer Datentypen können Objekte als neue Datentypen betrachtet werden.\\
+Objektorientierte Programmierung ist ein Softwaredesign bei man dem Systeme auf die Objekte reduzieren kann, die vom System verändert werden, oder aufeinander einwirken.\\
+Jedes Objekt ist eigenständig. Diese Eigenständigkeit der Objekte führt dazu, dass die Objekte dafür verantwortlich sind die richtigen Abläufe auszuführen. In der funktionalen Programmierung ist derjenige dafür verantwortlich die passenden Methoden aufzurufen, der das Resultat der Methoden benötigt.\\
+In der Objektorientierten Programmierung gibt es die Möglichkeit den Zugriff auf Attribute von Objekten zu regulieren. Dadurch können Variablen die nur für die interne Verarbeitung benötigt werden, vor äußerer Manipulation geschützt werden.\\
+Die Abstraktion von Abläufen ist ein wesentlicher Bestandteil der Objektorientierung. Abstraktion bedeutet, dass für den Sender einer Anfrage nicht relevant ist, wie die Information erzeugt wird, die er benötigt. Der Sender bekommt die Information für die er eine Anfrage gestellt hat. \\
+Eine weitere Grundlage der Objektorientierung stellt die Vererbung dar. Durch Vererbung können Klassen Attribute von anderen Klassen übernehmen und bei Bedarf anpassen. Änderungen in \lq Elternklassen\rq\space werden ohne weiteren Aufwand von den Unterklassen übernommen. Änderungen in Unterklassen führen nicht zu Änderungen in den \lq Elternklassen\rq .\\
+Die Objektorientierung ist eine Modularisierung von Systemen. Objekte, die gleichzeitig Module sind, werden durch das Aussenden von Anfragen so miteinander verknüpft, dass sie das gewünschte Gesamtsystem darstellen. Auf Grund der Eigenständigkeit der Objekte lassen sich Anpassungen durchführen, ohne die Notwendigkeit zu verursachen, die gesamten Abläufe anpassen zu müssen.\\
+Die Objektorientierung kann die reale Welt näher abbilden, als die prozedurale\\ Programmierung\cite{10.1145/71605.71612}.
+\subsection{Clean-Code}
+\label{CC}
+Software sollte verständlich sein. Arbeitet man alleine an einem Projekt, scheint die Bedeutung von lesbarem Code gering zu sein. Möchte man mit anderen Personen über die Software sprechen, kann die Lesbarkeit des Codes an Bedeutung gewinnen. Eine Ursache dafür liegt in der Lebensdauer von Code. Auch Jahre nach dem der Code zum letzten Mal verändert wurde, kann es passieren, dass Informationen über Details der Implementierung benötigt werden. In dieser Situation ist es hilfreich, wenn der Code verständlich geschrieben ist, da Gedanken die während der Entwicklung berücksichtigt wurden, nicht immer dokumentiert sind\cite{https://doi.org/10.1111/2041-210X.13961}.\\ “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ...[Therefore,] making it easy to read makes it easier to write.”\cite{hutton2009clean}\\
+Code kann aus vielen Gründen Probleme in der Einarbeitung verursachen. Die Namensgebung von Klassen, Methoden und Variablen spielt dabei eine große Rolle. Lassen sich auf Grund von Abkürzungen oder anderen Bezeichnungen keine eindeutigen Rückschlüsse auf die Funktion ziehen, ist man auf eine Dokumentation der Software angewiesen. Die Dokumentation des Codes ist aber wie in \ref{Dokumenation} beschrieben, aus mehreren Gründen häufig mangelhaft. Das Wissen muss also neu aufgebaut werden, wodurch Fehler im Verständnis entstehen können. Weitere Schwierigkeiten können auskommentierte Teile des Codes darstellen, da der Grund für die weitere Existenz dieses \lq toten\rq\space Codes häufig ebenfalls nicht dokumentiert ist und durch Tools für die Versionsverwaltung nicht notwendig ist. \\
+Es gibt mehrere Prinzipien, nach denen sich \lq Clean-Code\rq\space erreichen lässt.\\
+\subsubsection{SOLID-Prinzipien}
+Die SOLID-Prinzipien bestehen aus fünf einzelnen Prinzipien, deren Anfangsbuchstaben zusammengesetzt SOLID ergeben\cite{sarcar2021use}.\noindent
+\begin{description}
+\item{\underline{Single-Responsibility Principle}}\hfill\\
+Eine Klasse sollte nur aus einem Grund angepasst werden. Daraus lässt sich ableiten, dass eine Klasse nur für eine Funktion verantwortlich sein sollte. Der Schluss jede Klasse sollte nur eine Methode haben, ist nicht korrekt, da man für das Erfüllen einer Verantwortlichkeit auch mehr als eine Funktion notwendig sein kann\cite{sarcar2021use}.
+\item{\underline{Open/Closed Principle}}\hfill\\
+Klassen sollten offen für Erweiterungen sein, jedoch geschlossen gegenüber Veränderungen. Die Idee dahinter ist, dass Veränderungen an einem bereits genutzten Objekt Fehler im Ablauf verursachen können. \\Gibt es neue Anforderungen sollte die bestehende Klasse durch Vererbung um neue Funktionen erweitert werden, anstatt die bestehenden Klasse anzupassen. Die Erweiterungen sollten keine Änderungen in der Basisklasse verursachen\cite{sarcar2021use}. \noindent
+\item{\underline{Liskov Substitution Principle}}\hfill\\
+Dieses Prinzip besagt, dass jede Klasse durch eine von ihr abgeleitete Klasse ersetzt werden kann\cite{sarcar2021use}.\\
+Daraus folgt, dass jede abgeleitete Klasse die gleichen Attribute der \lq Elternklasse\rq\space implementieren muss. Es können weitere Attribute ergänzt werden. Attribute die von \lq Elternklassen\rq\space stammen, sollten nicht verändert werden, da dies das erwartete Verhalten dieser Attribute nicht erfüllen würde.\noindent
+\item{\underline{Interface Segregation Principle}}\hfill\\
+Nach diesem Prinzip sollten Interfaces nur die Funktionen bereitstellen, die auch tatsächlich notwendig sind\cite{sarcar2021use}. Werden von einem Interface eine Basisklasse und eine spezialisierte Klasse abgeleitet, benötigt die spezialisierte mehr Attribute. Die zusätzlichen Attribute für die Spezialisierung werden für die Funktionalität der Basisklasse nicht benötigt. Diese Attribute sollten nicht über dasselbe Interface bereitgestellt werden, da die Basisklasse Attribute implementieren müsste, die keine Anwendung finden würden. Für die spezialisierte Klasse kann ein spezielles Interface entwickelt werden, oder die benötigten Zusatzattribute können direkt in der Klasse implementiert werden.\noindent
+\item{\underline{Dependency Inversion Principle}}\hfill\\
+High-Level Klassen wie Benutzeroberflächen sollten nicht direkt von einer Low-Level Klasse, wie einer Datenbankmanagement-Klasse, abhängig sein. Stattdessen sollten beide Klassen von einem Interface abhängig sein, wodurch eine höherer Flexibilität entsteht, um beispielsweise den Datenbanktyp anzupassen\cite{sarcar2021use}.
+\end{description}
+\subsubsection{DRY-Prinzipien}
+Ausgeschrieben bedeutet die Abkürzung DRY \lq Don't Repeat Yourself\rq \cite{sarcar2021use}. Mehrfaches Verwenden von Code erhöht den Aufwand in der Instandhaltung und bei Anpassungen des Codes, da Anpassungen an jeder Stelle vorgenommen werden müssen\cite{schaffner2013programming}.\\
+Um Mehrfachverwendung von Code zu verhindern können Konstanten, Funktionen und Modularisierung verwendet werden um Abläufe und Werte zu definieren. Diese Definitionen können dann an anderen Stellen aufgerufen werden\cite{schaffner2013programming}. Anpassungen können dann innerhalb der Definition vorgenommen werden und sind dann bei allen Aufrufen der Definition wirksam.
+\subsection{Versionsverwaltung}
+\label{Git}
+Um eine unübersichtliche Ordnerstruktur mit Softwareständen zu vermeiden, gibt es Tools für die Versionsverwaltung. Mit diesen Tools lassen sich Inhalte die relevant für das Projekt sind speichern und deren zeitliche Entwicklung nachvollziehen. Dateien können mit diesen Tools auf frühere Stände zurücksetzen. Diese Funktion hilft dabei funktionierende Versionen der Software wiederherzustellen.\\
+Tools für die Versionskontrolle sind nicht nur zur Datensicherung hilfreich. Sie unterstützen die Möglichkeit die Zwischenstände auf einem Server in einem Repository zu speichern. An einem Repository können mehrere Entwickler gleichzeitig arbeiten. Um bei einem Serverproblem nicht das gesamte Repository zu verlieren, arbeiten Tools wie Git dezentral. Lädt ein Benutzer einen Stand vom Server, lädt er nicht die aktuellen Versionen der Dateien herunter, sondern das ganze Repository. Somit gibt es auch lokale Backups des Repositories\cite{denker2015versionsverwaltung}.\\
+Durch das Verwenden eines Tools für Versionsverwaltung können auch \lq tote\rq\space Codeteile wie in \ref{CC} erwähnt entfernt werden, ohne zu befürchten diese Informationen verloren zu haben. Der Einsatz dieser Tools unterstützt also auch bei der Anwendung von \lq Clean-Code\rq\space Prinzipien.
+\subsection{Continous Integration}
+\label{CI}
+Continous Integration ist ein Vorgehen in der Softwareentwicklung, bei dem Team-Member mindestens einmal in einem definierten Zeitraum ihre Arbeit durch eine automatisierte Routine testen, ob die Änderungen funktionieren. Mit diesem Vorgehen lassen sich Integrationsprobleme reduzieren\cite{fowler2006continuous}.

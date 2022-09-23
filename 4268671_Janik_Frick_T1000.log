@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.7)  21 SEP 2022 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.7)  22 SEP 2022 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,6 +161,159 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2021/01/29 v2.0g defines alltt environment
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count273
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count274
+\Hy@pagecounter=\count275
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count276
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count277
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen152
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count278
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip52
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -168,21 +321,21 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count273
-\calc@Bcount=\count274
-\calc@Adimen=\dimen151
-\calc@Bdimen=\dimen152
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count275
-\calc@Cskip=\skip54
+\calc@Ccount=\count286
+\calc@Cskip=\skip55
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen153
-\ESO@tempdimb=\dimen154
+\ESO@tempdima=\dimen157
+\ESO@tempdimb=\dimen158
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
@@ -205,30 +358,30 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ))
-\AM@pagewidth=\dimen155
-\AM@pageheight=\dimen156
-\AM@fboxrule=\dimen157
+\AM@pagewidth=\dimen159
+\AM@pageheight=\dimen160
+\AM@fboxrule=\dimen161
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count276
+\pdfpages@includegraphics@status=\count287
 \AM@pagebox=\box53
 \AM@global@opts=\toks22
-\AM@pagecnt=\count277
+\AM@pagecnt=\count288
 \AM@toc@title=\toks23
-\c@AM@survey=\count278
+\c@AM@survey=\count289
 \AM@templatesizebox=\box54
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip55
-\thanksmargin=\skip56
-\droptitle=\skip57
+\thanksmarkwidth=\skip56
+\thanksmargin=\skip57
+\droptitle=\skip58
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count279
+\c@float@type=\count290
 \float@exts=\toks24
 \float@box=\box55
 \@float@everytoks=\toks25
@@ -242,8 +395,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count280
-\decimalpart=\count281
+\integerpart=\count291
+\decimalpart=\count292
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
@@ -254,39 +407,38 @@ Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen158
-\captionmargin=\dimen159
-\caption@leftmargin=\dimen160
-\caption@rightmargin=\dimen161
-\caption@width=\dimen162
-\caption@indent=\dimen163
-\caption@parindent=\dimen164
-\caption@hangindent=\dimen165
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count282
-\c@continuedfloat=\count283
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
 Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
-\Gm@bindingoffset=\dimen166
-\Gm@wd@mp=\dimen167
-\Gm@odd@mp=\dimen168
-\Gm@even@mp=\dimen169
-\Gm@layoutwidth=\dimen170
-\Gm@layoutheight=\dimen171
-\Gm@layouthoffset=\dimen172
-\Gm@layoutvoffset=\dimen173
+)
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
+\Gm@bindingoffset=\dimen170
+\Gm@wd@mp=\dimen171
+\Gm@odd@mp=\dimen172
+\Gm@even@mp=\dimen173
+\Gm@layoutwidth=\dimen174
+\Gm@layoutheight=\dimen175
+\Gm@layouthoffset=\dimen176
+\Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks27
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
@@ -325,57 +477,75 @@ Package: scrlogo 2022/07/04 v3.37 KOMA-Script package (logo)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
  368.
-)))
+))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+)
+(C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen178
+\enit@toks=\toks28
+\enit@inbox=\box57
+\enit@count@id=\count298
+\enitdp@description=\count299
+)
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip58
-\f@nch@O@elh=\skip59
-\f@nch@O@erh=\skip60
-\f@nch@O@olh=\skip61
-\f@nch@O@orh=\skip62
-\f@nch@O@elf=\skip63
-\f@nch@O@erf=\skip64
-\f@nch@O@olf=\skip65
-\f@nch@O@orf=\skip66
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
 File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count287
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box58
 ) (4268671_Janik_Frick_T1000.aux)
 \openout1 = `4268671_Janik_Frick_T1000.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen174
-\scratchbox=\box58
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen175
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count301
+\scratchdimen=\dimen179
+\scratchbox=\box59
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen180
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks30
 )
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
@@ -387,6 +557,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package hyperref Info: Link coloring OFF on input line 44.
+ (4268671_Janik_Frick_T1000.out) (4268671_Janik_Frick_T1000.out)
+\@outlinefile=\write3
+\openout3 = `4268671_Janik_Frick_T1000.out'.
+
+
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
 ty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -398,24 +574,24 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `justification=RaggedRight' requires the `ragged2e
-' package on input line 40.
+' package on input line 44.
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
-\CenteringLeftskip=\skip67
-\RaggedLeftLeftskip=\skip68
-\RaggedRightLeftskip=\skip69
-\CenteringRightskip=\skip70
-\RaggedLeftRightskip=\skip71
-\RaggedRightRightskip=\skip72
-\CenteringParfillskip=\skip73
-\RaggedLeftParfillskip=\skip74
-\RaggedRightParfillskip=\skip75
-\JustifyingParfillskip=\skip76
-\CenteringParindent=\skip77
-\RaggedLeftParindent=\skip78
-\RaggedRightParindent=\skip79
-\JustifyingParindent=\skip80
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
 )
 Package caption Info: End \AtBeginDocument code.
 
@@ -453,75 +629,94 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<blum-logo.PNG, id=1, 120.45pt x 63.23625pt>
+<blum-logo.PNG, id=159, 120.45pt x 63.23625pt>
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 42.
+Package pdftex.def Info: blum-logo.PNG  used on input line 46.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
-<dhbw.png, id=3, 710.655pt x 299.1175pt>
+<dhbw.png, id=161, 710.655pt x 299.1175pt>
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 44.
+Package pdftex.def Info: dhbw.png  used on input line 48.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 [1
 
 {C:/Users/j.frick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./blum-log
 o.PNG> <./dhbw.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (C:\Users\j.frick\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 69--80
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 74--101
+[]
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 74--101
 [] 
  []
 
-[1] (4268671_Janik_Frick_T1000.toc)
-\tf@toc=\write3
-\openout3 = `4268671_Janik_Frick_T1000.toc'.
 
- [2] [3] (4268671_Janik_Frick_T1000.lof)
-\tf@lof=\write4
-\openout4 = `4268671_Janik_Frick_T1000.lof'.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \newpage
+               [1] (4268671_Janik_Frick_T1000.toc)
+\tf@toc=\write4
+\openout4 = `4268671_Janik_Frick_T1000.toc'.
 
+ [2] [3]
+(4268671_Janik_Frick_T1000.lof
+Package acronym Info: Label `acro:UML' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+)
+\tf@lof=\write5
+\openout5 = `4268671_Janik_Frick_T1000.lof'.
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 96--108
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 119--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--108
+Underfull \hbox (badness 10000) in paragraph at lines 119--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--108
+Underfull \hbox (badness 10000) in paragraph at lines 119--131
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 109.
+Package pdftex.def Info: blum-logo.PNG  used on input line 132.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 109.
+Package pdftex.def Info: dhbw.png  used on input line 132.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -531,23 +726,29 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[1]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.132 \newpage
+               [1]
 Package acronym Info: Label `acro:Blum' newly defined as it shall be overridden
 
-although it is yet undefined on input line 111.
+although it is yet undefined on input line 134.
 
-Overfull \hbox (16.64067pt too wide) in paragraph at lines 111--118
+Overfull \hbox (16.64067pt too wide) in paragraph at lines 134--141
 \OT1/cmr/m/n/12 lit[]atssicherung ein-ge-setzt. Die Kun-den kom-men un-ter an-d
 e-rem aus der Automobil-, Luftfahrt-
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 118.
+Package pdftex.def Info: blum-logo.PNG  used on input line 141.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 118.
+Package pdftex.def Info: dhbw.png  used on input line 141.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -557,24 +758,30 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[2]
-Overfull \hbox (39.51875pt too wide) in paragraph at lines 120--121
-\OT1/cmr/m/n/12 sen des Pro-blems, das De-sign und die Pro-dukt-pfle-ge sind eb
-en-falls Teil der Softwareentwicklung[[]].
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \newpage
+               [2] (Softwareenticklung.tex
+Overfull \hbox (53.6186pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 fas-sen des Pro-blems, das De-sign und die Pro-dukt-pfle-ge sin
+d eben-falls Teil der Softwareentwicklung[[]].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 139.
+Package pdftex.def Info: blum-logo.PNG  used on input line 22.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 139.
+Package pdftex.def Info: dhbw.png  used on input line 22.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -584,23 +791,29 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \subsubsection
+                   {Anforderungstypen} [3]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 157.
+Package pdftex.def Info: blum-logo.PNG  used on input line 40.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 157.
+Package pdftex.def Info: dhbw.png  used on input line 40.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -610,21 +823,27 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[4]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \subsubsection
+                   {User-Dokumentation} [4]
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
-although it is yet undefined on input line 164.
+although it is yet undefined on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--165
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 165.
+Package pdftex.def Info: blum-logo.PNG  used on input line 48.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 165.
+Package pdftex.def Info: dhbw.png  used on input line 48.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -637,11 +856,11 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 [5]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 184.
+Package pdftex.def Info: blum-logo.PNG  used on input line 67.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 184.
+Package pdftex.def Info: dhbw.png  used on input line 67.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -653,23 +872,15 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 192--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--203
-
- []
-
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 203.
+Package pdftex.def Info: blum-logo.PNG  used on input line 81.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 203.
+Package pdftex.def Info: dhbw.png  used on input line 81.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
+
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
 (fancyhdr)                Make it at least 79.04533pt, for example:
@@ -679,15 +890,18 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 217.
+Package pdftex.def Info: blum-logo.PNG  used on input line 101.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 217.
+Package pdftex.def Info: dhbw.png  used on input line 101.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
-
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
 (fancyhdr)                Make it at least 79.04533pt, for example:
@@ -697,17 +911,17 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 219--223
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 223.
+Package pdftex.def Info: blum-logo.PNG  used on input line 106.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 223.
+Package pdftex.def Info: dhbw.png  used on input line 106.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -718,18 +932,18 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [9]
-Overfull \hbox (3.96912pt too wide) in paragraph at lines 224--235
-\OT1/cmr/m/n/12 Nach die-sem Prin-zip soll-ten In-ter-fa-ces nur die Funk-tio-n
-en be-reit-stel-len, die auch tats[]achlich
+Overfull \hbox (29.07024pt too wide) in paragraph at lines 111--113
+\OT1/cmr/m/n/12 Klassen soll-ten of-fen f[]ur Er-wei-te-run-gen sein, je-doch g
+e-schlos-sen ge-gen[]uber Ver[]anderungen.
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 235.
+Package pdftex.def Info: blum-logo.PNG  used on input line 116.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 235.
+Package pdftex.def Info: dhbw.png  used on input line 116.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -740,29 +954,18 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
-Overfull \hbox (0.94646pt too wide) in paragraph at lines 239--242
+Overfull \hbox (0.94646pt too wide) in paragraph at lines 126--129
 \OT1/cmr/m/n/12 Tools f[]ur die Ver-si-ons-kon-trol-le sind nicht nur zur Da-te
 n-si-che-rung hilf-reich. Sie un-terst[]utzen
  []
 
-
-Overfull \hbox (0.18303pt too wide) in paragraph at lines 244--245
-\OT1/cmr/m/n/12 Continous In-te-gra-ti-on ist ein Vor-ge-hen in der Soft-wa-re-
-ent-wick-lung, bei dem Team-Member
- []
-
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 245.
+Package pdftex.def Info: blum-logo.PNG  used on input line 129.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 245.
+Package pdftex.def Info: dhbw.png  used on input line 129.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -772,16 +975,26 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[11]
+[11]) (Parametertabellenkonfigurator.tex
+Overfull \hbox (0.18303pt too wide) in paragraph at lines 131--2
+\OT1/cmr/m/n/12 Continous In-te-gra-ti-on ist ein Vor-ge-hen in der Soft-wa-re-
+ent-wick-lung, bei dem Team-Member
+ []
+
+<pictures_and_research/Bilder/Paratab.PNG, id=388, 621.07031pt x 318.43968pt>
+File: pictures_and_research/Bilder/Paratab.PNG Graphic file (type png)
+<use pictures_and_research/Bilder/Paratab.PNG>
+Package pdftex.def Info: pictures_and_research/Bilder/Paratab.PNG  used on inpu
+t line 7.
+(pdftex.def)             Requested size: 434.74625pt x 222.90625pt.
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 258.
+Package pdftex.def Info: blum-logo.PNG  used on input line 11.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 258.
+Package pdftex.def Info: dhbw.png  used on input line 11.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
-
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
 (fancyhdr)                Make it at least 79.04533pt, for example:
@@ -791,40 +1004,60 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Package acronym Info: Label `acro:MVP' newly defined as it shall be overridden
+although it is yet undefined on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-<pictures_and_research/Bilder/filepathWindow.PNG, id=66, 370.38374pt x 99.37125
-pt>
+File: blum-logo.PNG Graphic file (type png)
+<use blum-logo.PNG>
+Package pdftex.def Info: blum-logo.PNG  used on input line 24.
+(pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
+File: dhbw.png Graphic file (type png)
+<use dhbw.png>
+Package pdftex.def Info: dhbw.png  used on input line 24.
+(pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
+
+Package fancyhdr Warning: \headheight is too small (54.67912pt): 
+(fancyhdr)                Make it at least 79.04533pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.04533pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
+
+[13 <./pictures_and_research/Bilder/Paratab.PNG>]
+<pictures_and_research/Bilder/filepathWindow.PNG, id=419, 370.38374pt x 99.3712
+5pt>
 File: pictures_and_research/Bilder/filepathWindow.PNG Graphic file (type png)
 <use pictures_and_research/Bilder/filepathWindow.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/filepathWindow.PNG  used 
-on input line 271.
+on input line 34.
 (pdftex.def)             Requested size: 370.38283pt x 99.371pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--274
+Underfull \hbox (badness 10000) in paragraph at lines 28--38
 
  []
 
 
-Overfull \hbox (11.7718pt too wide) in paragraph at lines 265--274
+Overfull \hbox (11.7718pt too wide) in paragraph at lines 28--38
 []\OT1/cmr/m/n/12 Ubersichtlichkeit und der Be-nut-zerf[]uhrung bei der Ver-wen
 -dung, da je-weils nur die ben[]otigten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--274
+Underfull \hbox (badness 10000) in paragraph at lines 28--38
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 274.
+Package pdftex.def Info: blum-logo.PNG  used on input line 38.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 274.
+Package pdftex.def Info: dhbw.png  used on input line 38.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -834,33 +1067,33 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[13]
-<pictures_and_research/Bilder/errorFilePathW.PNG, id=70, 367.3725pt x 94.85437p
-t>
+[14]
+<pictures_and_research/Bilder/errorFilePathW.PNG, id=425, 367.3725pt x 94.85437
+pt>
 File: pictures_and_research/Bilder/errorFilePathW.PNG Graphic file (type png)
 <use pictures_and_research/Bilder/errorFilePathW.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/errorFilePathW.PNG  used 
-on input line 276.
+on input line 40.
 (pdftex.def)             Requested size: 367.37158pt x 94.85413pt.
-<pictures_and_research/Bilder/configW.PNG, id=71, 175.40532pt x 109.91063pt>
+<pictures_and_research/Bilder/configW.PNG, id=426, 175.40532pt x 109.91063pt>
 File: pictures_and_research/Bilder/configW.PNG Graphic file (type png)
 <use pictures_and_research/Bilder/configW.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/configW.PNG  used on inpu
-t line 280.
+t line 45.
 (pdftex.def)             Requested size: 175.40488pt x 109.91034pt.
-<pictures_and_research/Bilder/paratabW.PNG, id=72, 539.76656pt x 383.18156pt>
+<pictures_and_research/Bilder/paratabW.PNG, id=427, 539.76656pt x 383.18156pt>
 File: pictures_and_research/Bilder/paratabW.PNG Graphic file (type png)
 <use pictures_and_research/Bilder/paratabW.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/paratabW.PNG  used on inp
-ut line 284.
+ut line 50.
 (pdftex.def)             Requested size: 404.82393pt x 287.38545pt.
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 287.
+Package pdftex.def Info: blum-logo.PNG  used on input line 54.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 287.
+Package pdftex.def Info: dhbw.png  used on input line 54.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -871,34 +1104,34 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[14 <./pictures_and_research/Bilder/filepathWindow.PNG> <./pictures_and_researc
+[15 <./pictures_and_research/Bilder/filepathWindow.PNG> <./pictures_and_researc
 h/Bilder/errorFilePathW.PNG> <./pictures_and_research/Bilder/configW.PNG>]
-<pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG, id=80, 610.5
-3094pt x 382.42876pt>
+<pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG, id=436, 610.
+53094pt x 382.42876pt>
 File: pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG Graphic 
 file (type png)
 <use pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/fehlermeldung_invalid_par
-ameter.PNG  used on input line 291.
+ameter.PNG  used on input line 58.
 (pdftex.def)             Requested size: 366.3214pt x 229.45901pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 54--61
 
  []
 
-<pictures_and_research/Bilder/descriptW.PNG, id=81, 252.945pt x 321.45094pt>
+<pictures_and_research/Bilder/descriptW.PNG, id=437, 252.945pt x 321.45094pt>
 File: pictures_and_research/Bilder/descriptW.PNG Graphic file (type png)
 <use pictures_and_research/Bilder/descriptW.PNG>
 Package pdftex.def Info: pictures_and_research/Bilder/descriptW.PNG  used on in
-put line 295.
+put line 63.
 (pdftex.def)             Requested size: 252.94438pt x 321.45015pt.
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 297.
+Package pdftex.def Info: blum-logo.PNG  used on input line 66.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 297.
+Package pdftex.def Info: dhbw.png  used on input line 66.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -908,14 +1141,14 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[15 <./pictures_and_research/Bilder/paratabW.PNG>]
+[16 <./pictures_and_research/Bilder/paratabW.PNG>]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 299.
+Package pdftex.def Info: blum-logo.PNG  used on input line 68.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 299.
+Package pdftex.def Info: dhbw.png  used on input line 68.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -926,27 +1159,35 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[16 <./pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG> <./pic
+[17 <./pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG> <./pic
 tures_and_research/Bilder/descriptW.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
-<pictures_and_research/pdf_files/smallParatabUml.pdf, id=91, page=1, 794.00638p
-t x 615.25856pt>
-File: pictures_and_research/pdf_files/smallParatabUml.pdf Graphic file (type pd
-f)
-<use pictures_and_research/pdf_files/smallParatabUml.pdf, page 1>
-Package pdftex.def Info: pictures_and_research/pdf_files/smallParatabUml.pdf , 
-page1 used on input line 305.
-(pdftex.def)             Requested size: 357.29956pt x 276.86378pt.
+<pictures_and_research/Bilder/uml.PNG, id=459, 934.24031pt x 255.20343pt>
+File: pictures_and_research/Bilder/uml.PNG Graphic file (type png)
+<use pictures_and_research/Bilder/uml.PNG>
+Package pdftex.def Info: pictures_and_research/Bilder/uml.PNG  used on input li
+ne 74.
+(pdftex.def)             Requested size: 457.78177pt x 125.05077pt.
+
+Overfull \hbox (2.53766pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
+
+ []
+
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 309.
+Package pdftex.def Info: blum-logo.PNG  used on input line 86.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 309.
+Package pdftex.def Info: dhbw.png  used on input line 86.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -956,40 +1197,16 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[17 <./pictures_and_research/pdf_files/smallParatabUml.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 310--315
-
- []
-
+[18 <./pictures_and_research/Bilder/uml.PNG>]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 318.
+Package pdftex.def Info: blum-logo.PNG  used on input line 89.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 318.
+Package pdftex.def Info: dhbw.png  used on input line 89.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
-Package fancyhdr Warning: \headheight is too small (54.67912pt): 
-(fancyhdr)                Make it at least 79.04533pt, for example:
-(fancyhdr)                \setlength{\headheight}{79.04533pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 322--325
-
- []
-
-File: blum-logo.PNG Graphic file (type png)
-<use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 332.
-(pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
-File: dhbw.png Graphic file (type png)
-<use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 332.
-(pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
 (fancyhdr)                Make it at least 79.04533pt, for example:
@@ -999,13 +1216,18 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
 [19]
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+ []
+
+) (LC-VISIOJN.tex
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 345.
+Package pdftex.def Info: blum-logo.PNG  used on input line 2.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 345.
+Package pdftex.def Info: dhbw.png  used on input line 2.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1016,14 +1238,14 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[20]
+[20])
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 345.
+Package pdftex.def Info: blum-logo.PNG  used on input line 145.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 345.
+Package pdftex.def Info: dhbw.png  used on input line 145.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1034,7 +1256,25 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[21] (4268671_Janik_Frick_T1000.bbl
+[21]
+File: blum-logo.PNG Graphic file (type png)
+<use blum-logo.PNG>
+Package pdftex.def Info: blum-logo.PNG  used on input line 145.
+(pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
+File: dhbw.png Graphic file (type png)
+<use dhbw.png>
+Package pdftex.def Info: dhbw.png  used on input line 145.
+(pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
+
+
+Package fancyhdr Warning: \headheight is too small (54.67912pt): 
+(fancyhdr)                Make it at least 79.04533pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.04533pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
+
+[22] (4268671_Janik_Frick_T1000.bbl
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
 Package pdftex.def Info: blum-logo.PNG  used on input line 66.
@@ -1052,14 +1292,14 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[22])
+[23])
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 348.
+Package pdftex.def Info: blum-logo.PNG  used on input line 148.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 348.
+Package pdftex.def Info: dhbw.png  used on input line 148.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1070,27 +1310,35 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-24.36621pt}.
 
-[23] (4268671_Janik_Frick_T1000.aux) ) 
+[24] (4268671_Janik_Frick_T1000.aux)
+Package rerunfilecheck Info: File `4268671_Janik_Frick_T1000.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: F3AAF2AD05EC453CE6B7FEB5BEEC171F;5575.
+ ) 
 Here is how much of TeX's memory you used:
- 9015 strings out of 477843
- 154286 string characters out of 2822656
- 500337 words of memory out of 3000000
- 27780 multiletter control sequences out of 15000+600000
- 477775 words of font info for 61 fonts, out of 8000000 for 9000
+ 16130 strings out of 477843
+ 269664 string characters out of 2822656
+ 615112 words of memory out of 3000000
+ 34670 multiletter control sequences out of 15000+600000
+ 478112 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,17n,106p,1003b,464s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/j.frick/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/j.frick/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/j.frick/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-<C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on 4268671_Janik_Frick_T1000.pdf (28 pages, 320745 bytes).
+ 108i,17n,106p,1031b,656s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\j.frick\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/j.frick/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/j.frick/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/j.frick/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/j.frick/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/j.
+frick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 4268671_Janik_Frick_T1000.pdf (29 pages, 410656 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 574 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

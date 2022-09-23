@@ -71,6 +71,11 @@ D.~Hutton, ``Clean code: a handbook of agile software craftsmanship,'' {\em
 \bibitem{sarcar2021use}
 V.~Sarcar, ``Use the dry principle,'' pp.~109--128, 2021.
 
+\bibitem{schaffner2013programming}
+M.~Schaffner {\em et~al.}, ``Programming for experimental economics:
+  Introducing coral-a lightweight framework for experimental economic
+  experiments,'' {\em QUT Business School: Tech. rep}, 2013.
+
 \bibitem{denker2015versionsverwaltung}
 M.~Denker, S.~Srecec, D.~A. liegt das~im Literaturverzeichnis, P.~Git,
   S.~Chacon, and B.~Straub, ``Versionsverwaltung mit git,'' 2015.
