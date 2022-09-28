@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.6}Clean-Code}{9}{subsection.2.6}%
 \contentsline {subsubsection}{\numberline {2.6.1}SOLID-Prinzipien}{10}{subsubsection.2.6.1}%
 \contentsline {subsubsection}{\numberline {2.6.2}DRY-Prinzipien}{11}{subsubsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.7}Versionsverwaltung}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.7}Versionsverwaltung}{12}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Continous Integration}{12}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Parametertabellenkonfigurator}{12}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Problemstellung}{12}{subsection.3.1}%
