@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  28 SEP 2022 08:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  28 SEP 2022 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,37 +630,37 @@ Package pdftex.def Info: dhbw.png  used on input line 48.
 
 {C:/Users/janik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./blum-logo.
 PNG> <./dhbw.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
 
 
 (C:\Users\janik\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 74--101
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 78--105
 []
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 74--101
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 78--105
 [] 
  []
 
@@ -669,7 +669,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \newpage
+l.105 \newpage
                [1] (4268671_Janik_Frick_T1000.toc)
 \tf@toc=\write4
 \openout4 = `4268671_Janik_Frick_T1000.toc'.
@@ -683,27 +683,27 @@ although it is yet undefined on input line 9.
 \openout5 = `4268671_Janik_Frick_T1000.lof'.
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 119--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
 
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 132.
+Package pdftex.def Info: blum-logo.PNG  used on input line 136.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 132.
+Package pdftex.def Info: dhbw.png  used on input line 136.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -718,24 +718,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \newpage
+l.136 \newpage
                [1]
 Package acronym Info: Label `acro:Blum' newly defined as it shall be overridden
 
-although it is yet undefined on input line 134.
+although it is yet undefined on input line 138.
 
-Overfull \hbox (16.64067pt too wide) in paragraph at lines 134--141
+Overfull \hbox (16.64067pt too wide) in paragraph at lines 138--145
 \OT1/cmr/m/n/12 lit[]atssicherung ein-ge-setzt. Die Kun-den kom-men un-ter an-d
 e-rem aus der Automobil-, Luftfahrt-
  []
 
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 141.
+Package pdftex.def Info: blum-logo.PNG  used on input line 145.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 141.
+Package pdftex.def Info: dhbw.png  used on input line 145.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 Package fancyhdr Warning: \headheight is too small (54.67912pt): 
@@ -750,7 +750,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 \newpage
+l.145 \newpage
                [2] (Softwareenticklung.tex
 Overfull \hbox (53.6186pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/12 fas-sen des Pro-blems, das De-sign und die Pro-dukt-pfle-ge sin
@@ -1228,11 +1228,11 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 [20])
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 145.
+Package pdftex.def Info: blum-logo.PNG  used on input line 149.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 145.
+Package pdftex.def Info: dhbw.png  used on input line 149.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1246,11 +1246,11 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 [21]
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 145.
+Package pdftex.def Info: blum-logo.PNG  used on input line 149.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 145.
+Package pdftex.def Info: dhbw.png  used on input line 149.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1282,11 +1282,11 @@ Package fancyhdr Warning: \headheight is too small (54.67912pt):
 [23])
 File: blum-logo.PNG Graphic file (type png)
 <use blum-logo.PNG>
-Package pdftex.def Info: blum-logo.PNG  used on input line 148.
+Package pdftex.def Info: blum-logo.PNG  used on input line 152.
 (pdftex.def)             Requested size: 120.44969pt x 63.23608pt.
 File: dhbw.png Graphic file (type png)
 <use dhbw.png>
-Package pdftex.def Info: dhbw.png  used on input line 148.
+Package pdftex.def Info: dhbw.png  used on input line 152.
 (pdftex.def)             Requested size: 710.65326pt x 299.11676pt.
 
 
@@ -1323,7 +1323,7 @@ nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/janik/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/janik/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/janik/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 4268671_Janik_Frick_T1000.pdf (29 pages, 410367 bytes).
+Output written on 4268671_Janik_Frick_T1000.pdf (29 pages, 411185 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)

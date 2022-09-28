@@ -11,25 +11,25 @@ Bei bestehenden Programmen für numerische Steuerungen müssen während der Inbe
 \subsection{Anforderungen}
 \label{Anfs} 
 An den \glqq Parametertabellenkonfigurator\grqq\space gibt es mehrere Anforderungen. \\
-Parametertabellen sollen eingelesen und angezeigt werden können. Zu den Parametern soll es ermöglicht werden Beschreibungen aus Text und Bild speichern und anzeigen zu können.\\
-Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungen (\ref{Anforderungstypen})\\
+Parametertabellen sollen eingelesen und angezeigt werden können. Zu den Parametern soll es ermöglicht werden, Beschreibungen aus Text und Bild speichern und anzeigen zu können.\\
+Diese Anforderungen sind aus dem Bereich der funktionalen Anforderungen (\ref{Anforderungstypen}).\\
 Nicht funktionale Anforderungen (\ref{Anforderungstypen}) sind die Verwendung der Programmiersprache und das Verwenden des in C++ entwickelten Framework Qt.\\
-Aus diesen Anforderungen lässt sich ableiten welche \ac{GUI}-Elemente nötig sind und welche Funktionalitäten benötigt werden.\\
+Aus diesen Anforderungen lässt sich ableiten, welche \ac{GUI}-Elemente nötig sind und welche Funktionalitäten benötigt werden.\\
 Um die Anforderungen an den \glqq Parametertabellenkonfigurator\grqq\space zu sammeln, die nicht im Auftragsdokument stehen, wurde das Interview (\ref{interview}) gewählt. Die Entscheidung wurde getroffen, weil in offenen Gesprächen mehr Zusatzinformationen fließen, als in Umfragen (\ref{Fragebögen}) oder durch Beobachtung (\ref{Beobachtung}). Zusätzlich kann auf Verständnisschwierigkeiten reagiert werden, solange das Gespräch noch aktuell ist und der Kontext noch nicht vergessen ist.\\
 Hauptergebnis ist die Erstellung einer übersichtlichen \ac{GUI}.\\
-Die Anforderungen zielen darauf ab ein \ac{MVP} zu erstellen. Ein \ac{MVP} erfüllt die wichtigsten Anforderungen an das Produkt, ist aber noch nicht so weit entwickelt, dass es alle für den Einsatz notwendigen Anforderungen erfüllt.
+Die Anforderungen zielen darauf ab, ein \ac{MVP} zu erstellen. Ein \ac{MVP} erfüllt die wichtigsten Anforderungen an das Produkt, ist aber noch nicht so weit entwickelt, dass es alle für den Einsatz notwendigen Anforderungen erfüllt.
 \subsubsection{Notwendige Funktionalitäten}
-Um die Parametertabellen anzeigen zu können müssen diese aus einer Datei eingelesen werden. Um Konfigurationen festzuhalten wird eine Funktion zum Speichern der Tabellen benötigt. \\
+Um die Parametertabellen anzeigen zu können, müssen diese aus einer Datei eingelesen werden. Um Konfigurationen festzuhalten, wird eine Funktion zum Speichern der Tabellen benötigt. \\
 Für die Beschreibungen wird zusätzlich eine Funktion benötigt um diese mit den richtigen Parametern zu verknüpfen. \\
 \subsubsection{Notwendige GUI-Elemente}
 Die \ac{GUI} benötigt Anzeigemöglichkeiten für die Parametertabellen und Beschreibungen, Angaben von Namen, Steuerung und Produkttyp zur aktuellen Parametertabelle und den aktuellen Parameter.\\
-Benötigte Steuerelemente sind Möglichkeiten um Parametertabellen und Beschreibungen zu laden und zu speichern. 
+Für die Bedienung der Anzeigeelemente werden Steuerelemente für das Laden und Bearbeiten von Parametertabellen und Beschreibungen benötigt.
 \subsection{GUI-Entwurf}
-Um die \ac{GUI} zu entwerfen, kommt ein Prototyp (\ref{Prototypen}) zum Einsatz, der mit dem Mockup-Tool "Balsamiq Mockup 3\grqq\space erstellt wurde. Das Tool bietet nahezu alle gängigen \ac{GUI}-Elemente an und kann diese miteinander verknüpfen, so dass schon in einem frühen Stadium Abläufe nachvollzogen und besprochen werden können. Zusätzlich bietet das Tool eine unkomplizierte Möglichkeit alternative Entwürfe zu entwerfen und in den Ablauf der Simulation zu integrieren. Das unterstützt den Prozess während der Entwicklung der \ac{GUI}, da neue Vorschläge in kurzer Zeit besprochen und weiterentwickelt werden können.\\
+Um die \ac{GUI} zu entwerfen, kommt ein Prototyp (\ref{Prototypen}) zum Einsatz, der mit dem Mockup-Tool "Balsamiq Mockup 3\grqq\space erstellt wurde. Das Tool bietet nahezu alle gängigen \ac{GUI}-Elemente an und kann diese miteinander verknüpfen, so dass schon in einem frühen Stadium Abläufe nachvollzogen und besprochen werden können. Zusätzlich bietet das Tool eine unkomplizierte Möglichkeit, alternative Entwürfe zu entwerfen und in den Ablauf der Simulation zu integrieren. Das unterstützt den Prozess während der Entwicklung der \ac{GUI}, da neue Vorschläge in kurzer Zeit besprochen und weiterentwickelt werden können.\\
 \newline
 Die \ac{GUI} ist aus mehreren einzelnen Fenstern aufgebaut. Dieser Aufbau unterstützt die Übersichtlichkeit und der Benutzerführung bei der Verwendung, da jeweils nur die benötigten Informationen und Funktionen angezeigt werden.\\ 
 Insgesamt besteht die \ac{GUI} aus vier Fenstern, die dem Benutzer die benötigten Funktionen zur Verfügung stellen. \\
-Das in Abbildung \ref{fig:filep} dargestellte Fenster dient dem Zweck bei erster Benutzung den Pfad zu einer Datenbank, in der die Beschreibungen gespeichert sind, einzugeben. Im nächsten Fenster, zu sehen in Abbildung \ref{fig:filepError}, lässt sich die Auswahl der Parametertabellen konfigurieren. Nach der Auswahl einer Parametertabelle wird diese im Hauptfenster, siehe Abbildung \ref{fig:ConfigW}, angezeigt. In diesem Fenster werden die Beschreibungen der Parameter angezeigt und die Parametertabelle kann angepasst werden. Es gibt Steuerelemente für die Navigation durch die Parametertabelle, für die Navigation durch die Fenster und die Möglichkeit die geänderte Parametertabelle zu speichern.\\
+Das in Abbildung \ref{fig:filep} dargestellte Fenster dient dem Zweck bei erster Benutzung den Pfad zu einer Datenbank einzugeben, in der die Beschreibungen gespeichert sind. Im nächsten Fenster, zu sehen in Abbildung \ref{fig:filepError}, lässt sich die Auswahl der Parametertabellen konfigurieren. Nach der Auswahl einer Parametertabelle wird diese im Hauptfenster, siehe Abbildung \ref{fig:ConfigW}, angezeigt. In diesem Fenster werden die Beschreibungen der Parameter angezeigt und die Parametertabelle kann angepasst werden. Es gibt Steuerelemente für die Navigation durch die Parametertabelle, für die Navigation durch die Fenster und die Möglichkeit die geänderte Parametertabelle zu speichern.\\
 \begin{figure}[H]
 \includegraphics[scale=1]{pictures_and_research/Bilder/filepathWindow.PNG}
 \caption{Fenster um den Dateipfad der Datenbank einzugeben,\\
@@ -52,8 +52,8 @@ es gibt einen Standardpfad}
 \label{fig:Paraw}
 \end{figure}
 \noindent
-In Abbildung \ref{fig:Paraw} werden im oberen Bereich Informationen zur aktuell ausgewählten Parametertabelle angezeigt. Oben rechts gibt es Steuerelemente um eine andere Parametertabelle auszuwählen, oder um die Aktuelle zu speichern.\\
-Unterhalb der Anzeige für die Parametertabelle ist der Bereich für detaillierte Informationen zum aktuellen Parameter. Es gibt Steuerelemente um andere Parameter auszuwählen. Dies ist mit den Buttons \glqq Next\grqq\space und \glqq Previous\grqq\space möglich, die jeweils um einen Parameter nach oben oder nach unten springen. Durch direkte Eingabe eines Parameters in das Parameterfeld kann zu einem beliebigen Parameter gesprungen werden. Um größere Beschreibungen übersichtlich sehen zu können gibt es die Möglichkeit die Beschreibung isoliert in einem neuen Fenster zu öffnen.\\
+In Abbildung \ref{fig:Paraw} werden im oberen Bereich Informationen zur aktuell ausgewählten Parametertabelle angezeigt. Oben rechts gibt es Steuerelemente, um eine andere Parametertabelle auszuwählen, oder um die Aktuelle zu speichern.\\
+Unterhalb der Anzeige für die Parametertabelle ist der Bereich für detaillierte Informationen zum aktuellen Parameter. Es gibt Steuerelemente, um andere Parameter auszuwählen. Dies ist mit den Buttons \glqq Next\grqq\space und \glqq Previous\grqq\space möglich, die jeweils um einen Parameter nach oben oder nach unten springen. Durch direkte Eingabe eines Parameters in das Parameterfeld kann zu einem beliebigen Parameter gesprungen werden. Um größere Beschreibungen übersichtlich sehen zu können, gibt es die Möglichkeit die Beschreibung isoliert in einem neuen Fenster zu öffnen.\\
 \begin{figure}[H]
 \includegraphics[scale=0.6]{pictures_and_research/Bilder/fehlermeldung_invalid_parameter.PNG}
 \caption{Wird ein nicht vorhandener Parameter in das Feld eingegeben wird eine Fehlermeldung angezeigt.}
@@ -67,7 +67,7 @@ Unterhalb der Anzeige für die Parametertabelle ist der Bereich für detailliert
 Das in Abbildung \ref{fig:descript} sichtbare Bild der Beschreibung hat eine konstante Größe. Der Grund dafür ist, dass ansonsten bei Änderung der Fenstergröße das Bild verzerrt werden würde und das Erkennen von wichtigen Informationen im Bild erschwert werden würde.
 \subsection{Programmierung}
 Für die Programmierung wird wie in den nicht funktionalen Anforderungen (\ref{Anfs}) vorgegeben C++ mit dem für \ac{GUI} optimierten Framework Qt verwendet. \\
-Da Qt für den Aufbau von Benutzeroberflächen Klassen bereitstellt, wird die Software objektorientiert (\ref{Objektorientierung}) programmiert. Um den Code auch mit wachsender Größe lesbar und verständlich zu halten kommen \lq Clean-Code Prinzipien\rq\space(\ref{CC}) zum Einsatz.\\
+Da Qt für den Aufbau von Benutzeroberflächen Klassen bereitstellt, wird die Software objektorientiert (\ref{Objektorientierung}) programmiert. Um den Code auch mit wachsender Größe lesbar und verständlich zu halten, kommen \lq Clean-Code Prinzipien\rq\space(\ref{CC}) zum Einsatz.\\
 \subsubsection{Softwarestruktur}
 Um die Software flexibel zu gestalten, wird diese mit Hilfe von modular programmiert. Die Modularität wird durch die Projektorientierte Programmierung (\ref{Objektorientierung}) unterstützt. Die Logik und die \ac{GUI} bestehen aus mehreren einzelnen Klassen, die als Module betrachtet werden können. Um die einzelnen Module zu verbinden, gibt es eine \lq Managerklasse\rq\space für den Logikteil und eine für die Module der \ac{GUI}. Um diese beiden \lq Managerklassen\rq\space ebenfalls unabhängig zu halten, gibt es eine weitere \lq Managerklasse\rq\space die dafür verantwortlich ist, die Daten zwischen Logik und \ac{GUI} zu transferieren. \\
 Diese Trennung, erkennbar in Abbildung \ref{fig:UML}, ermöglicht es Anpassungen an den einzelnen Modulen vorzunehmen, ohne die höheren Ebenen grundlegend anzupassen.
@@ -76,8 +76,7 @@ Diese Trennung, erkennbar in Abbildung \ref{fig:UML}, ermöglicht es Anpassungen
 \label{fig:UML}
 \end{figure}\noindent
 Das Diagramm in Abbildung \ref{fig:UML} dient dazu die Modularität der Software zu veranschaulichen, daher wurde auf die Darstellung von Inhalten der Klassen verzichtet.\\
-\ac{UML} dient dazu die Architektur von Software zu visualisieren. Klassen werden durch Rechtecke visualisiert, Interfaces durch Kreise. 
-\subsubsection{Verarbeitung von Benutzeraktionen}
+\ac{UML} dient dazu, die Architektur von Software zu visualisieren. Klassen werden durch Rechtecke visualisiert, Interfaces durch Kreise. Pfeile mit gestrichelten Strichen symbolisieren Vererbung. Von dem Element, auf das der Pfeil zeigt, werden Attribute geerbt.s\subsubsection{Verarbeitung von Benutzeraktionen}
 Interagiert der Benutzer mit der \ac{GUI} werden entsprechende Veränderungen erwartet. \\
 Qt bietet für die Verarbeitung der Benutzeraktionen mit dem \lq Signal-Slot Mechanismus\rq\space Unterstützung. Dieser Mechanismus bietet die Möglichkeit Signale auszusenden, die von einem verbundenen Slot empfangen werden können. Dabei muss das Senderobjekt keine Verbindung zum Empfängerobjekt haben. Die Verbindung zwischen Signal kann entweder direkt im Empfängerobjekt, oder in einer Instanz einer \lq Managerklasse\rq\space eingerichtet werden. Grundvoraussetzung ist, dass das Objekt, in dem die Verbindung eingerichtet ist, sowohl eine Verbindung mit dem Sender- als auch mit dem Empfängerobjekt hat.\\
 Die meisten Klassen die von Qt bereitgestellt werden, haben vordefinierte Signale. Diese erlauben es die Benutzerinteraktionen zu verarbeiten und entsprechend darauf zu reagieren. \\
